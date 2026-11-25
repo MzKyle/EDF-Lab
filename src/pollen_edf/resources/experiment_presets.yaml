@@ -1,0 +1,16 @@
+FS_Default: {}
+FS_NoAlign:
+  alignment: none
+FS_GeometryOnly:
+  whitebalance: false
+  contrast: false
+FS_Consistency0:
+  consistency: 0
+FS_Consistency1:
+  consistency: 1
+FS_Consistency2:
+  consistency: 2
+FS_NoDenoise:
+  denoise: 0.0
+FS_CPU:
+  acceleration: cpu
