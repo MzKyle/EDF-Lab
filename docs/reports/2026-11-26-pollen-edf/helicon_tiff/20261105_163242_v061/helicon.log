@@ -1,0 +1,938 @@
+ ("<helicon-install>\\_HeliconFocus.exe", "-silent", "-save:<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\ordered.tiff", "-mp:1", "-sp:4", "-i", "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\inputs.txt", "-rp:8", "-tif:u")
+0:	"Helicon Focus 8.1.0 x64"
+0.006:	Trial license
+0:	License days left: 24
+0:	OpenCL devices:
+0.024:	NVIDIA CUDA/NVIDIA GeForce RTX 5070 Ti (16302 MB, 70 compute units, 8960 treads, ver: OpenCL C 1.2 , vendor_id: 4318, driver: 591.86)
+0:	OpenCL device not selected
+0.005:	"cleanupCache() 0 MiB used, 32626.5 MiB limit, 32603.2 MiB cache quota, 0 loaded, 0 referenced"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg"
+0:	"<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg"
+0.003:	preload status 0 timeout
+0:	preload status 1 timeout
+0:	preload status 2 timeout
+0:	preload status 3 timeout
+0:	preload status 4 timeout
+0:	preload status 5 timeout
+0:	preload status 6 timeout
+0:	preload status 7 timeout
+0:	preload status 8 timeout
+0:	preload status 9 timeout
+0:	preload status 10 timeout
+0:	preload status 11 timeout
+0:	preload status 12 timeout
+0:	preload status 13 timeout
+0:	preload status 14 timeout
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg"
+0:	Thread 48928 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg, 0x2022c8b1c40)"
+0:	Thread 47732 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg, 0x2022c8b2060)"
+0:	Thread 34556 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg, 0x2022c8b1f00)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg"
+0:	Thread 31876 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg, 0x2022c8b2e20)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg"
+0:	Thread 25988 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg, 0x2022a924e90)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg"
+0:	Thread 44888 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg, 0x2022d1e8490)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg"
+0:	Thread 54912 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg, 0x2022d1e8b70)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg"
+0:	Thread 31088 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg, 0x2022d1e7fc0)"
+0:	Thread 14688 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg, 0x2022d1e7f10)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg"
+0:	Thread 45252 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg, 0x2022d1e7c50)"
+0:	Thread 24868 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg, 0x2022d1e88b0)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg"
+0:	Thread 46096 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg, 0x2022d1e8ee0)"
+0:	Thread 48480 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg, 0x2022d1e8960)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg"
+0:	Thread 55268 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg, 0x2022d1e7780)"
+0:	Thread 20452 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg, 0x2022d220700)"
+0.03:	"cleanupCache() 35.1563 MiB used, 32626.5 MiB limit, 32106.6 MiB cache quota, 0 loaded, 0 referenced"
+0.001:	"cleanupCache() 70.3125 MiB used, 32626.5 MiB limit, 32141.7 MiB cache quota, 1 loaded, 1 referenced"
+0:	"cleanupCache() 105.469 MiB used, 32626.5 MiB limit, 32176.9 MiB cache quota, 2 loaded, 2 referenced"
+0.006:	"cleanupCache() 140.625 MiB used, 32626.5 MiB limit, 32212 MiB cache quota, 3 loaded, 3 referenced"
+0:	"cleanupCache() 175.781 MiB used, 32626.5 MiB limit, 32247.2 MiB cache quota, 4 loaded, 4 referenced"
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg"
+0.012:	"cleanupCache() 210.938 MiB used, 32626.5 MiB limit, 32236.2 MiB cache quota, 5 loaded, 5 referenced"
+0.002:	"cleanupCache() 246.094 MiB used, 32626.5 MiB limit, 32271.4 MiB cache quota, 6 loaded, 6 referenced"
+0.015:	"cleanupCache() 281.25 MiB used, 32626.5 MiB limit, 32306.5 MiB cache quota, 7 loaded, 7 referenced"
+0.01:	"cleanupCache() 316.406 MiB used, 32626.5 MiB limit, 32341.7 MiB cache quota, 8 loaded, 8 referenced"
+0.005:	"cleanupCache() 351.563 MiB used, 32626.5 MiB limit, 32376.8 MiB cache quota, 9 loaded, 9 referenced"
+0.012:	"cleanupCache() 386.719 MiB used, 32626.5 MiB limit, 32412 MiB cache quota, 10 loaded, 10 referenced"
+0.007:	"cleanupCache() 421.875 MiB used, 32626.5 MiB limit, 32447.1 MiB cache quota, 11 loaded, 11 referenced"
+0.005:	"cleanupCache() 457.031 MiB used, 32626.5 MiB limit, 32483.1 MiB cache quota, 12 loaded, 12 referenced"
+0.006:	"cleanupCache() 492.188 MiB used, 32626.5 MiB limit, 32517.8 MiB cache quota, 13 loaded, 13 referenced"
+0.01:	"cleanupCache() 527.344 MiB used, 32626.5 MiB limit, 32552.9 MiB cache quota, 14 loaded, 14 referenced"
+0.01:	preload status 1 ready
+0:	preload status 2 ready
+0.01:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg"
+0:	preload status 3 ready
+0:	preload status 4 ready
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 timeout
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg"
+0:	Thread 47732 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg, 0x2022d21f3c0)"
+0.01:	"cleanupCache() 562.5 MiB used, 32626.5 MiB limit, 32525.7 MiB cache quota, 15 loaded, 14 referenced"
+0.003:	preload status 2 ready
+0.003:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg"
+0:	preload status 3 ready
+0:	preload status 4 ready
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	Thread 31876 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg, 0x2022d220a70)"
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	preload status 16 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg"
+0.015:	preload status 3 ready
+0.015:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg"
+0:	preload status 4 ready
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	preload status 16 timeout
+0:	preload status 17 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg"
+0:	Thread 20452 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg, 0x2022d2205a0)"
+0.008:	"cleanupCache() 597.656 MiB used, 32626.5 MiB limit, 32482.6 MiB cache quota, 16 loaded, 13 referenced"
+0.006:	preload status 4 ready
+0.006:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg"
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 timeout
+0:	preload status 17 timeout
+0:	preload status 18 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg"
+0:	Thread 47732 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg, 0x2022d21fe10)"
+0.015:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg"
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 timeout
+0:	preload status 17 timeout
+0:	preload status 18 timeout
+0:	preload status 19 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg"
+0.001:	Thread 45252 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg, 0x2022d2207b0)"
+0.008:	"cleanupCache() 632.813 MiB used, 32626.5 MiB limit, 32481.8 MiB cache quota, 17 loaded, 12 referenced"
+0.005:	preload status 6 ready
+0.005:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg"
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 timeout
+0:	preload status 17 ready
+0:	preload status 18 timeout
+0:	preload status 19 timeout
+0:	preload status 20 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg"
+0:	Thread 24868 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg, 0x2022d1e7fc0)"
+0.009:	"cleanupCache() 667.969 MiB used, 32626.5 MiB limit, 32446.2 MiB cache quota, 18 loaded, 12 referenced"
+0.001:	"cleanupCache() 703.125 MiB used, 32626.5 MiB limit, 32481.4 MiB cache quota, 19 loaded, 13 referenced"
+0.005:	preload status 7 ready
+0.005:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg"
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	preload status 20 timeout
+0:	preload status 21 timeout
+0:	Thread 31876 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg, 0x2022d1e8280)"
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg"
+0.015:	preload status 8 ready
+0.015:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg"
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	preload status 20 timeout
+0:	preload status 21 timeout
+0:	preload status 22 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg"
+0:	Thread 20452 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg, 0x2022d1e93b0)"
+0.015:	preload status 9 ready
+0.015:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg"
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	preload status 20 timeout
+0:	preload status 21 timeout
+0:	preload status 22 timeout
+0:	preload status 23 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg"
+0:	Thread 14688 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg, 0x2022d220230)"
+0.015:	"cleanupCache() 738.281 MiB used, 32626.5 MiB limit, 32410.6 MiB cache quota, 20 loaded, 11 referenced"
+0:	preload status 10 ready
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg"
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	preload status 20 ready
+0:	Thread 47732 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg, 0x2022d21f520)"
+0:	preload status 21 timeout
+0:	preload status 22 timeout
+0:	preload status 23 timeout
+0:	preload status 24 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg"
+0.009:	"cleanupCache() 773.438 MiB used, 32626.5 MiB limit, 32410.6 MiB cache quota, 21 loaded, 11 referenced"
+0.002:	"cleanupCache() 808.594 MiB used, 32626.5 MiB limit, 32445.7 MiB cache quota, 22 loaded, 12 referenced"
+0.004:	preload status 11 ready
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg"
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 timeout
+0:	preload status 22 ready
+0:	preload status 23 timeout
+0:	preload status 24 timeout
+0:	Thread 20452 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg, 0x2022d1e83e0)"
+0:	preload status 25 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg"
+0.011:	"cleanupCache() 843.75 MiB used, 32626.5 MiB limit, 32445.7 MiB cache quota, 23 loaded, 12 referenced"
+0.003:	preload status 12 ready
+0.003:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg"
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 timeout
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 timeout
+0:	preload status 26 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg"
+0:	Thread 45252 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg, 0x2022d21fcb0)"
+0.011:	"cleanupCache() 878.906 MiB used, 32626.5 MiB limit, 32445.6 MiB cache quota, 24 loaded, 12 referenced"
+0.004:	preload status 13 ready
+0.004:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg"
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 timeout
+0:	Thread 14688 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg, 0x2022d1e8280)"
+0:	preload status 26 timeout
+0:	preload status 27 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg"
+0.01:	"cleanupCache() 914.063 MiB used, 32626.5 MiB limit, 32445.5 MiB cache quota, 25 loaded, 12 referenced"
+0.005:	preload status 14 ready
+0:	preload status 15 ready
+0.005:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg"
+0:	preload status 16 ready
+0:	"cleanupCache() 949.219 MiB used, 32626.5 MiB limit, 32480.7 MiB cache quota, 26 loaded, 12 referenced"
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 ready
+0:	preload status 26 timeout
+0:	preload status 27 timeout
+0:	preload status 28 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg"
+0:	Thread 31876 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg, 0x2022d21f9f0)"
+0.015:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0.015:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg"
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 timeout
+0:	preload status 27 timeout
+0:	preload status 28 timeout
+0:	preload status 29 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg"
+0:	Thread 47732 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg, 0x2022d1e9300)"
+0.005:	"cleanupCache() 984.375 MiB used, 32626.5 MiB limit, 32480.6 MiB cache quota, 27 loaded, 12 referenced"
+0.01:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 timeout
+0:	preload status 28 timeout
+0:	preload status 29 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg"
+0.002:	"cleanupCache() 1019.53 MiB used, 32626.5 MiB limit, 32480.5 MiB cache quota, 28 loaded, 12 referenced"
+0.012:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 timeout
+0:	preload status 29 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg"
+0.002:	"cleanupCache() 1054.69 MiB used, 32626.5 MiB limit, 32515.7 MiB cache quota, 29 loaded, 12 referenced"
+0.012:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg"
+0.012:	"cleanupCache() 1089.84 MiB used, 32626.5 MiB limit, 32551.9 MiB cache quota, 30 loaded, 12 referenced"
+0.003:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg"
+0.014:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg"
+0.014:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg"
+0.015:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg"
+0.015:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg"
+0.014:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg"
+0.014:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg"
+0.014:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg"
+0.015:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg"
+0.015:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg"
+0.015:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg"
+0.036:	preload status 0 timeout
+0:	preload status 1 timeout
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg"
+0:	preload status 2 timeout
+0:	preload status 3 timeout
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg"
+0:	Thread 46096 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg, 0x2022d1e88b0)"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg"
+0:	Thread 34556 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg, 0x2022d1e93b0)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg"
+0:	preload status 4 timeout
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg"
+0:	Thread 24868 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg, 0x2022d1e8e30)"
+0:	Thread 31088 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg, 0x2022d1e9040)"
+0:	Thread 48928 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg, 0x2022d1e7780)"
+0.036:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg"
+0:	preload status 5 timeout
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 timeout
+0:	preload status 11 timeout
+0:	preload status 12 timeout
+0:	preload status 13 timeout
+0:	preload status 14 timeout
+0:	Thread 31876 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg, 0x2022d1e8c20)"
+0:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg"
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0030.jpg"
+0:	Thread 44888 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg, 0x2022d1e78e0)"
+0.024:	"cleanupCache() 1125 MiB used, 32626.5 MiB limit, 32241.7 MiB cache quota, 31 loaded, 9 referenced"
+0.003:	"cleanupCache() 1160.16 MiB used, 32626.5 MiB limit, 32253.4 MiB cache quota, 32 loaded, 10 referenced"
+0.01:	"cleanupCache() 1195.31 MiB used, 32626.5 MiB limit, 32288.5 MiB cache quota, 33 loaded, 11 referenced"
+0.011:	"cleanupCache() 1230.47 MiB used, 32626.5 MiB limit, 32323.7 MiB cache quota, 34 loaded, 12 referenced"
+0.004:	"cleanupCache() 1265.63 MiB used, 32626.5 MiB limit, 32358.9 MiB cache quota, 35 loaded, 13 referenced"
+0.011:	"cleanupCache() 1300.78 MiB used, 32626.5 MiB limit, 32376.1 MiB cache quota, 36 loaded, 14 referenced"
+0.003:	"cleanupCache() 1335.94 MiB used, 32626.5 MiB limit, 32393.7 MiB cache quota, 37 loaded, 15 referenced"
+0.022:	preload status 1 ready
+0.022:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg"
+0:	Thread 34556 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg, 0x2022d21f7e0)"
+0:	preload status 2 ready
+0:	preload status 3 ready
+0:	preload status 4 ready
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0029.jpg"
+0.012:	preload status 2 ready
+0:	preload status 3 ready
+0.012:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg"
+0:	preload status 4 ready
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	preload status 16 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0028.jpg"
+0.021:	preload status 3 ready
+0:	preload status 4 ready
+0.021:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg"
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 timeout
+0:	preload status 16 ready
+0:	preload status 17 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0027.jpg"
+0.006:	"cleanupCache() 1371.09 MiB used, 32626.5 MiB limit, 32218.3 MiB cache quota, 38 loaded, 15 referenced"
+0.013:	preload status 4 ready
+0.013:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg"
+0:	preload status 5 ready
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0026.jpg"
+0.02:	preload status 5 ready
+0.02:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg"
+0:	preload status 6 ready
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0025.jpg"
+0:	Thread 31088 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg, 0x2020d7b4780)"
+0.021:	preload status 6 ready
+0.021:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg"
+0:	preload status 7 ready
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 timeout
+0:	preload status 20 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0024.jpg"
+0:	Thread 34556 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg, 0x2020d6746f0)"
+0.016:	"cleanupCache() 1406.25 MiB used, 32626.5 MiB limit, 32180.9 MiB cache quota, 39 loaded, 14 referenced"
+0.004:	preload status 7 ready
+0.004:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg"
+0:	preload status 8 ready
+0:	preload status 9 ready
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 timeout
+0:	preload status 21 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0023.jpg"
+0:	Thread 46096 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg, 0x204512f4dd0)"
+0.02:	preload status 8 ready
+0:	preload status 9 ready
+0.02:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg"
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 timeout
+0:	preload status 21 timeout
+0:	preload status 22 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0022.jpg"
+0.006:	"cleanupCache() 1441.41 MiB used, 32626.5 MiB limit, 32180.2 MiB cache quota, 40 loaded, 14 referenced"
+0.013:	preload status 9 ready
+0.013:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg"
+0:	preload status 10 ready
+0:	preload status 11 ready
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 timeout
+0:	preload status 22 ready
+0:	preload status 23 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0021.jpg"
+0.011:	"cleanupCache() 1476.56 MiB used, 32626.5 MiB limit, 32214.8 MiB cache quota, 41 loaded, 15 referenced"
+0.006:	preload status 10 ready
+0:	preload status 11 ready
+0.006:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg"
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0020.jpg"
+0:	Thread 48928 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg, 0x2045110c180)"
+0.019:	preload status 11 ready
+0.019:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg"
+0:	preload status 12 ready
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0019.jpg"
+0.019:	preload status 12 ready
+0.019:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg"
+0:	preload status 13 ready
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 ready
+0:	preload status 26 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0018.jpg"
+0.019:	preload status 13 ready
+0.019:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg"
+0:	preload status 14 ready
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 timeout
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0017.jpg"
+0:	Thread 46096 "is loading image <user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg (<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg, 0x20451250c80)"
+0.016:	"cleanupCache() 1511.72 MiB used, 32626.5 MiB limit, 32179.3 MiB cache quota, 42 loaded, 14 referenced"
+0.004:	preload status 14 ready
+0.004:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg"
+0:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 timeout
+0:	preload status 28 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0016.jpg"
+0.021:	preloading "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg"
+0.021:	preload status 15 ready
+0:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 timeout
+0:	preload status 28 ready
+0:	preload status 29 timeout
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0015.jpg"
+0.019:	preload status 16 ready
+0:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 timeout
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0014.jpg"
+0.004:	"cleanupCache() 1546.88 MiB used, 32626.5 MiB limit, 32214.2 MiB cache quota, 43 loaded, 14 referenced"
+0.015:	preload status 17 ready
+0:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0013.jpg"
+0.019:	preload status 18 ready
+0:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0012.jpg"
+0.019:	preload status 19 ready
+0:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0011.jpg"
+0.019:	preload status 20 ready
+0:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0010.jpg"
+0.019:	preload status 21 ready
+0:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0009.jpg"
+0.019:	preload status 22 ready
+0:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0008.jpg"
+0.019:	preload status 23 ready
+0:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0007.jpg"
+0.019:	preload status 24 ready
+0:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0006.jpg"
+0.018:	preload status 25 ready
+0:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0005.jpg"
+0.019:	preload status 26 ready
+0:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0004.jpg"
+0.018:	preload status 27 ready
+0:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0003.jpg"
+0.019:	preload status 28 ready
+0:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0002.jpg"
+0.018:	preload status 29 ready
+0:	Processing source "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-5br_tokw\\frame_0001.jpg"
+0.044:	"cleanupCache() 1581.94 MiB used, 32626.5 MiB limit, 32243.3 MiB cache quota, 44 loaded, 1 referenced"
+0.008:	"cleanupCache() 1605.31 MiB used, 32626.5 MiB limit, 32208.1 MiB cache quota, 45 loaded, 1 referenced"
+0.003:	"cleanupCache() 1628.69 MiB used, 32626.5 MiB limit, 32208 MiB cache quota, 46 loaded, 2 referenced"

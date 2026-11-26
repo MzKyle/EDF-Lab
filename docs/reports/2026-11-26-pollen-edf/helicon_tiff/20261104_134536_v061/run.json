@@ -1,0 +1,251 @@
+{
+  "view": "20261104_134536_v061",
+  "version": "Helicon Focus 8.1.0 x64",
+  "parameters": "Method B (-mp:1), radius 8, smoothing 4, ordered input list (-i), uncompressed TIFF",
+  "executable": "<helicon-install>\\_HeliconFocus.exe",
+  "executable_sha256": "b7e4d68f0303f7426047632e285f3c977ac367e100e870d93ce02f4467f58eca",
+  "started_at": "2026-11-26T09:26:50+00:00",
+  "command": [
+    "<helicon-install>\\_HeliconFocus.exe",
+    "-silent",
+    "-save:<user-profile>\\AppData\\Local\\Temp\\helicon-lab-pcaogqvr\\ordered.tiff",
+    "-mp:1",
+    "-sp:4",
+    "-i",
+    "<user-profile>\\AppData\\Local\\Temp\\helicon-lab-pcaogqvr\\inputs.txt",
+    "-rp:8",
+    "-tif:u"
+  ],
+  "inputs": [
+    {
+      "order": 1,
+      "z": 1,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_1+13_45_36+Z_-20+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "b8625bb2ab9f22fce7a32fb7ab8e18cad59d34a7f193431c318dc5e55bc2892f",
+      "staged_name": "frame_0001.jpg"
+    },
+    {
+      "order": 2,
+      "z": 2,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_2+13_45_36+Z_-18+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "d0950eff6bd94562fd43cbf1895dd04ca149c6e16ea7ff5f2509cd2164e65e98",
+      "staged_name": "frame_0002.jpg"
+    },
+    {
+      "order": 3,
+      "z": 3,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_3+13_45_36+Z_-16+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "0e52c560d211fcaaefd8fa4ca9385bc641e343540924f0ac93008f8e2d82a454",
+      "staged_name": "frame_0003.jpg"
+    },
+    {
+      "order": 4,
+      "z": 4,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_4+13_45_36+Z_-14+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "d72c6725136088dfcc528fb651d378ac32d0786521eea3e46344ace9082e61b6",
+      "staged_name": "frame_0004.jpg"
+    },
+    {
+      "order": 5,
+      "z": 5,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_5+13_45_36+Z_-12+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "aa2f3c53e114830ae667a8365afb6a5bd45087da8776481da2b004a5a410871a",
+      "staged_name": "frame_0005.jpg"
+    },
+    {
+      "order": 6,
+      "z": 6,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_6+13_45_36+Z_-10+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "31b785bc1200d4da4c9c36b943768e0aa3f21ce64e69fea67c97f8192db707c8",
+      "staged_name": "frame_0006.jpg"
+    },
+    {
+      "order": 7,
+      "z": 7,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_7+13_45_36+Z_-8+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "6474d535887e16ac168738a69a76b877ad7b0f83504d0a397d5bfbd13d771fd7",
+      "staged_name": "frame_0007.jpg"
+    },
+    {
+      "order": 8,
+      "z": 8,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_8+13_45_36+Z_-6+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "eb3f6e91d20fcf12b92ebd26a60ab4bdc6df1f6a8e9213003af6016d57e01a66",
+      "staged_name": "frame_0008.jpg"
+    },
+    {
+      "order": 9,
+      "z": 9,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_9+13_45_36+Z_-4+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "57d7a6b1830bdca8f714e08f7d9bf3a44171aec1ddbd355dea18f0a72ce5591d",
+      "staged_name": "frame_0009.jpg"
+    },
+    {
+      "order": 10,
+      "z": 10,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_10+13_45_36+Z_-2+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "f9445f330c1cef0978dbce58b3733212441137f97eb69e4c9e28da22b3111a29",
+      "staged_name": "frame_0010.jpg"
+    },
+    {
+      "order": 11,
+      "z": 11,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_11+13_45_36+Z_0+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "b05ab96596b1b27199ab6fca5d77594b671d16291d3fe5abccdd961175dbbd01",
+      "staged_name": "frame_0011.jpg"
+    },
+    {
+      "order": 12,
+      "z": 12,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_12+13_45_36+Z_2+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "af7a373e7c340ae33c9d037eb9039f4da457f0aad8a719817e8e70904c7ad91f",
+      "staged_name": "frame_0012.jpg"
+    },
+    {
+      "order": 13,
+      "z": 13,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_13+13_45_36+Z_4+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "105320451c464c717b7ad881ace254b35511c8eb3b5a197f4e8454bba269f7aa",
+      "staged_name": "frame_0013.jpg"
+    },
+    {
+      "order": 14,
+      "z": 14,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_14+13_45_36+Z_6+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "65cbf96116db661c7f55368b9e2e5a1fefaf1e83d86eee609378550b37ffb484",
+      "staged_name": "frame_0014.jpg"
+    },
+    {
+      "order": 15,
+      "z": 15,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_15+13_45_36+Z_8+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "c446ee8bf30f1cb31cbc4b27496d2010f825af7160b684906fed2ac16a3425d4",
+      "staged_name": "frame_0015.jpg"
+    },
+    {
+      "order": 16,
+      "z": 16,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_16+13_45_36+Z_10+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "38633c54dde9a19c88cfbe045e794ba4891466b62e4a24a20cb8dd8ccdec0879",
+      "staged_name": "frame_0016.jpg"
+    },
+    {
+      "order": 17,
+      "z": 17,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_17+13_45_36+Z_12+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "fd17426a92bde6c99a329618946f51a255c99eaba998470f8dcce661159a6c34",
+      "staged_name": "frame_0017.jpg"
+    },
+    {
+      "order": 18,
+      "z": 18,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_18+13_45_36+Z_14+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "f52a0f7bdc31cd4a71c62ce281ae1ed18ac228ebdd05c3c445cf1558bd3c50e7",
+      "staged_name": "frame_0018.jpg"
+    },
+    {
+      "order": 19,
+      "z": 19,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_19+13_45_36+Z_16+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "c8332d43431865159d8bde016439a145b4aed1ceb94820332f480139509c3d5d",
+      "staged_name": "frame_0019.jpg"
+    },
+    {
+      "order": 20,
+      "z": 20,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_20+13_45_36+Z_18+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "000f3c2edc5e5d0f0801d33424a37a88b2b7b5e9f3307e6cde03f7c36fe02eea",
+      "staged_name": "frame_0020.jpg"
+    },
+    {
+      "order": 21,
+      "z": 21,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_21+13_45_36+Z_20+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "6ae2cb79b084390dae15eba6c18d95c6680c0b3c2753e213f61d0455f03fcf1c",
+      "staged_name": "frame_0021.jpg"
+    },
+    {
+      "order": 22,
+      "z": 22,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_22+13_45_36+Z_22+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "9f85e173e4779eab0654a6625fea596b70f3421de48c89f7d22dac90152d90fd",
+      "staged_name": "frame_0022.jpg"
+    },
+    {
+      "order": 23,
+      "z": 23,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_23+13_45_36+Z_24+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "12f9287c806c2de31c098aba2af7b7a43fff58a60f35b44da09bd1e7c39fb86b",
+      "staged_name": "frame_0023.jpg"
+    },
+    {
+      "order": 24,
+      "z": 24,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_24+13_45_36+Z_26+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "f2b5dbb0c479a26f262f546fc9fd4833de48af154a06ed2117ae0e6fe9e4bfb0",
+      "staged_name": "frame_0024.jpg"
+    },
+    {
+      "order": 25,
+      "z": 25,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_25+13_45_36+Z_28+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "05acff01f8886520817eb9e2f8e69e28f4c377e0c0fe7f0ad741f4649bee308b",
+      "staged_name": "frame_0025.jpg"
+    },
+    {
+      "order": 26,
+      "z": 26,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_26+13_45_36+Z_30+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "03a5152ecc5a1a9b70845f4b85f4dbdaf2105861ff3eeac2f9de91713d249473",
+      "staged_name": "frame_0026.jpg"
+    },
+    {
+      "order": 27,
+      "z": 27,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_27+13_45_36+Z_32+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "ed93813ea4b5a8ec368b4506949051ca3a816077b89079cd56e0fb8a1330e743",
+      "staged_name": "frame_0027.jpg"
+    },
+    {
+      "order": 28,
+      "z": 28,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_28+13_45_36+Z_34+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "e8d9f22ef22177d3cf01a23f7b66ec57894cea3ea918392b92b7462b6af70553",
+      "staged_name": "frame_0028.jpg"
+    },
+    {
+      "order": 29,
+      "z": 29,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_29+13_45_36+Z_36+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "05dd37d37e7390e4bc86ac7480398e12d7e7cd13ca6f60b4b5f1ec5326646438",
+      "staged_name": "frame_0029.jpg"
+    },
+    {
+      "order": 30,
+      "z": 30,
+      "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_30+13_45_36+Z_38+(4096_3000)+Format24bppRgb+0.173.jpg",
+      "sha256": "88fb09c8e91386248e5edf3329bc29663263cd472302c2947186415d4be0e7a2",
+      "staged_name": "frame_0030.jpg"
+    }
+  ],
+  "expected_dimensions": [
+    4096,
+    3000
+  ],
+  "status": "success",
+  "returncode": 0,
+  "elapsed_s": 2.7659999998286366,
+  "peak_rss_bytes": 2270765056,
+  "diagnostic": "",
+  "finished_at": "2026-11-26T09:26:52+00:00",
+  "output": {
+    "path": "ordered.tiff",
+    "sha256": "fb64bd74cd2513d29d7964b20e8e0377041d61f2ea82deafa008383bbc7d8f10",
+    "width": 4076,
+    "height": 2984,
+    "dtype": "uint8",
+    "format": "TIFF",
+    "size_bytes": 36506408
+  },
+  "retained_area_ratio": 0.9898098958333333
+}

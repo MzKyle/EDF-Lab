@@ -1,0 +1,367 @@
+OpenCL not available
+ 0.000 [  1/142] T0 Starting task: Load frame_000013.jpg
+ 0.000 [  2/142] T4 Starting task: Load frame_000012.jpg
+ 0.000 [  3/142] T3 Starting task: Load frame_000014.jpg
+ 0.000 [  4/142] T2 Starting task: Load frame_000011.jpg
+ 0.000 [  5/142] T5 Starting task: Load frame_000015.jpg
+ 0.000 [  6/142] T1 Starting task: Load frame_000010.jpg
+ 0.000 [  7/142] T7 Starting task: Load frame_000016.jpg
+ 0.000 [  8/142] T6 Starting task: Load frame_000009.jpg
+frame_000009.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000016.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000011.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000013.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000015.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000014.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000010.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000012.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 0.041           T7 Finished task 7 in 0.041 s.
+ 0.041 [  9/142] T7 Starting task: Load frame_000017.jpg
+ 0.041           T2 Finished task 4 in 0.041 s.
+ 0.041 [ 10/142] T2 Starting task: Load frame_000008.jpg
+ 0.041           T0 Finished task 1 in 0.041 s.
+ 0.041 [ 11/142] T0 Starting task: Grayscale frame_000013.jpg
+ 0.041           T3 Finished task 3 in 0.041 s.
+ 0.041 [ 12/142] T3 Starting task: Load frame_000018.jpg
+ 0.041           T5 Finished task 5 in 0.041 s.
+ 0.041 [ 13/142] T5 Starting task: Load frame_000007.jpg
+ 0.042           T4 Finished task 2 in 0.042 s.
+ 0.042 [ 14/142] T4 Starting task: Load frame_000019.jpg
+ 0.042           T6 Finished task 8 in 0.042 s.
+ 0.042 [ 15/142] T6 Starting task: Load frame_000006.jpg
+ 0.043           T1 Finished task 6 in 0.043 s.
+ 0.043 [ 16/142] T1 Starting task: Load frame_000020.jpg
+Using grayscale weights R:0.244, G:0.434, B:0.323
+ 0.059           T0 Finished task 11 in 0.018 s.
+ 0.059 [ 17/142] T0 Starting task: Align frame_000013.jpg to frame_000013.jpg
+aligned_frame_000013.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000013.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.059           T0 Finished task 17 in 0.000 s.
+ 0.059 [ 18/142] T0 Starting task: Grayscale aligned_frame_000013.jpg
+frame_000007.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000006.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000017.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000008.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000018.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000020.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000019.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 0.075           T0 Finished task 18 in 0.016 s.
+ 0.075 [ 19/142] T0 Starting task: Forward-wavelet aligned_frame_000013.jpg
+ 0.083           T5 Finished task 13 in 0.042 s.
+ 0.083 [ 20/142] T5 Starting task: Grayscale frame_000012.jpg
+ 0.083           T6 Finished task 15 in 0.041 s.
+ 0.083 [ 21/142] T6 Starting task: Grayscale frame_000014.jpg
+ 0.084           T7 Finished task 9 in 0.043 s.
+ 0.084 [ 22/142] T7 Starting task: Grayscale frame_000011.jpg
+ 0.084           T2 Finished task 10 in 0.043 s.
+ 0.084 [ 23/142] T2 Starting task: Grayscale frame_000015.jpg
+ 0.085           T3 Finished task 12 in 0.044 s.
+ 0.085 [ 24/142] T3 Starting task: Grayscale frame_000010.jpg
+ 0.087           T1 Finished task 16 in 0.044 s.
+ 0.087 [ 25/142] T1 Starting task: Grayscale frame_000016.jpg
+ 0.089           T4 Finished task 14 in 0.047 s.
+ 0.089 [ 26/142] T4 Starting task: Grayscale frame_000009.jpg
+ 0.106           T5 Finished task 20 in 0.023 s.
+ 0.106 [ 27/142] T5 Starting task: Align frame_000012.jpg to frame_000013.jpg
+aligned_frame_000012.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000012.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.106           T5 Finished task 27 in 0.000 s.
+ 0.106 [ 28/142] T5 Starting task: Grayscale aligned_frame_000012.jpg
+ 0.107           T6 Finished task 21 in 0.024 s.
+ 0.107 [ 29/142] T6 Starting task: Align frame_000014.jpg to frame_000013.jpg
+aligned_frame_000014.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000014.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.107           T6 Finished task 29 in 0.000 s.
+ 0.107 [ 30/142] T6 Starting task: Grayscale aligned_frame_000014.jpg
+ 0.109           T2 Finished task 23 in 0.025 s.
+ 0.109 [ 31/142] T2 Starting task: Align frame_000015.jpg to frame_000014.jpg
+aligned_frame_000015.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000015.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.109           T3 Finished task 24 in 0.024 s.
+ 0.109 [ 32/142] T3 Starting task: Grayscale frame_000017.jpg
+ 0.109           T2 Finished task 31 in 0.000 s.
+ 0.109 [ 33/142] T2 Starting task: Grayscale aligned_frame_000015.jpg
+ 0.110           T7 Finished task 22 in 0.026 s.
+ 0.110 [ 34/142] T7 Starting task: Align frame_000011.jpg to frame_000012.jpg
+aligned_frame_000011.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000011.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.110           T7 Finished task 34 in 0.000 s.
+ 0.110 [ 35/142] T7 Starting task: Grayscale aligned_frame_000011.jpg
+ 0.113           T4 Finished task 26 in 0.024 s.
+ 0.113 [ 36/142] T4 Starting task: Align frame_000010.jpg to frame_000011.jpg
+aligned_frame_000010.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000010.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.113           T1 Finished task 25 in 0.026 s.
+ 0.113 [ 37/142] T1 Starting task: Align frame_000016.jpg to frame_000015.jpg
+aligned_frame_000016.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000016.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.113           T4 Finished task 36 in 0.000 s.
+ 0.114 [ 38/142] T4 Starting task: Grayscale aligned_frame_000010.jpg
+ 0.114           T1 Finished task 37 in 0.001 s.
+ 0.114 [ 39/142] T1 Starting task: Grayscale aligned_frame_000016.jpg
+ 0.129           T5 Finished task 28 in 0.023 s.
+ 0.129 [ 40/142] T5 Starting task: Forward-wavelet aligned_frame_000012.jpg
+ 0.130           T6 Finished task 30 in 0.023 s.
+ 0.130 [ 41/142] T6 Starting task: Forward-wavelet aligned_frame_000014.jpg
+ 0.132           T3 Finished task 32 in 0.023 s.
+ 0.132 [ 42/142] T3 Starting task: Align frame_000009.jpg to frame_000010.jpg
+aligned_frame_000009.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000009.jpg valid area X 0, Y 36, W 4096, H 3000
+ 0.132           T3 Finished task 42 in 0.000 s.
+ 0.132 [ 43/142] T3 Starting task: Grayscale aligned_frame_000009.jpg
+ 0.133           T2 Finished task 33 in 0.024 s.
+ 0.133 [ 44/142] T2 Starting task: Forward-wavelet aligned_frame_000015.jpg
+ 0.134           T7 Finished task 35 in 0.024 s.
+ 0.134 [ 45/142] T7 Starting task: Forward-wavelet aligned_frame_000011.jpg
+ 0.136           T1 Finished task 39 in 0.022 s.
+ 0.136 [ 46/142] T1 Starting task: Forward-wavelet aligned_frame_000016.jpg
+ 0.139           T4 Finished task 38 in 0.025 s.
+ 0.139 [ 47/142] T4 Starting task: Forward-wavelet aligned_frame_000010.jpg
+ 0.153           T3 Finished task 43 in 0.021 s.
+ 0.153 [ 48/142] T3 Starting task: Forward-wavelet aligned_frame_000009.jpg
+ 1.644           T0 Finished task 19 in 1.569 s.
+ 1.645 [ 49/142] T0 Starting task: Build color reassignment map from 8 images
+ 1.651           T2 Finished task 44 in 1.518 s.
+ 1.651 [ 50/142] T2 Starting task: Align frame_000017.jpg to frame_000016.jpg
+aligned_frame_000017.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000017.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.652           T2 Finished task 50 in 0.001 s.
+ 1.652 [ 51/142] T2 Starting task: Grayscale aligned_frame_000017.jpg
+ 1.654           T4 Finished task 47 in 1.515 s.
+ 1.654 [ 52/142] T4 Starting task: Grayscale frame_000008.jpg
+ 1.660           T1 Finished task 46 in 1.524 s.
+ 1.660 [ 53/142] T1 Starting task: Grayscale frame_000018.jpg
+ 1.661           T6 Finished task 41 in 1.531 s.
+ 1.661 [ 54/142] T6 Starting task: Grayscale frame_000007.jpg
+ 1.671           T2 Finished task 51 in 0.019 s.
+ 1.671 [ 55/142] T2 Starting task: Forward-wavelet aligned_frame_000017.jpg
+ 1.673           T4 Finished task 52 in 0.019 s.
+ 1.673 [ 56/142] T4 Starting task: Align frame_000008.jpg to frame_000009.jpg
+aligned_frame_000008.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000008.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.674           T4 Finished task 56 in 0.001 s.
+ 1.674 [ 57/142] T4 Starting task: Grayscale aligned_frame_000008.jpg
+ 1.679           T1 Finished task 53 in 0.019 s.
+ 1.679 [ 58/142] T1 Starting task: Align frame_000018.jpg to frame_000017.jpg
+aligned_frame_000018.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000018.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.680           T6 Finished task 54 in 0.019 s.
+ 1.680 [ 59/142] T6 Starting task: Align frame_000007.jpg to frame_000008.jpg
+aligned_frame_000007.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000007.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.680           T1 Finished task 58 in 0.001 s.
+ 1.680 [ 60/142] T1 Starting task: Grayscale aligned_frame_000018.jpg
+ 1.680           T6 Finished task 59 in 0.000 s.
+ 1.680 [ 61/142] T6 Starting task: Grayscale aligned_frame_000007.jpg
+ 1.690           T7 Finished task 45 in 1.556 s.
+ 1.691 [ 62/142] T7 Starting task: Grayscale frame_000019.jpg
+ 1.693           T4 Finished task 57 in 0.019 s.
+ 1.693 [ 63/142] T4 Starting task: Forward-wavelet aligned_frame_000008.jpg
+ 1.697           T5 Finished task 40 in 1.568 s.
+ 1.697 [ 64/142] T5 Starting task: Grayscale frame_000006.jpg
+ 1.699           T6 Finished task 61 in 0.019 s.
+ 1.699 [ 65/142] T6 Starting task: Forward-wavelet aligned_frame_000007.jpg
+ 1.704           T1 Finished task 60 in 0.024 s.
+ 1.704 [ 66/142] T1 Starting task: Forward-wavelet aligned_frame_000018.jpg
+ 1.714           T3 Finished task 48 in 1.561 s.
+ 1.714 [ 67/142] T3 Starting task: Merge 8 images
+ 1.716           T7 Finished task 62 in 0.025 s.
+ 1.716 [ 68/142] T7 Starting task: Align frame_000019.jpg to frame_000018.jpg
+aligned_frame_000019.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000019.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.717           T7 Finished task 68 in 0.001 s.
+ 1.719 [ 69/142] T7 Starting task: Grayscale aligned_frame_000019.jpg
+ 1.723           T5 Finished task 64 in 0.026 s.
+ 1.723 [ 70/142] T5 Starting task: Align frame_000006.jpg to frame_000007.jpg
+aligned_frame_000006.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000006.jpg valid area X 0, Y 36, W 4096, H 3000
+ 1.724           T5 Finished task 70 in 0.001 s.
+ 1.724 [ 71/142] T5 Starting task: Grayscale aligned_frame_000006.jpg
+ 1.757           T7 Finished task 69 in 0.038 s.
+ 1.758 [ 72/142] T7 Starting task: Forward-wavelet aligned_frame_000019.jpg
+ 1.763           T5 Finished task 71 in 0.039 s.
+ 1.763 [ 73/142] T5 Starting task: Forward-wavelet aligned_frame_000006.jpg
+ 2.109           T0 Finished task 49 in 0.465 s.
+ 2.109 [ 74/142] T0 Starting task: Grayscale frame_000020.jpg
+ 2.125           T0 Finished task 74 in 0.016 s.
+ 2.125 [ 75/142] T0 Starting task: Align frame_000020.jpg to frame_000019.jpg
+aligned_frame_000020.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000020.jpg valid area X 0, Y 36, W 4096, H 3000
+ 2.126           T0 Finished task 75 in 0.001 s.
+ 2.126 [ 76/142] T0 Starting task: Grayscale aligned_frame_000020.jpg
+ 2.140           T0 Finished task 76 in 0.014 s.
+ 2.140 [ 77/142] T0 Starting task: Forward-wavelet aligned_frame_000020.jpg
+ 2.830           T3 Finished task 67 in 1.116 s.
+ 2.830 [ 78/142] T3 Starting task: Load frame_000005.jpg
+frame_000005.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 2.870           T3 Finished task 78 in 0.040 s.
+ 2.870 [ 79/142] T3 Starting task: Grayscale frame_000005.jpg
+ 2.884           T3 Finished task 79 in 0.014 s.
+ 2.884 [ 80/142] T3 Starting task: Align frame_000005.jpg to frame_000006.jpg
+aligned_frame_000005.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000005.jpg valid area X 0, Y 36, W 4096, H 3000
+ 2.885           T3 Finished task 80 in 0.001 s.
+ 2.885 [ 81/142] T3 Starting task: Grayscale aligned_frame_000005.jpg
+ 2.898           T3 Finished task 81 in 0.013 s.
+ 2.898 [ 82/142] T3 Starting task: Forward-wavelet aligned_frame_000005.jpg
+ 3.265           T2 Finished task 55 in 1.594 s.
+ 3.265 [ 83/142] T2 Starting task: Build color reassignment map from 8 images
+ 3.267           T4 Finished task 63 in 1.574 s.
+ 3.267 [ 84/142] T4 Starting task: Load frame_000021.jpg
+ 3.277           T6 Finished task 65 in 1.578 s.
+ 3.277 [ 85/142] T6 Starting task: Load frame_000004.jpg
+ 3.286           T1 Finished task 66 in 1.582 s.
+ 3.286 [ 86/142] T1 Starting task: Load frame_000022.jpg
+frame_000021.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000004.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.309           T7 Finished task 72 in 1.551 s.
+ 3.309 [ 87/142] T7 Starting task: Load frame_000003.jpg
+ 3.311           T4 Finished task 84 in 0.044 s.
+ 3.311 [ 88/142] T4 Starting task: Grayscale frame_000021.jpg
+ 3.317           T6 Finished task 85 in 0.040 s.
+ 3.317 [ 89/142] T6 Starting task: Grayscale frame_000004.jpg
+frame_000022.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.327           T4 Finished task 88 in 0.016 s.
+ 3.327 [ 90/142] T4 Starting task: Align frame_000021.jpg to frame_000020.jpg
+aligned_frame_000021.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000021.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.328           T4 Finished task 90 in 0.001 s.
+ 3.328 [ 91/142] T4 Starting task: Grayscale aligned_frame_000021.jpg
+ 3.329           T1 Finished task 86 in 0.043 s.
+ 3.329 [ 92/142] T1 Starting task: Grayscale frame_000022.jpg
+ 3.335           T6 Finished task 89 in 0.018 s.
+ 3.335 [ 93/142] T6 Starting task: Align frame_000004.jpg to frame_000005.jpg
+aligned_frame_000004.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000004.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.335           T6 Finished task 93 in 0.000 s.
+ 3.335 [ 94/142] T6 Starting task: Grayscale aligned_frame_000004.jpg
+frame_000003.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.347           T1 Finished task 92 in 0.018 s.
+ 3.347 [ 95/142] T1 Starting task: Align frame_000022.jpg to frame_000021.jpg
+aligned_frame_000022.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000022.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.348           T1 Finished task 95 in 0.001 s.
+ 3.348 [ 96/142] T1 Starting task: Grayscale aligned_frame_000022.jpg
+ 3.348           T5 Finished task 73 in 1.585 s.
+ 3.348 [ 97/142] T5 Starting task: Load frame_000023.jpg
+ 3.348           T4 Finished task 91 in 0.020 s.
+ 3.348 [ 98/142] T4 Starting task: Forward-wavelet aligned_frame_000021.jpg
+ 3.353           T7 Finished task 87 in 0.044 s.
+ 3.353 [ 99/142] T7 Starting task: Grayscale frame_000003.jpg
+ 3.356           T6 Finished task 94 in 0.021 s.
+ 3.356 [100/142] T6 Starting task: Forward-wavelet aligned_frame_000004.jpg
+ 3.371           T1 Finished task 96 in 0.023 s.
+ 3.371 [101/142] T1 Starting task: Forward-wavelet aligned_frame_000022.jpg
+ 3.377           T7 Finished task 99 in 0.024 s.
+ 3.377 [102/142] T7 Starting task: Align frame_000003.jpg to frame_000004.jpg
+aligned_frame_000003.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000003.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.377           T7 Finished task 102 in 0.000 s.
+ 3.377 [103/142] T7 Starting task: Grayscale aligned_frame_000003.jpg
+frame_000023.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.400           T7 Finished task 103 in 0.023 s.
+ 3.400 [104/142] T7 Starting task: Forward-wavelet aligned_frame_000003.jpg
+ 3.401           T5 Finished task 97 in 0.053 s.
+ 3.401 [105/142] T5 Starting task: Grayscale frame_000023.jpg
+ 3.419           T5 Finished task 105 in 0.018 s.
+ 3.419 [106/142] T5 Starting task: Align frame_000023.jpg to frame_000022.jpg
+aligned_frame_000023.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000023.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.419           T5 Finished task 106 in 0.000 s.
+ 3.419 [107/142] T5 Starting task: Grayscale aligned_frame_000023.jpg
+ 3.435           T5 Finished task 107 in 0.016 s.
+ 3.435 [108/142] T5 Starting task: Forward-wavelet aligned_frame_000023.jpg
+ 3.684           T0 Finished task 77 in 1.544 s.
+ 3.684 [109/142] T0 Starting task: Load frame_000002.jpg
+frame_000002.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.726           T0 Finished task 109 in 0.042 s.
+ 3.726 [110/142] T0 Starting task: Grayscale frame_000002.jpg
+ 3.743           T0 Finished task 110 in 0.017 s.
+ 3.743 [111/142] T0 Starting task: Align frame_000002.jpg to frame_000003.jpg
+aligned_frame_000002.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000002.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.744           T0 Finished task 111 in 0.001 s.
+ 3.744 [112/142] T0 Starting task: Grayscale aligned_frame_000002.jpg
+ 3.758           T0 Finished task 112 in 0.014 s.
+ 3.758 [113/142] T0 Starting task: Forward-wavelet aligned_frame_000002.jpg
+ 3.868           T2 Finished task 83 in 0.603 s.
+ 3.868 [114/142] T2 Starting task: Load frame_000024.jpg
+frame_000024.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 3.909           T2 Finished task 114 in 0.041 s.
+ 3.910 [115/142] T2 Starting task: Grayscale frame_000024.jpg
+ 3.923           T2 Finished task 115 in 0.013 s.
+ 3.923 [116/142] T2 Starting task: Align frame_000024.jpg to frame_000023.jpg
+aligned_frame_000024.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000024.jpg valid area X 0, Y 36, W 4096, H 3000
+ 3.923           T2 Finished task 116 in 0.000 s.
+ 3.923 [117/142] T2 Starting task: Grayscale aligned_frame_000024.jpg
+ 3.938           T2 Finished task 117 in 0.015 s.
+ 3.938 [118/142] T2 Starting task: Forward-wavelet aligned_frame_000024.jpg
+ 4.436           T3 Finished task 82 in 1.538 s.
+ 4.436 [119/142] T3 Starting task: Merge 8 images
+ 4.913           T5 Finished task 108 in 1.478 s.
+ 4.913 [120/142] T5 Starting task: Load frame_000001.jpg
+ 4.939           T6 Finished task 100 in 1.583 s.
+ 4.939 [121/142] T6 Starting task: Load frame_000025.jpg
+ 4.942           T4 Finished task 98 in 1.594 s.
+ 4.942 [122/142] T4 Starting task: Load frame_000000.jpg
+frame_000001.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 4.959           T5 Finished task 120 in 0.046 s.
+ 4.959 [123/142] T5 Starting task: Grayscale frame_000001.jpg
+ 4.973           T5 Finished task 123 in 0.014 s.
+ 4.973 [124/142] T5 Starting task: Align frame_000001.jpg to frame_000002.jpg
+aligned_frame_000001.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000001.jpg valid area X 0, Y 36, W 4096, H 3000
+ 4.973           T5 Finished task 124 in 0.000 s.
+ 4.973 [125/142] T5 Starting task: Grayscale aligned_frame_000001.jpg
+frame_000025.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+frame_000000.jpg has resolution 4096x3000, using 9 wavelet levels and expanding to 4096x3072
+ 4.985           T6 Finished task 121 in 0.046 s.
+ 4.985 [126/142] T6 Starting task: Grayscale frame_000025.jpg
+ 4.990           T4 Finished task 122 in 0.048 s.
+ 4.990 [127/142] T4 Starting task: Grayscale frame_000000.jpg
+ 4.992           T5 Finished task 125 in 0.019 s.
+ 4.992 [128/142] T5 Starting task: Forward-wavelet aligned_frame_000001.jpg
+ 5.008           T6 Finished task 126 in 0.023 s.
+ 5.008 [129/142] T6 Starting task: Build color reassignment map from 8 images
+ 5.011           T4 Finished task 127 in 0.021 s.
+ 5.011 [130/142] T4 Starting task: Align frame_000025.jpg to frame_000024.jpg
+aligned_frame_000025.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000025.jpg valid area X 0, Y 36, W 4096, H 3000
+ 5.011           T4 Finished task 130 in 0.000 s.
+ 5.011 [131/142] T4 Starting task: Grayscale aligned_frame_000025.jpg
+ 5.028           T4 Finished task 131 in 0.017 s.
+ 5.028 [132/142] T4 Starting task: Forward-wavelet aligned_frame_000025.jpg
+ 5.045           T1 Finished task 101 in 1.674 s.
+ 5.045 [133/142] T1 Starting task: Align frame_000000.jpg to frame_000001.jpg
+aligned_frame_000000.jpg transformed corners TL (0.0,36.0), TR (4096.0,36.0), BL (0.0,3036.0), BR (4096.0,3036.0)
+aligned_frame_000000.jpg valid area X 0, Y 36, W 4096, H 3000
+ 5.046           T1 Finished task 133 in 0.001 s.
+ 5.046 [134/142] T1 Starting task: Grayscale aligned_frame_000000.jpg
+ 5.047           T7 Finished task 104 in 1.647 s.
+ 5.064           T1 Finished task 134 in 0.018 s.
+ 5.064 [135/142] T1 Starting task: Forward-wavelet aligned_frame_000000.jpg
+ 5.298           T0 Finished task 113 in 1.540 s.
+ 5.473           T2 Finished task 118 in 1.535 s.
+ 5.508           T3 Finished task 119 in 1.072 s.
+ 5.728           T6 Finished task 129 in 0.720 s.
+ 5.729 [136/142] T3 Starting task: Build color reassignment map from 2 images
+ 6.384           T3 Finished task 136 in 0.655 s.
+ 6.513           T5 Finished task 128 in 1.521 s.
+ 6.513 [137/142] T0 Starting task: Merge 8 images
+ 6.580           T4 Finished task 132 in 1.552 s.
+ 6.621           T1 Finished task 135 in 1.557 s.
+ 7.412           T0 Finished task 137 in 0.899 s.
+ 7.412 [138/142] T7 Starting task: Merge 2 images
+ 7.909           T7 Finished task 138 in 0.497 s.
+ 7.909 [139/142] T6 Starting task: Denoise merge_result.jpg
+ 8.003           T6 Finished task 139 in 0.094 s.
+ 8.003 [140/142] T2 Starting task: Inverse-wavelet denoised_merge_result.jpg
+ 9.550           T2 Finished task 140 in 1.547 s.
+ 9.550 [141/142] T4 Starting task: Reassign pixel values
+ 9.929           T4 Finished task 141 in 0.379 s.
+ 9.929 [142/142] T5 Starting task: Save fused.png
+fused.png cropped from (4096, 3072) to (4096, 3000)
+10.210           T5 Finished task 142 in 0.281 s.
+
+Saved to fused.png

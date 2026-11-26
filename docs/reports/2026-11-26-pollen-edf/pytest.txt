@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.16, pytest-9.2.0, pluggy-1.7.0
+rootdir: <workspace>
+configfile: pyproject.toml
+testpaths: tests
+collected 23 items
+
+tests\test_dataset.py .....                                              [ 21%]
+tests\test_experiments.py ....                                           [ 39%]
+tests\test_gui.py ...                                                    [ 52%]
+tests\test_native.py .                                                   [ 56%]
+tests\test_process_and_engine.py ........                                [ 91%]
+tests\test_sampling_and_metrics.py ..                                    [100%]
+
+============================= 23 passed in 5.02s ==============================

@@ -1,0 +1,2637 @@
+{
+  "source": "原图备份",
+  "scan_count": 33,
+  "view_count": 3007,
+  "image_count": 90116,
+  "layer_counts": {
+    "30": 3001,
+    "8": 1,
+    "20": 1,
+    "18": 1,
+    "26": 1,
+    "10": 1,
+    "4": 1
+  },
+  "z_steps": {
+    "2": 87109
+  },
+  "frame_sizes_from_filenames": {
+    "4096x3000": 90116
+  },
+  "non_contiguous_serial_or_nonmonotone_z": [],
+  "scouting_decode_errors": [
+    "原图备份\\2026-10-30\\Images_085159\\43_(1920_-720)\\SN_7+08_51_59+Z_-8+(4096_3000)+Format24bppRgb+0.173.jpg",
+    "原图备份\\2026-10-30\\Images_085159\\43_(1920_-720)\\SN_8+08_51_59+Z_-6+(4096_3000)+Format24bppRgb+0.173.jpg"
+  ],
+  "scans": [
+    {
+      "date": "2026-10-29",
+      "scan": "Images_102002",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "scan": "Images_112634",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "scan": "Images_132658",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "scan": "Images_144803",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "scan": "Images_160236",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_085159",
+      "view_count": 43,
+      "layer_counts": {
+        "30": 42,
+        "8": 1
+      },
+      "z_steps": {
+        "2": 1225
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 1268
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_103638",
+      "view_count": 10,
+      "layer_counts": {
+        "30": 10
+      },
+      "z_steps": {
+        "2": 290
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 300
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_133011",
+      "view_count": 1,
+      "layer_counts": {
+        "20": 1
+      },
+      "z_steps": {
+        "2": 19
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 20
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_133055",
+      "view_count": 3,
+      "layer_counts": {
+        "30": 2,
+        "18": 1
+      },
+      "z_steps": {
+        "2": 75
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 78
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_133318",
+      "view_count": 10,
+      "layer_counts": {
+        "30": 10
+      },
+      "z_steps": {
+        "2": 290
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 300
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_140410",
+      "view_count": 4,
+      "layer_counts": {
+        "30": 3,
+        "26": 1
+      },
+      "z_steps": {
+        "2": 112
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 116
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_140822",
+      "view_count": 10,
+      "layer_counts": {
+        "30": 10
+      },
+      "z_steps": {
+        "2": 290
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 300
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_142921",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "scan": "Images_154747",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "scan": "Images_132342",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "scan": "Images_143935",
+      "view_count": 21,
+      "layer_counts": {
+        "30": 20,
+        "10": 1
+      },
+      "z_steps": {
+        "2": 589
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 610
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "scan": "Images_145320",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "scan": "Images_160942",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "scan": "Images_085918",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "scan": "Images_103113",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "scan": "Images_134536",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "scan": "Images_150247",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "scan": "Images_163245",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "scan": "Images_163242",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "scan": "Images_102218",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "scan": "Images_133734",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "scan": "Images_162835",
+      "view_count": 1,
+      "layer_counts": {
+        "4": 1
+      },
+      "z_steps": {
+        "2": 3
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 4
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "scan": "Images_163002",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "scan": "Images_093219",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "scan": "Images_105100",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "scan": "Images_132610",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "scan": "Images_145648",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "scan": "Images_104731",
+      "view_count": 121,
+      "layer_counts": {
+        "30": 121
+      },
+      "z_steps": {
+        "2": 3509
+      },
+      "frame_sizes_from_filenames": {
+        "4096x3000": 3630
+      }
+    }
+  ],
+  "candidates": {
+    "2026-10-29": [
+      {
+        "date": "2026-10-29",
+        "scan": "Images_102002",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-29\\Images_102002\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 2.964,
+        "peak_detail": 7.932,
+        "edge_area": 0.00535
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_102002",
+        "view": "106_(480_1440)",
+        "index": 106,
+        "path": "原图备份\\2026-10-29\\Images_102002\\106_(480_1440)",
+        "x_token": 480,
+        "y_token": 1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 2.635,
+        "peak_detail": 7.129,
+        "edge_area": 0.00303
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_102002",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-29\\Images_102002\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 2.313,
+        "peak_detail": 6.217,
+        "edge_area": 0.00438
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_102002",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-29\\Images_102002\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.763,
+        "peak_detail": 2.094,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_112634",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-29\\Images_112634\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 5.488,
+        "peak_detail": 12.841,
+        "edge_area": 0.03943
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_112634",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-29\\Images_112634\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 4.956,
+        "peak_detail": 11.921,
+        "edge_area": 0.03146
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_112634",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-10-29\\Images_112634\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 2.71,
+        "peak_detail": 7.281,
+        "edge_area": 0.00455
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_112634",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-10-29\\Images_112634\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 0.796,
+        "peak_detail": 2.187,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_132658",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-29\\Images_132658\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 6.434,
+        "peak_detail": 14.419,
+        "edge_area": 0.05302
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_132658",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-10-29\\Images_132658\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 4.501,
+        "peak_detail": 11.058,
+        "edge_area": 0.02573
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_132658",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-29\\Images_132658\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 3.899,
+        "peak_detail": 10.01,
+        "edge_area": 0.01466
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_132658",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-29\\Images_132658\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.777,
+        "peak_detail": 2.135,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_144803",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-29\\Images_144803\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 19.909,
+        "peak_detail": 27.605,
+        "edge_area": 0.36173
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_144803",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-10-29\\Images_144803\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 19.477,
+        "peak_detail": 33.983,
+        "edge_area": 0.16869
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_144803",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-10-29\\Images_144803\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 11.056,
+        "peak_detail": 21.83,
+        "edge_area": 0.10253
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_144803",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-29\\Images_144803\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.841,
+        "peak_detail": 2.309,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_160236",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-29\\Images_160236\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 17.742,
+        "peak_detail": 26.237,
+        "edge_area": 0.296
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_160236",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-29\\Images_160236\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 15.605,
+        "peak_detail": 27.495,
+        "edge_area": 0.16267
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_160236",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-10-29\\Images_160236\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 10.6,
+        "peak_detail": 20.589,
+        "edge_area": 0.11019
+      },
+      {
+        "date": "2026-10-29",
+        "scan": "Images_160236",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-10-29\\Images_160236\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.666,
+        "peak_detail": 1.83,
+        "edge_area": 0.0
+      }
+    ],
+    "2026-10-30": [
+      {
+        "date": "2026-10-30",
+        "scan": "Images_085159",
+        "view": "38_(-480_-720)",
+        "index": 38,
+        "path": "原图备份\\2026-10-30\\Images_085159\\38_(-480_-720)",
+        "x_token": -480,
+        "y_token": -720,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 17.095,
+        "peak_detail": 29.471,
+        "edge_area": 0.17628
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_085159",
+        "view": "27_(-480_-1080)",
+        "index": 27,
+        "path": "原图备份\\2026-10-30\\Images_085159\\27_(-480_-1080)",
+        "x_token": -480,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 15.534,
+        "peak_detail": 28.955,
+        "edge_area": 0.13082
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_085159",
+        "view": "17_(0_-1440)",
+        "index": 17,
+        "path": "原图备份\\2026-10-30\\Images_085159\\17_(0_-1440)",
+        "x_token": 0,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 12.347,
+        "peak_detail": 25.985,
+        "edge_area": 0.07564
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_085159",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-30\\Images_085159\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.847,
+        "peak_detail": 2.326,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_103638",
+        "view": "8_(960_-1800)",
+        "index": 8,
+        "path": "原图备份\\2026-10-30\\Images_103638\\8_(960_-1800)",
+        "x_token": 960,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 14.482,
+        "peak_detail": 26.341,
+        "edge_area": 0.14412
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_103638",
+        "view": "9_(1440_-1800)",
+        "index": 9,
+        "path": "原图备份\\2026-10-30\\Images_103638\\9_(1440_-1800)",
+        "x_token": 1440,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 8.612,
+        "peak_detail": 19.719,
+        "edge_area": 0.04607
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_103638",
+        "view": "10_(1920_-1800)",
+        "index": 10,
+        "path": "原图备份\\2026-10-30\\Images_103638\\10_(1920_-1800)",
+        "x_token": 1920,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 5.57,
+        "peak_detail": 13.799,
+        "edge_area": 0.02355
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_103638",
+        "view": "3_(-1440_-1800)",
+        "index": 3,
+        "path": "原图备份\\2026-10-30\\Images_103638\\3_(-1440_-1800)",
+        "x_token": -1440,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.745,
+        "peak_detail": 2.025,
+        "edge_area": 0.00208
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133011",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-30\\Images_133011\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 20,
+        "first_z": -20,
+        "last_z": 18,
+        "preview_sn": 14,
+        "preview_z": 6,
+        "detail_score": 0.87,
+        "peak_detail": 2.389,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133055",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-30\\Images_133055\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.862,
+        "peak_detail": 2.366,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133055",
+        "view": "2_(-1920_-1800)",
+        "index": 2,
+        "path": "原图备份\\2026-10-30\\Images_133055\\2_(-1920_-1800)",
+        "x_token": -1920,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 0.849,
+        "peak_detail": 2.332,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133055",
+        "view": "3_(-1440_-1800)",
+        "index": 3,
+        "path": "原图备份\\2026-10-30\\Images_133055\\3_(-1440_-1800)",
+        "x_token": -1440,
+        "y_token": -1800,
+        "frames": 18,
+        "first_z": -20,
+        "last_z": 14,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 0.81,
+        "peak_detail": 2.226,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133318",
+        "view": "7_(480_-1800)",
+        "index": 7,
+        "path": "原图备份\\2026-10-30\\Images_133318\\7_(480_-1800)",
+        "x_token": 480,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 23.682,
+        "peak_detail": 32.484,
+        "edge_area": 0.3738
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133318",
+        "view": "8_(960_-1800)",
+        "index": 8,
+        "path": "原图备份\\2026-10-30\\Images_133318\\8_(960_-1800)",
+        "x_token": 960,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 17.004,
+        "peak_detail": 28.394,
+        "edge_area": 0.19752
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133318",
+        "view": "9_(1440_-1800)",
+        "index": 9,
+        "path": "原图备份\\2026-10-30\\Images_133318\\9_(1440_-1800)",
+        "x_token": 1440,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 14.731,
+        "peak_detail": 26.927,
+        "edge_area": 0.14139
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_133318",
+        "view": "2_(-1920_-1800)",
+        "index": 2,
+        "path": "原图备份\\2026-10-30\\Images_133318\\2_(-1920_-1800)",
+        "x_token": -1920,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 0.77,
+        "peak_detail": 2.115,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140410",
+        "view": "4_(-960_-1800)",
+        "index": 4,
+        "path": "原图备份\\2026-10-30\\Images_140410\\4_(-960_-1800)",
+        "x_token": -960,
+        "y_token": -1800,
+        "frames": 26,
+        "first_z": -20,
+        "last_z": 30,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 3.901,
+        "peak_detail": 9.965,
+        "edge_area": 0.01586
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140410",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-30\\Images_140410\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.885,
+        "peak_detail": 2.43,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140410",
+        "view": "2_(-1920_-1800)",
+        "index": 2,
+        "path": "原图备份\\2026-10-30\\Images_140410\\2_(-1920_-1800)",
+        "x_token": -1920,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 0.857,
+        "peak_detail": 2.354,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140410",
+        "view": "3_(-1440_-1800)",
+        "index": 3,
+        "path": "原图备份\\2026-10-30\\Images_140410\\3_(-1440_-1800)",
+        "x_token": -1440,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.834,
+        "peak_detail": 2.289,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140822",
+        "view": "7_(480_-1800)",
+        "index": 7,
+        "path": "原图备份\\2026-10-30\\Images_140822\\7_(480_-1800)",
+        "x_token": 480,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 4.756,
+        "peak_detail": 12.141,
+        "edge_area": 0.01602
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140822",
+        "view": "5_(-480_-1800)",
+        "index": 5,
+        "path": "原图备份\\2026-10-30\\Images_140822\\5_(-480_-1800)",
+        "x_token": -480,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 3.154,
+        "peak_detail": 8.303,
+        "edge_area": 0.00896
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140822",
+        "view": "4_(-960_-1800)",
+        "index": 4,
+        "path": "原图备份\\2026-10-30\\Images_140822\\4_(-960_-1800)",
+        "x_token": -960,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 2.477,
+        "peak_detail": 6.701,
+        "edge_area": 0.00308
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_140822",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-10-30\\Images_140822\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.806,
+        "peak_detail": 2.213,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_142921",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-30\\Images_142921\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 1.576,
+        "peak_detail": 4.328,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_142921",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-10-30\\Images_142921\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 1.374,
+        "peak_detail": 3.773,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_142921",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-30\\Images_142921\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.998,
+        "peak_detail": 2.742,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_142921",
+        "view": "46_(-1920_-360)",
+        "index": 46,
+        "path": "原图备份\\2026-10-30\\Images_142921\\46_(-1920_-360)",
+        "x_token": -1920,
+        "y_token": -360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 0.804,
+        "peak_detail": 2.208,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_154747",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-10-30\\Images_154747\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 13.631,
+        "peak_detail": 23.415,
+        "edge_area": 0.1786
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_154747",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-10-30\\Images_154747\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 10.306,
+        "peak_detail": 20.161,
+        "edge_area": 0.10682
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_154747",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-10-30\\Images_154747\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 8.868,
+        "peak_detail": 20.074,
+        "edge_area": 0.0497
+      },
+      {
+        "date": "2026-10-30",
+        "scan": "Images_154747",
+        "view": "106_(480_1440)",
+        "index": 106,
+        "path": "原图备份\\2026-10-30\\Images_154747\\106_(480_1440)",
+        "x_token": 480,
+        "y_token": 1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.712,
+        "peak_detail": 1.94,
+        "edge_area": 0.00154
+      }
+    ],
+    "2026-11-03": [
+      {
+        "date": "2026-11-03",
+        "scan": "Images_132342",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-03\\Images_132342\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 4.752,
+        "peak_detail": 12.038,
+        "edge_area": 0.01789
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_132342",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-03\\Images_132342\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 4.629,
+        "peak_detail": 11.144,
+        "edge_area": 0.03122
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_132342",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-03\\Images_132342\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 3.976,
+        "peak_detail": 10.128,
+        "edge_area": 0.01657
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_132342",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-11-03\\Images_132342\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.699,
+        "peak_detail": 1.919,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_143935",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-03\\Images_143935\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 3.568,
+        "peak_detail": 9.292,
+        "edge_area": 0.01135
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_143935",
+        "view": "13_(-1920_-1440)",
+        "index": 13,
+        "path": "原图备份\\2026-11-03\\Images_143935\\13_(-1920_-1440)",
+        "x_token": -1920,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 2.73,
+        "peak_detail": 7.317,
+        "edge_area": 0.00505
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_143935",
+        "view": "19_(960_-1440)",
+        "index": 19,
+        "path": "原图备份\\2026-11-03\\Images_143935\\19_(960_-1440)",
+        "x_token": 960,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 2.237,
+        "peak_detail": 6.089,
+        "edge_area": 0.00181
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_143935",
+        "view": "11_(2400_-1800)",
+        "index": 11,
+        "path": "原图备份\\2026-11-03\\Images_143935\\11_(2400_-1800)",
+        "x_token": 2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.814,
+        "peak_detail": 2.235,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_145320",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-03\\Images_145320\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 4.022,
+        "peak_detail": 10.214,
+        "edge_area": 0.01732
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_145320",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-03\\Images_145320\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 3.707,
+        "peak_detail": 9.593,
+        "edge_area": 0.01281
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_145320",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-03\\Images_145320\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 3.611,
+        "peak_detail": 9.377,
+        "edge_area": 0.01204
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_145320",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-11-03\\Images_145320\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.924,
+        "peak_detail": 2.537,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_160942",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-03\\Images_160942\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 6.113,
+        "peak_detail": 13.644,
+        "edge_area": 0.05437
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_160942",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-03\\Images_160942\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 4.135,
+        "peak_detail": 10.38,
+        "edge_area": 0.02015
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_160942",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-03\\Images_160942\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 4.1,
+        "peak_detail": 10.325,
+        "edge_area": 0.01935
+      },
+      {
+        "date": "2026-11-03",
+        "scan": "Images_160942",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-03\\Images_160942\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 0.748,
+        "peak_detail": 2.055,
+        "edge_area": 0.0
+      }
+    ],
+    "2026-11-04": [
+      {
+        "date": "2026-11-04",
+        "scan": "Images_085918",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-04\\Images_085918\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 22.545,
+        "peak_detail": 32.89,
+        "edge_area": 0.30901
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_085918",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-04\\Images_085918\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 18.318,
+        "peak_detail": 35.529,
+        "edge_area": 0.11088
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_085918",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-04\\Images_085918\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 12.059,
+        "peak_detail": 23.68,
+        "edge_area": 0.10506
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_085918",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-04\\Images_085918\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 0.778,
+        "peak_detail": 2.137,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_103113",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-04\\Images_103113\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 25.23,
+        "peak_detail": 33.993,
+        "edge_area": 0.3946
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_103113",
+        "view": "106_(480_1440)",
+        "index": 106,
+        "path": "原图备份\\2026-11-04\\Images_103113\\106_(480_1440)",
+        "x_token": 480,
+        "y_token": 1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 14.771,
+        "peak_detail": 24.847,
+        "edge_area": 0.1925
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_103113",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-04\\Images_103113\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 10.476,
+        "peak_detail": 22.727,
+        "edge_area": 0.06428
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_103113",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-04\\Images_103113\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 1.459,
+        "peak_detail": 3.926,
+        "edge_area": 0.00418
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_134536",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 15.65,
+        "peak_detail": 21.656,
+        "edge_area": 0.36391
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_134536",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-04\\Images_134536\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 10.462,
+        "peak_detail": 21.052,
+        "edge_area": 0.0941
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_134536",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-04\\Images_134536\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 6.703,
+        "peak_detail": 15.024,
+        "edge_area": 0.05297
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_134536",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-11-04\\Images_134536\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.799,
+        "peak_detail": 2.196,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_150247",
+        "view": "46_(-1920_-360)",
+        "index": 46,
+        "path": "原图备份\\2026-11-04\\Images_150247\\46_(-1920_-360)",
+        "x_token": -1920,
+        "y_token": -360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 13.896,
+        "peak_detail": 21.534,
+        "edge_area": 0.25452
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_150247",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-04\\Images_150247\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 11,
+        "preview_z": 0,
+        "detail_score": 12.35,
+        "peak_detail": 18.954,
+        "edge_area": 0.26268
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_150247",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-04\\Images_150247\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 6.321,
+        "peak_detail": 14.211,
+        "edge_area": 0.05192
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_150247",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-04\\Images_150247\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.811,
+        "peak_detail": 2.227,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_163245",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-04\\Images_163245\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 11.258,
+        "peak_detail": 20.966,
+        "edge_area": 0.1313
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_163245",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-04\\Images_163245\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 6.932,
+        "peak_detail": 14.676,
+        "edge_area": 0.07332
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_163245",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-04\\Images_163245\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 4.738,
+        "peak_detail": 11.667,
+        "edge_area": 0.02512
+      },
+      {
+        "date": "2026-11-04",
+        "scan": "Images_163245",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-04\\Images_163245\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 0.61,
+        "peak_detail": 1.675,
+        "edge_area": 0.0
+      }
+    ],
+    "2026-11-05": [
+      {
+        "date": "2026-11-05",
+        "scan": "Images_163242",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-05\\Images_163242\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 2.842,
+        "peak_detail": 7.646,
+        "edge_area": 0.00425
+      },
+      {
+        "date": "2026-11-05",
+        "scan": "Images_163242",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-05\\Images_163242\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 2.633,
+        "peak_detail": 7.09,
+        "edge_area": 0.00402
+      },
+      {
+        "date": "2026-11-05",
+        "scan": "Images_163242",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-05\\Images_163242\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 2.555,
+        "peak_detail": 6.805,
+        "edge_area": 0.00642
+      },
+      {
+        "date": "2026-11-05",
+        "scan": "Images_163242",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-11-05\\Images_163242\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.734,
+        "peak_detail": 2.015,
+        "edge_area": 0.0
+      }
+    ],
+    "2026-11-06": [
+      {
+        "date": "2026-11-06",
+        "scan": "Images_102218",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-06\\Images_102218\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 5.478,
+        "peak_detail": 13.672,
+        "edge_area": 0.02163
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_102218",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-06\\Images_102218\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 4.635,
+        "peak_detail": 11.613,
+        "edge_area": 0.02065
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_102218",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-06\\Images_102218\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 4.437,
+        "peak_detail": 11.3,
+        "edge_area": 0.01659
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_102218",
+        "view": "106_(480_1440)",
+        "index": 106,
+        "path": "原图备份\\2026-11-06\\Images_102218\\106_(480_1440)",
+        "x_token": 480,
+        "y_token": 1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 0.768,
+        "peak_detail": 2.111,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_133734",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-06\\Images_133734\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 7.637,
+        "peak_detail": 18.025,
+        "edge_area": 0.03685
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_133734",
+        "view": "46_(-1920_-360)",
+        "index": 46,
+        "path": "原图备份\\2026-11-06\\Images_133734\\46_(-1920_-360)",
+        "x_token": -1920,
+        "y_token": -360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 6.083,
+        "peak_detail": 14.779,
+        "edge_area": 0.02869
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_133734",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-06\\Images_133734\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 5.558,
+        "peak_detail": 13.624,
+        "edge_area": 0.0263
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_133734",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-06\\Images_133734\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.662,
+        "peak_detail": 1.819,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_162835",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-06\\Images_162835\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 4,
+        "first_z": -20,
+        "last_z": -14,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.797,
+        "peak_detail": 2.19,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_163002",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-06\\Images_163002\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 25,
+        "preview_z": 28,
+        "detail_score": 18.716,
+        "peak_detail": 38.601,
+        "edge_area": 0.08369
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_163002",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-06\\Images_163002\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 12.845,
+        "peak_detail": 27.717,
+        "edge_area": 0.06621
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_163002",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-06\\Images_163002\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 6.881,
+        "peak_detail": 17.143,
+        "edge_area": 0.02208
+      },
+      {
+        "date": "2026-11-06",
+        "scan": "Images_163002",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-06\\Images_163002\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.821,
+        "peak_detail": 2.252,
+        "edge_area": 0.00027
+      }
+    ],
+    "2026-11-11": [
+      {
+        "date": "2026-11-11",
+        "scan": "Images_093219",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-11\\Images_093219\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.938,
+        "peak_detail": 2.574,
+        "edge_area": 0.00013
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_093219",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-11\\Images_093219\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.903,
+        "peak_detail": 2.48,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_093219",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-11\\Images_093219\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.852,
+        "peak_detail": 2.339,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_093219",
+        "view": "91_(-1440_1080)",
+        "index": 91,
+        "path": "原图备份\\2026-11-11\\Images_093219\\91_(-1440_1080)",
+        "x_token": -1440,
+        "y_token": 1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 0.532,
+        "peak_detail": 1.46,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_105100",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-11\\Images_105100\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 10.278,
+        "peak_detail": 21.701,
+        "edge_area": 0.07436
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_105100",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-11\\Images_105100\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 6.089,
+        "peak_detail": 14.696,
+        "edge_area": 0.0305
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_105100",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-11\\Images_105100\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 5.894,
+        "peak_detail": 14.254,
+        "edge_area": 0.02995
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_105100",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-11\\Images_105100\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 15,
+        "preview_z": 8,
+        "detail_score": 0.862,
+        "peak_detail": 2.367,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_132610",
+        "view": "76_(1920_360)",
+        "index": 76,
+        "path": "原图备份\\2026-11-11\\Images_132610\\76_(1920_360)",
+        "x_token": 1920,
+        "y_token": 360,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 36.177,
+        "peak_detail": 41.132,
+        "edge_area": 0.64549
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_132610",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-11\\Images_132610\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 35.172,
+        "peak_detail": 47.046,
+        "edge_area": 0.40328
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_132610",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-11\\Images_132610\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 31.898,
+        "peak_detail": 48.048,
+        "edge_area": 0.27911
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_132610",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-11\\Images_132610\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 0.856,
+        "peak_detail": 2.351,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_145648",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-11\\Images_145648\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 20,
+        "preview_z": 18,
+        "detail_score": 24.72,
+        "peak_detail": 44.19,
+        "edge_area": 0.15406
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_145648",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-11\\Images_145648\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 20.192,
+        "peak_detail": 38.29,
+        "edge_area": 0.12195
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_145648",
+        "view": "61_(0_0)",
+        "index": 61,
+        "path": "原图备份\\2026-11-11\\Images_145648\\61_(0_0)",
+        "x_token": 0,
+        "y_token": 0,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 13.811,
+        "peak_detail": 29.528,
+        "edge_area": 0.06961
+      },
+      {
+        "date": "2026-11-11",
+        "scan": "Images_145648",
+        "view": "121_(2400_1800)",
+        "index": 121,
+        "path": "原图备份\\2026-11-11\\Images_145648\\121_(2400_1800)",
+        "x_token": 2400,
+        "y_token": 1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.835,
+        "peak_detail": 2.294,
+        "edge_area": 0.0
+      }
+    ],
+    "2026-11-13": [
+      {
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "view": "31_(1440_-1080)",
+        "index": 31,
+        "path": "原图备份\\2026-11-13\\Images_104731\\31_(1440_-1080)",
+        "x_token": 1440,
+        "y_token": -1080,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 30,
+        "preview_z": 38,
+        "detail_score": 0.936,
+        "peak_detail": 2.541,
+        "edge_area": 0.00243
+      },
+      {
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "view": "16_(-480_-1440)",
+        "index": 16,
+        "path": "原图备份\\2026-11-13\\Images_104731\\16_(-480_-1440)",
+        "x_token": -480,
+        "y_token": -1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.895,
+        "peak_detail": 2.457,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "view": "106_(480_1440)",
+        "index": 106,
+        "path": "原图备份\\2026-11-13\\Images_104731\\106_(480_1440)",
+        "x_token": 480,
+        "y_token": 1440,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 6,
+        "preview_z": -10,
+        "detail_score": 0.893,
+        "peak_detail": 2.452,
+        "edge_area": 0.0
+      },
+      {
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "view": "1_(-2400_-1800)",
+        "index": 1,
+        "path": "原图备份\\2026-11-13\\Images_104731\\1_(-2400_-1800)",
+        "x_token": -2400,
+        "y_token": -1800,
+        "frames": 30,
+        "first_z": -20,
+        "last_z": 38,
+        "preview_sn": 1,
+        "preview_z": -20,
+        "detail_score": 0.829,
+        "peak_detail": 2.277,
+        "edge_area": 0.0
+      }
+    ]
+  }
+}

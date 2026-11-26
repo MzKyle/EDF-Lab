@@ -1,0 +1,122 @@
+{
+  "20261029_102002_v061": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261029_144803_v061": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261030_140410_v004": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 26
+    },
+    "validated_hashes": 26
+  },
+  "20261103_132342_v061": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261104_134536_v061": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261105_163242_v061": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261106_163002_v016": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261111_132610_v076": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261113_104731_v001": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  },
+  "20261113_104731_v031": {
+    "size": [
+      4096,
+      3000
+    ],
+    "errors": [],
+    "warnings": [],
+    "formats": {
+      "JPEG": 30
+    },
+    "validated_hashes": 30
+  }
+}

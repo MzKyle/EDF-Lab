@@ -73,3 +73,4 @@ preview_cache_mib: 112
 - [工程架构](docs/architecture.md) 列出核心模块与记录目录。
 - [第三方许可证](THIRD_PARTY_NOTICES.md) 记录原生归档、Wheel 与版权说明。
 - [验收记录](docs/verification.md) 提供实际运行、报告和日志路径。
+- [实拍花粉景深融合对照](docs/reports/2026-11-26-pollen-edf/README.md) 收录 10 个真实视野的 focus-stack 与 Helicon 对照图、指标和运行证据。

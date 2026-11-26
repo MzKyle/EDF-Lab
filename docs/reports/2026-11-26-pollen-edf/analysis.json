@@ -1,0 +1,1935 @@
+{
+  "experiment": "focus-stack/experiment_20261126T090449Z_2d655d1f",
+  "variant_experiment": "focus-stack/experiment_20261126T091034Z_1fb59cc9",
+  "views": [
+    {
+      "id": "20261029_102002_v061",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-10-29",
+        "scan": "Images_102002",
+        "source_view": "61_(0_0)",
+        "directory": "原图备份\\2026-10-29\\Images_102002\\61_(0_0)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 0,
+        "y_token": 0,
+        "scouting_sn": 11,
+        "scouting_z": 0,
+        "selection_reason": "较暗的绿色颗粒",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4080,
+        "height": 2990,
+        "preview": "panels/20261029_102002_v061/helicon.png",
+        "elapsed_s": 3.719000000040978,
+        "peak_rss_bytes": 2197323776,
+        "sha256": "aa314c5efc67f1ca1258c52aeabce7da3f2f33e60d0423f0072ac47d26a807a1",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261029_102002_v061/helicon.log",
+        "record": "helicon_tiff/20261029_102002_v061/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 18.655999999959022,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_001_20261029_102002_v061/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4090,
+        "height": 2996,
+        "preview": "panels/20261029_102002_v061/focus-stack.png",
+        "peak_rss_bytes": 3810295808,
+        "sha256": "044dbce1155b84977033500126c2a42e46be93c513bcf2c8a01f0a374befafa2",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 12,
+            "z": 2,
+            "path": "原图备份\\2026-10-29\\Images_102002\\61_(0_0)\\SN_12+10_20_02+Z_2+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9960534572601318,
+            "xy": [
+              3488,
+              713
+            ],
+            "metrics": {
+              "tenengrad": 331.00593171296293,
+              "laplacian_variance": 55.34525118933784,
+              "sml_per_pixel": 5.583405671296296,
+              "brightness_mean": 34.39283130787037,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261029_102002_v061/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              3485,
+              704
+            ],
+            "anchor_match": 0.9946253895759583,
+            "metrics": {
+              "tenengrad": 295.3005461516203,
+              "laplacian_variance": 34.479612913560146,
+              "sml_per_pixel": 4.653763382523148,
+              "brightness_mean": 33.158194082754626,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261029_102002_v061/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              3488,
+              709
+            ],
+            "match": 0.9949324727058411,
+            "metrics": {
+              "tenengrad": 715.1739728009259,
+              "laplacian_variance": 217.89587197406792,
+              "sml_per_pixel": 12.668104383680554,
+              "brightness_mean": 38.36584924768518,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261029_102002_v061/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 12,
+            "z": 2,
+            "path": "原图备份\\2026-10-29\\Images_102002\\61_(0_0)\\SN_12+10_20_02+Z_2+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9951556324958801,
+            "xy": [
+              2348,
+              792
+            ],
+            "metrics": {
+              "tenengrad": 218.91098813657408,
+              "laplacian_variance": 36.70692569164582,
+              "sml_per_pixel": 4.602692780671296,
+              "brightness_mean": 25.348777488425924,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_102002_v061/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              2345,
+              783
+            ],
+            "anchor_match": 0.9943822026252747,
+            "metrics": {
+              "tenengrad": 193.10033275462962,
+              "laplacian_variance": 24.078884571831576,
+              "sml_per_pixel": 3.9405924479166665,
+              "brightness_mean": 24.527958622685183,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_102002_v061/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              2348,
+              788
+            ],
+            "match": 0.9952481389045715,
+            "metrics": {
+              "tenengrad": 521.9678457754629,
+              "laplacian_variance": 154.78219351936923,
+              "sml_per_pixel": 10.747603804976851,
+              "brightness_mean": 27.858036747685183,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261029_102002_v061/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -8
+        ],
+        "anchor_to_helicon_score": 0.9922424554824829,
+        "helicon_to_focus_stack_shift": [
+          4,
+          4
+        ],
+        "helicon_to_focus_stack_score": 0.9904389977455139
+      }
+    },
+    {
+      "id": "20261029_144803_v061",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-10-29",
+        "scan": "Images_144803",
+        "source_view": "61_(0_0)",
+        "directory": "原图备份\\2026-10-29\\Images_144803\\61_(0_0)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 0,
+        "y_token": 0,
+        "scouting_sn": 11,
+        "scouting_z": 0,
+        "selection_reason": "密集黄绿色颗粒",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4082,
+        "height": 2988,
+        "preview": "panels/20261029_144803_v061/helicon.png",
+        "elapsed_s": 3.9380000000819564,
+        "peak_rss_bytes": 2052558848,
+        "sha256": "18da067fec364b240286900967203ae3bcdf3a3e117e31fd9afdaa7c7704b8ef",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261029_144803_v061/helicon.log",
+        "record": "helicon_tiff/20261029_144803_v061/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.57799999997951,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_002_20261029_144803_v061/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4088,
+        "height": 2998,
+        "preview": "panels/20261029_144803_v061/focus-stack.png",
+        "peak_rss_bytes": 4368740352,
+        "sha256": "de51b039a5f2544fa23d63212a43b61e389da90f0b078eed20e6f229a79618e1",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 9,
+            "z": -4,
+            "path": "原图备份\\2026-10-29\\Images_144803\\61_(0_0)\\SN_9+14_48_03+Z_-4+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.997258722782135,
+            "xy": [
+              2092,
+              1795
+            ],
+            "metrics": {
+              "tenengrad": 1319.1202256944443,
+              "laplacian_variance": 158.88319871970165,
+              "sml_per_pixel": 9.940022786458332,
+              "brightness_mean": 84.0601490162037,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_144803_v061/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              2088,
+              1786
+            ],
+            "anchor_match": 0.9936203956604004,
+            "metrics": {
+              "tenengrad": 1353.5848524305554,
+              "laplacian_variance": 94.04521534562275,
+              "sml_per_pixel": 7.7531919126157405,
+              "brightness_mean": 81.2898853443287,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_144803_v061/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              2090,
+              1794
+            ],
+            "match": 0.9928393363952637,
+            "metrics": {
+              "tenengrad": 2556.4451316550926,
+              "laplacian_variance": 689.2259128070825,
+              "sml_per_pixel": 22.650951244212962,
+              "brightness_mean": 93.27893518518518,
+              "background_noise_estimate": 2.6521553993225098
+            },
+            "image": "panels/20261029_144803_v061/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 10,
+            "z": -2,
+            "path": "原图备份\\2026-10-29\\Images_144803\\61_(0_0)\\SN_10+14_48_03+Z_-2+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9955745935440063,
+            "xy": [
+              640,
+              1443
+            ],
+            "metrics": {
+              "tenengrad": 766.6945710358796,
+              "laplacian_variance": 90.77897738233025,
+              "sml_per_pixel": 7.257685908564815,
+              "brightness_mean": 49.3692310474537,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_144803_v061/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              636,
+              1434
+            ],
+            "anchor_match": 0.9956503510475159,
+            "metrics": {
+              "tenengrad": 800.6882595486111,
+              "laplacian_variance": 57.1618584270994,
+              "sml_per_pixel": 5.909532335069445,
+              "brightness_mean": 47.407371238425924,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261029_144803_v061/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              638,
+              1442
+            ],
+            "match": 0.9916036128997803,
+            "metrics": {
+              "tenengrad": 1602.3527018229165,
+              "laplacian_variance": 441.8018813898534,
+              "sml_per_pixel": 17.71073857060185,
+              "brightness_mean": 52.63410554108796,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261029_144803_v061/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -8
+        ],
+        "anchor_to_helicon_score": 0.9926217794418335,
+        "helicon_to_focus_stack_shift": [
+          4,
+          8
+        ],
+        "helicon_to_focus_stack_score": 0.9864462018013
+      }
+    },
+    {
+      "id": "20261030_140410_v004",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 26,
+        "date": "2026-10-30",
+        "scan": "Images_140410",
+        "source_view": "4_(-960_-1800)",
+        "directory": "原图备份\\2026-10-30\\Images_140410\\4_(-960_-1800)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": -960,
+        "y_token": -1800,
+        "scouting_sn": 1,
+        "scouting_z": -20,
+        "selection_reason": "26 层短序列，预览最清晰处接近起始焦层",
+        "first_archive_z": -20,
+        "last_archive_z": 30
+      },
+      "layers": 26,
+      "blank": false,
+      "helicon": {
+        "width": 4070,
+        "height": 2988,
+        "preview": "panels/20261030_140410_v004/helicon.png",
+        "elapsed_s": 3.344000000040978,
+        "peak_rss_bytes": 1904238592,
+        "sha256": "a17904e917f6423f0b862dc58d96eb4c9d797b0430dfc18c9caf9dd60103d4d1",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261030_140410_v004/helicon.log",
+        "record": "helicon_tiff/20261030_140410_v004/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 15.922000000020489,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_003_20261030_140410_v004/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4068,
+        "height": 2983,
+        "preview": "panels/20261030_140410_v004/focus-stack.png",
+        "peak_rss_bytes": 3646918656,
+        "sha256": "ca9cc6676581e8255923cd771882b0ec759f5ccc584e56c7c2c34d49df43557a",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {
+        "variant_FS_Default": {
+          "width": 4068,
+          "height": 2983,
+          "preview": "panels/20261030_140410_v004/variant_FS_Default.png",
+          "elapsed_s": 15.671999999787658,
+          "peak_rss_bytes": 3845554176,
+          "preset": "FS_Default",
+          "options": {
+            "alignment": "default",
+            "whitebalance": true,
+            "contrast": true,
+            "transform": true,
+            "full_resolution_align": false,
+            "consistency": null,
+            "denoise": 16.0,
+            "threads": 8,
+            "batch_size": 8,
+            "reference": null,
+            "crop": "auto",
+            "depth": false,
+            "intermediate": false,
+            "acceleration": "auto"
+          },
+          "sha256": "89d6e1dd2d711f372a1a35004e50781936de4e0894d4a4bba23d1f9267af3c43",
+          "format": "PNG",
+          "log": "focus-stack/experiment_20261126T091034Z_1fb59cc9/view_001_20261030_140410_v004/001_FS_Default/attempt_001/execution.log",
+          "full_resolution_filename": "fused.png"
+        },
+        "variant_FS_NoAlign": {
+          "width": 4096,
+          "height": 3000,
+          "preview": "panels/20261030_140410_v004/variant_FS_NoAlign.png",
+          "elapsed_s": 10.313000000081956,
+          "peak_rss_bytes": 4548521984,
+          "preset": "FS_NoAlign",
+          "options": {
+            "alignment": "none",
+            "whitebalance": true,
+            "contrast": true,
+            "transform": true,
+            "full_resolution_align": false,
+            "consistency": null,
+            "denoise": 16.0,
+            "threads": 8,
+            "batch_size": 8,
+            "reference": null,
+            "crop": "auto",
+            "depth": false,
+            "intermediate": false,
+            "acceleration": "auto"
+          },
+          "sha256": "5f159b7237563d9ada720cf52fe1372b728b0bd0b4a7f4e1c02327c72afa60fc",
+          "format": "PNG",
+          "log": "focus-stack/experiment_20261126T091034Z_1fb59cc9/view_001_20261030_140410_v004/002_FS_NoAlign/attempt_001/execution.log",
+          "full_resolution_filename": "fused.png"
+        }
+      },
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 1,
+            "z": -20,
+            "path": "原图备份\\2026-10-30\\Images_140410\\4_(-960_-1800)\\SN_1+14_04_10+Z_-20+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.7254375219345093,
+            "xy": [
+              1662,
+              1033
+            ],
+            "metrics": {
+              "tenengrad": 742.3469328703703,
+              "laplacian_variance": 162.10050455205882,
+              "sml_per_pixel": 9.735984519675926,
+              "brightness_mean": 81.87293836805556,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261030_140410_v004/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1654,
+              1023
+            ],
+            "anchor_match": 0.7244359850883484,
+            "metrics": {
+              "tenengrad": 307.83555772569446,
+              "laplacian_variance": 77.3650197600141,
+              "sml_per_pixel": 6.609194155092593,
+              "brightness_mean": 52.89198133680555,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261030_140410_v004/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1655,
+              1029
+            ],
+            "match": 0.7703624367713928,
+            "metrics": {
+              "tenengrad": 1277.8474573206017,
+              "laplacian_variance": 522.3514988411765,
+              "sml_per_pixel": 17.61207863136574,
+              "brightness_mean": 81.24665436921296,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261030_140410_v004/roi1_new.png"
+          },
+          "variant_FS_Default": {
+            "xy": [
+              1655,
+              1029
+            ],
+            "match": 0.7711981534957886,
+            "metrics": {
+              "tenengrad": 950.7641782407406,
+              "laplacian_variance": 371.54289241280253,
+              "sml_per_pixel": 14.214183666087962,
+              "brightness_mean": 81.34398509837962,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261030_140410_v004/roi1_variant_FS_Default.png"
+          },
+          "variant_FS_NoAlign": {
+            "xy": [
+              1663,
+              1032
+            ],
+            "match": 0.7319422364234924,
+            "metrics": {
+              "tenengrad": 1170.4602864583333,
+              "laplacian_variance": 441.947438135968,
+              "sml_per_pixel": 17.37457501446759,
+              "brightness_mean": 83.28470413773148,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261030_140410_v004/roi1_variant_FS_NoAlign.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 1,
+            "z": -20,
+            "path": "原图备份\\2026-10-30\\Images_140410\\4_(-960_-1800)\\SN_1+14_04_10+Z_-20+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.7599637508392334,
+            "xy": [
+              1932,
+              1325
+            ],
+            "metrics": {
+              "tenengrad": 702.541431568287,
+              "laplacian_variance": 145.33146943640477,
+              "sml_per_pixel": 8.603823061342592,
+              "brightness_mean": 76.00280309606481,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261030_140410_v004/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1929,
+              1314
+            ],
+            "anchor_match": 0.7597761750221252,
+            "metrics": {
+              "tenengrad": 325.8760308159722,
+              "laplacian_variance": 76.50448206390047,
+              "sml_per_pixel": 6.35572193287037,
+              "brightness_mean": 45.572654441550924,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261030_140410_v004/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1924,
+              1317
+            ],
+            "match": 0.8220511078834534,
+            "metrics": {
+              "tenengrad": 1443.8764829282406,
+              "laplacian_variance": 593.7135501408283,
+              "sml_per_pixel": 18.111255787037038,
+              "brightness_mean": 76.40022786458333,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261030_140410_v004/roi2_new.png"
+          },
+          "variant_FS_Default": {
+            "xy": [
+              1924,
+              1317
+            ],
+            "match": 0.8222866058349609,
+            "metrics": {
+              "tenengrad": 1117.0282841435182,
+              "laplacian_variance": 434.27012039702623,
+              "sml_per_pixel": 14.621762876157407,
+              "brightness_mean": 76.46988932291666,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261030_140410_v004/roi2_variant_FS_Default.png"
+          },
+          "variant_FS_NoAlign": {
+            "xy": [
+              1933,
+              1325
+            ],
+            "match": 0.7679061889648438,
+            "metrics": {
+              "tenengrad": 1109.6295030381943,
+              "laplacian_variance": 404.20839878749126,
+              "sml_per_pixel": 15.834807219328702,
+              "brightness_mean": 78.02993887442129,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261030_140410_v004/roi2_variant_FS_NoAlign.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -12
+        ],
+        "anchor_to_helicon_score": 0.8155748844146729,
+        "helicon_to_focus_stack_shift": [
+          -4,
+          4
+        ],
+        "helicon_to_focus_stack_score": 0.8635997772216797
+      }
+    },
+    {
+      "id": "20261103_132342_v061",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-03",
+        "scan": "Images_132342",
+        "source_view": "61_(0_0)",
+        "directory": "原图备份\\2026-11-03\\Images_132342\\61_(0_0)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 0,
+        "y_token": 0,
+        "scouting_sn": 6,
+        "scouting_z": -10,
+        "selection_reason": "密集、对比度较低",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4084,
+        "height": 2990,
+        "preview": "panels/20261103_132342_v061/helicon.png",
+        "elapsed_s": 3.3439999998081475,
+        "peak_rss_bytes": 2010865664,
+        "sha256": "d403ff1bcffdff0c30fca370f4e1efa109a07f5823627ce3141cd8774683ad4c",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261103_132342_v061/helicon.log",
+        "record": "helicon_tiff/20261103_132342_v061/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.561999999918044,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_004_20261103_132342_v061/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4091,
+        "height": 2995,
+        "preview": "panels/20261103_132342_v061/focus-stack.png",
+        "peak_rss_bytes": 4085587968,
+        "sha256": "0033872590940e9a85e24492f06aece0c1de6c31ff9d0073d80c3a5aade5bd03",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 4,
+            "z": -14,
+            "path": "原图备份\\2026-11-03\\Images_132342\\61_(0_0)\\SN_4+13_23_42+Z_-14+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9933350086212158,
+            "xy": [
+              1017,
+              716
+            ],
+            "metrics": {
+              "tenengrad": 403.46994357638886,
+              "laplacian_variance": 66.19922625765061,
+              "sml_per_pixel": 5.905119719328703,
+              "brightness_mean": 34.01145652488426,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261103_132342_v061/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1015,
+              708
+            ],
+            "anchor_match": 0.9930978417396545,
+            "metrics": {
+              "tenengrad": 376.11143663194446,
+              "laplacian_variance": 45.451451234529706,
+              "sml_per_pixel": 4.933304398148148,
+              "brightness_mean": 32.60969147858796,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261103_132342_v061/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1017,
+              713
+            ],
+            "match": 0.9882943034172058,
+            "metrics": {
+              "tenengrad": 833.9292353877315,
+              "laplacian_variance": 251.0831502955637,
+              "sml_per_pixel": 13.474754050925924,
+              "brightness_mean": 36.58714011863426,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261103_132342_v061/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 6,
+            "z": -10,
+            "path": "原图备份\\2026-11-03\\Images_132342\\61_(0_0)\\SN_6+13_23_42+Z_-10+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9857827425003052,
+            "xy": [
+              216,
+              1284
+            ],
+            "metrics": {
+              "tenengrad": 385.43983289930554,
+              "laplacian_variance": 61.473276668124726,
+              "sml_per_pixel": 5.587456597222221,
+              "brightness_mean": 31.531141493055554,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261103_132342_v061/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              215,
+              1276
+            ],
+            "anchor_match": 0.985763669013977,
+            "metrics": {
+              "tenengrad": 316.72113715277777,
+              "laplacian_variance": 36.47612088395407,
+              "sml_per_pixel": 4.549831814236111,
+              "brightness_mean": 28.831515842013886,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261103_132342_v061/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              217,
+              1282
+            ],
+            "match": 0.9785233736038208,
+            "metrics": {
+              "tenengrad": 821.7521701388888,
+              "laplacian_variance": 275.8048593019261,
+              "sml_per_pixel": 12.934470847800924,
+              "brightness_mean": 34.958740234375,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261103_132342_v061/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          0,
+          -8
+        ],
+        "anchor_to_helicon_score": 0.9691579341888428,
+        "helicon_to_focus_stack_shift": [
+          0,
+          4
+        ],
+        "helicon_to_focus_stack_score": 0.9613751173019409
+      }
+    },
+    {
+      "id": "20261104_134536_v061",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-04",
+        "scan": "Images_134536",
+        "source_view": "61_(0_0)",
+        "directory": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 0,
+        "y_token": 0,
+        "scouting_sn": 11,
+        "scouting_z": 0,
+        "selection_reason": "密集绿色颗粒及相邻边缘",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4076,
+        "height": 2984,
+        "preview": "panels/20261104_134536_v061/helicon.png",
+        "elapsed_s": 2.7659999998286366,
+        "peak_rss_bytes": 2270765056,
+        "sha256": "fb64bd74cd2513d29d7964b20e8e0377041d61f2ea82deafa008383bbc7d8f10",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261104_134536_v061/helicon.log",
+        "record": "helicon_tiff/20261104_134536_v061/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.57799999997951,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_005_20261104_134536_v061/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4090,
+        "height": 2998,
+        "preview": "panels/20261104_134536_v061/focus-stack.png",
+        "peak_rss_bytes": 4399431680,
+        "sha256": "ff3184c58e4647ac19c08ddc71eb19d0f601523e1f4924e92de17a5f48f7735b",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 10,
+            "z": -2,
+            "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_10+13_45_36+Z_-2+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9968702793121338,
+            "xy": [
+              1081,
+              1560
+            ],
+            "metrics": {
+              "tenengrad": 1159.7228732638887,
+              "laplacian_variance": 143.5213659045137,
+              "sml_per_pixel": 9.54222728587963,
+              "brightness_mean": 74.65981264467592,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261104_134536_v061/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1075,
+              1547
+            ],
+            "anchor_match": 0.9952012300491333,
+            "metrics": {
+              "tenengrad": 1174.9213324652778,
+              "laplacian_variance": 96.26427299560996,
+              "sml_per_pixel": 7.897099247685185,
+              "brightness_mean": 72.34561270254629,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261104_134536_v061/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1078,
+              1558
+            ],
+            "match": 0.9957407116889954,
+            "metrics": {
+              "tenengrad": 2053.2719364872682,
+              "laplacian_variance": 549.585283801307,
+              "sml_per_pixel": 20.42362015335648,
+              "brightness_mean": 82.33546730324073,
+              "background_noise_estimate": 3.3151943683624268
+            },
+            "image": "panels/20261104_134536_v061/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 9,
+            "z": -4,
+            "path": "原图备份\\2026-11-04\\Images_134536\\61_(0_0)\\SN_9+13_45_36+Z_-4+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9879904389381409,
+            "xy": [
+              1357,
+              376
+            ],
+            "metrics": {
+              "tenengrad": 1080.106029369213,
+              "laplacian_variance": 184.3752231045188,
+              "sml_per_pixel": 10.689615885416666,
+              "brightness_mean": 90.51519097222221,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261104_134536_v061/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1350,
+              364
+            ],
+            "anchor_match": 0.9777104258537292,
+            "metrics": {
+              "tenengrad": 1299.3110894097222,
+              "laplacian_variance": 110.65097786042587,
+              "sml_per_pixel": 8.458459924768519,
+              "brightness_mean": 87.48173466435185,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261104_134536_v061/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1354,
+              374
+            ],
+            "match": 0.9927684664726257,
+            "metrics": {
+              "tenengrad": 2488.1257414641204,
+              "laplacian_variance": 748.0971414042108,
+              "sml_per_pixel": 23.354926215277775,
+              "brightness_mean": 98.33653428819444,
+              "background_noise_estimate": 3.9782328605651855
+            },
+            "image": "panels/20261104_134536_v061/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -12
+        ],
+        "anchor_to_helicon_score": 0.9947773814201355,
+        "helicon_to_focus_stack_shift": [
+          4,
+          12
+        ],
+        "helicon_to_focus_stack_score": 0.9912346601486206
+      }
+    },
+    {
+      "id": "20261105_163242_v061",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-05",
+        "scan": "Images_163242",
+        "source_view": "61_(0_0)",
+        "directory": "原图备份\\2026-11-05\\Images_163242\\61_(0_0)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 0,
+        "y_token": 0,
+        "scouting_sn": 6,
+        "scouting_z": -10,
+        "selection_reason": "稀疏暗颗粒及少量蓝色结构",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4086,
+        "height": 2992,
+        "preview": "panels/20261105_163242_v061/helicon.png",
+        "elapsed_s": 2.671000000089407,
+        "peak_rss_bytes": 2159206400,
+        "sha256": "5c59fdd1bfaa82d2cc13e14df6bcfd118e51aee7333a635f67aaf2f33b754c37",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261105_163242_v061/helicon.log",
+        "record": "helicon_tiff/20261105_163242_v061/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.390999999828637,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_006_20261105_163242_v061/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4092,
+        "height": 2997,
+        "preview": "panels/20261105_163242_v061/focus-stack.png",
+        "peak_rss_bytes": 3952332800,
+        "sha256": "64a1ca2d4897f0877939e04f30da5f0511ef078158e5c3f62a6b5e089250fa35",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 6,
+            "z": -10,
+            "path": "原图备份\\2026-11-05\\Images_163242\\61_(0_0)\\SN_6+16_32_42+Z_-10+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9401547312736511,
+            "xy": [
+              528,
+              1372
+            ],
+            "metrics": {
+              "tenengrad": 169.75453920717592,
+              "laplacian_variance": 31.198587525446886,
+              "sml_per_pixel": 3.679895471643518,
+              "brightness_mean": 15.73658130787037,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261105_163242_v061/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              524,
+              1365
+            ],
+            "anchor_match": 0.9401053786277771,
+            "metrics": {
+              "tenengrad": 148.33450882523147,
+              "laplacian_variance": 23.2277354592322,
+              "sml_per_pixel": 3.6231372974537033,
+              "brightness_mean": 16.36811885127315,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261105_163242_v061/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              527,
+              1370
+            ],
+            "match": 0.9388546347618103,
+            "metrics": {
+              "tenengrad": 454.20442708333326,
+              "laplacian_variance": 136.53270512639415,
+              "sml_per_pixel": 9.620288990162036,
+              "brightness_mean": 17.344382957175924,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261105_163242_v061/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 3,
+            "z": -16,
+            "path": "原图备份\\2026-11-05\\Images_163242\\61_(0_0)\\SN_3+16_32_42+Z_-16+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9583783745765686,
+            "xy": [
+              3253,
+              2391
+            ],
+            "metrics": {
+              "tenengrad": 212.85091145833331,
+              "laplacian_variance": 44.7684009005667,
+              "sml_per_pixel": 4.205448857060185,
+              "brightness_mean": 19.51904296875,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261105_163242_v061/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              3249,
+              2385
+            ],
+            "anchor_match": 0.952407956123352,
+            "metrics": {
+              "tenengrad": 177.3176540798611,
+              "laplacian_variance": 26.291648267882024,
+              "sml_per_pixel": 3.904911747685185,
+              "brightness_mean": 18.864845558449073,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261105_163242_v061/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              3251,
+              2389
+            ],
+            "match": 0.9578359723091125,
+            "metrics": {
+              "tenengrad": 563.8064597800926,
+              "laplacian_variance": 184.6636729374507,
+              "sml_per_pixel": 10.474518952546296,
+              "brightness_mean": 21.992503978587962,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261105_163242_v061/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -4
+        ],
+        "anchor_to_helicon_score": 0.9245539307594299,
+        "helicon_to_focus_stack_shift": [
+          4,
+          4
+        ],
+        "helicon_to_focus_stack_score": 0.9436792135238647
+      }
+    },
+    {
+      "id": "20261106_163002_v016",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-06",
+        "scan": "Images_163002",
+        "source_view": "16_(-480_-1440)",
+        "directory": "原图备份\\2026-11-06\\Images_163002\\16_(-480_-1440)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": -480,
+        "y_token": -1440,
+        "scouting_sn": 25,
+        "scouting_z": 28,
+        "selection_reason": "高亮青色颗粒与暗背景",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4078,
+        "height": 2990,
+        "preview": "panels/20261106_163002_v016/helicon.png",
+        "elapsed_s": 2.781999999890104,
+        "peak_rss_bytes": 2269917184,
+        "sha256": "1dcb0af31491462fca6f4f1846322291d1da92aec5087d44b4efb82ef90461a9",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261106_163002_v016/helicon.log",
+        "record": "helicon_tiff/20261106_163002_v016/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.437000000150874,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_007_20261106_163002_v016/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4079,
+        "height": 2992,
+        "preview": "panels/20261106_163002_v016/focus-stack.png",
+        "peak_rss_bytes": 4279595008,
+        "sha256": "8c4532d8ec02bb420dcbeae056ad5ec611faaf98c31fd3bade050d85996b0e16",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {
+        "variant_FS_Default": {
+          "width": 4079,
+          "height": 2992,
+          "preview": "panels/20261106_163002_v016/variant_FS_Default.png",
+          "elapsed_s": 17.0,
+          "peak_rss_bytes": 4288061440,
+          "preset": "FS_Default",
+          "options": {
+            "alignment": "default",
+            "whitebalance": true,
+            "contrast": true,
+            "transform": true,
+            "full_resolution_align": false,
+            "consistency": null,
+            "denoise": 16.0,
+            "threads": 8,
+            "batch_size": 8,
+            "reference": null,
+            "crop": "auto",
+            "depth": false,
+            "intermediate": false,
+            "acceleration": "auto"
+          },
+          "sha256": "495eb57077fda5a11b747cfd987d43644eaba8ad2acfd3b0129b3e4c95bb2684",
+          "format": "PNG",
+          "log": "focus-stack/experiment_20261126T091034Z_1fb59cc9/view_002_20261106_163002_v016/001_FS_Default/attempt_001/execution.log",
+          "full_resolution_filename": "fused.png"
+        },
+        "variant_FS_NoAlign": {
+          "width": 4096,
+          "height": 3000,
+          "preview": "panels/20261106_163002_v016/variant_FS_NoAlign.png",
+          "elapsed_s": 10.703999999910593,
+          "peak_rss_bytes": 4691181568,
+          "preset": "FS_NoAlign",
+          "options": {
+            "alignment": "none",
+            "whitebalance": true,
+            "contrast": true,
+            "transform": true,
+            "full_resolution_align": false,
+            "consistency": null,
+            "denoise": 16.0,
+            "threads": 8,
+            "batch_size": 8,
+            "reference": null,
+            "crop": "auto",
+            "depth": false,
+            "intermediate": false,
+            "acceleration": "auto"
+          },
+          "sha256": "c5ccd48d4f26a8be315757ba94b20ccddd4a12310228bf540102d0353143e7c7",
+          "format": "PNG",
+          "log": "focus-stack/experiment_20261126T091034Z_1fb59cc9/view_002_20261106_163002_v016/002_FS_NoAlign/attempt_001/execution.log",
+          "full_resolution_filename": "fused.png"
+        }
+      },
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 25,
+            "z": 28,
+            "path": "原图备份\\2026-11-06\\Images_163002\\16_(-480_-1440)\\SN_25+16_30_02+Z_28+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9804525971412659,
+            "xy": [
+              1920,
+              1928
+            ],
+            "metrics": {
+              "tenengrad": 1664.0909830729165,
+              "laplacian_variance": 139.67578084151606,
+              "sml_per_pixel": 7.908112702546296,
+              "brightness_mean": 73.34468135127314,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261106_163002_v016/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1915,
+              1924
+            ],
+            "anchor_match": 0.9804331660270691,
+            "metrics": {
+              "tenengrad": 1858.735188802083,
+              "laplacian_variance": 97.2227613830272,
+              "sml_per_pixel": 7.124177155671296,
+              "brightness_mean": 69.12551540798611,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261106_163002_v016/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1915,
+              1923
+            ],
+            "match": 0.967413604259491,
+            "metrics": {
+              "tenengrad": 1820.13427734375,
+              "laplacian_variance": 460.6477583216705,
+              "sml_per_pixel": 17.12941261574074,
+              "brightness_mean": 81.43640588831018,
+              "background_noise_estimate": 2.983675003051758
+            },
+            "image": "panels/20261106_163002_v016/roi1_new.png"
+          },
+          "variant_FS_Default": {
+            "xy": [
+              1915,
+              1923
+            ],
+            "match": 0.9673281908035278,
+            "metrics": {
+              "tenengrad": 1515.4632703993054,
+              "laplacian_variance": 331.7333017039855,
+              "sml_per_pixel": 13.789369936342592,
+              "brightness_mean": 81.5078396267361,
+              "background_noise_estimate": 2.320636034011841
+            },
+            "image": "panels/20261106_163002_v016/roi1_variant_FS_Default.png"
+          },
+          "variant_FS_NoAlign": {
+            "xy": [
+              1920,
+              1928
+            ],
+            "match": 0.9814450740814209,
+            "metrics": {
+              "tenengrad": 1967.8097873263887,
+              "laplacian_variance": 333.18057907355336,
+              "sml_per_pixel": 13.690492983217592,
+              "brightness_mean": 75.49706127025462,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261106_163002_v016/roi1_variant_FS_NoAlign.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 24,
+            "z": 26,
+            "path": "原图备份\\2026-11-06\\Images_163002\\16_(-480_-1440)\\SN_24+16_30_02+Z_26+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9966683387756348,
+            "xy": [
+              2231,
+              2428
+            ],
+            "metrics": {
+              "tenengrad": 1946.2217520254628,
+              "laplacian_variance": 102.09764499943932,
+              "sml_per_pixel": 7.060266565393518,
+              "brightness_mean": 60.9295337818287,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261106_163002_v016/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              2226,
+              2424
+            ],
+            "anchor_match": 0.9971317648887634,
+            "metrics": {
+              "tenengrad": 2148.925491898148,
+              "laplacian_variance": 67.86078532921105,
+              "sml_per_pixel": 5.847846137152777,
+              "brightness_mean": 59.73171657986111,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261106_163002_v016/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              2225,
+              2423
+            ],
+            "match": 0.992098331451416,
+            "metrics": {
+              "tenengrad": 2244.137604890046,
+              "laplacian_variance": 448.0099378789076,
+              "sml_per_pixel": 17.587230541087962,
+              "brightness_mean": 67.92263454861111,
+              "background_noise_estimate": 1.9891164302825928
+            },
+            "image": "panels/20261106_163002_v016/roi2_new.png"
+          },
+          "variant_FS_Default": {
+            "xy": [
+              2225,
+              2423
+            ],
+            "match": 0.9921051859855652,
+            "metrics": {
+              "tenengrad": 1893.9904513888887,
+              "laplacian_variance": 292.7897219860668,
+              "sml_per_pixel": 13.590133101851851,
+              "brightness_mean": 67.98586697048611,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261106_163002_v016/roi2_variant_FS_Default.png"
+          },
+          "variant_FS_NoAlign": {
+            "xy": [
+              2231,
+              2428
+            ],
+            "match": 0.9960868954658508,
+            "metrics": {
+              "tenengrad": 2238.083984375,
+              "laplacian_variance": 304.8344567962635,
+              "sml_per_pixel": 12.880705656828702,
+              "brightness_mean": 63.758445457175924,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261106_163002_v016/roi2_variant_FS_NoAlign.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -4
+        ],
+        "anchor_to_helicon_score": 0.9862391352653503,
+        "helicon_to_focus_stack_shift": [
+          0,
+          0
+        ],
+        "helicon_to_focus_stack_score": 0.961988091468811
+      }
+    },
+    {
+      "id": "20261111_132610_v076",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-11",
+        "scan": "Images_132610",
+        "source_view": "76_(1920_360)",
+        "directory": "原图备份\\2026-11-11\\Images_132610\\76_(1920_360)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 1920,
+        "y_token": 360,
+        "scouting_sn": 20,
+        "scouting_z": 18,
+        "selection_reason": "高亮青色颗粒密集",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4080,
+        "height": 2994,
+        "preview": "panels/20261111_132610_v076/helicon.png",
+        "elapsed_s": 3.2969999997876585,
+        "peak_rss_bytes": 2307452928,
+        "sha256": "ab53f8ba4ec852db20031b630652f1cdb8416b6b786b3e5dadda530f9c32ae06",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261111_132610_v076/helicon.log",
+        "record": "helicon_tiff/20261111_132610_v076/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.610000000102445,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_008_20261111_132610_v076/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4090,
+        "height": 2996,
+        "preview": "panels/20261111_132610_v076/focus-stack.png",
+        "peak_rss_bytes": 4643094528,
+        "sha256": "ac6e82d110070384c5185044b4283efa203b876f6e9998418770e987816055a5",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 18,
+            "z": 14,
+            "path": "原图备份\\2026-11-11\\Images_132610\\76_(1920_360)\\SN_18+13_26_10+Z_14+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9959070682525635,
+            "xy": [
+              2412,
+              972
+            ],
+            "metrics": {
+              "tenengrad": 1910.6505714699074,
+              "laplacian_variance": 196.74615898830572,
+              "sml_per_pixel": 11.525707103587962,
+              "brightness_mean": 98.24622034143518,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261111_132610_v076/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              2408,
+              968
+            ],
+            "anchor_match": 0.9938567280769348,
+            "metrics": {
+              "tenengrad": 2243.6370985243057,
+              "laplacian_variance": 130.15825436439044,
+              "sml_per_pixel": 9.463812934027779,
+              "brightness_mean": 96.38330982349537,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261111_132610_v076/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              2410,
+              969
+            ],
+            "match": 0.9856765866279602,
+            "metrics": {
+              "tenengrad": 2909.162579571759,
+              "laplacian_variance": 674.6327213550954,
+              "sml_per_pixel": 22.89675564236111,
+              "brightness_mean": 105.88717086226852,
+              "background_noise_estimate": 3.9782328605651855
+            },
+            "image": "panels/20261111_132610_v076/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 18,
+            "z": 14,
+            "path": "原图备份\\2026-11-11\\Images_132610\\76_(1920_360)\\SN_18+13_26_10+Z_14+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9955266118049622,
+            "xy": [
+              1480,
+              816
+            ],
+            "metrics": {
+              "tenengrad": 2213.3891963252313,
+              "laplacian_variance": 191.29489690670425,
+              "sml_per_pixel": 11.110993561921296,
+              "brightness_mean": 112.6316822193287,
+              "background_noise_estimate": 1.6575971841812134
+            },
+            "image": "panels/20261111_132610_v076/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1476,
+              812
+            ],
+            "anchor_match": 0.9921512007713318,
+            "metrics": {
+              "tenengrad": 2499.3312717013887,
+              "laplacian_variance": 122.07047091516446,
+              "sml_per_pixel": 9.038782190393519,
+              "brightness_mean": 110.90655743634258,
+              "background_noise_estimate": 1.3260776996612549
+            },
+            "image": "panels/20261111_132610_v076/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1478,
+              813
+            ],
+            "match": 0.9908975958824158,
+            "metrics": {
+              "tenengrad": 3568.090458622685,
+              "laplacian_variance": 879.6299108790926,
+              "sml_per_pixel": 25.289704499421294,
+              "brightness_mean": 121.76885308159721,
+              "background_noise_estimate": 2.320636034011841
+            },
+            "image": "panels/20261111_132610_v076/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -4,
+          -4
+        ],
+        "anchor_to_helicon_score": 0.9915387034416199,
+        "helicon_to_focus_stack_shift": [
+          0,
+          0
+        ],
+        "helicon_to_focus_stack_score": 0.9812076091766357
+      }
+    },
+    {
+      "id": "20261113_104731_v001",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "source_view": "1_(-2400_-1800)",
+        "directory": "原图备份\\2026-11-13\\Images_104731\\1_(-2400_-1800)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": -2400,
+        "y_token": -1800,
+        "scouting_sn": 1,
+        "scouting_z": -20,
+        "selection_reason": "近空白背景对照",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": true,
+      "helicon": {
+        "width": 4080,
+        "height": 2982,
+        "preview": "panels/20261113_104731_v001/helicon.png",
+        "elapsed_s": 3.203999999910593,
+        "peak_rss_bytes": 2269880320,
+        "sha256": "542cde703ffee4eb1ce52f4dcd503954d5ef2d22e7ae2bf957f728f2adc04605",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261113_104731_v001/helicon.log",
+        "record": "helicon_tiff/20261113_104731_v001/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.32799999997951,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_009_20261113_104731_v001/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4096,
+        "height": 3000,
+        "preview": "panels/20261113_104731_v001/focus-stack.png",
+        "peak_rss_bytes": 3636060160,
+        "sha256": "d84236286d780dd341ae34c90db08d35f8818dade7cb0858c6dd6e3d5dd8303a",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 1,
+            "z": -20,
+            "path": "原图备份\\2026-11-13\\Images_104731\\1_(-2400_-1800)\\SN_1+10_47_31+Z_-20+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": null,
+            "xy": [
+              1856,
+              1356
+            ],
+            "metrics": {
+              "tenengrad": 51.35447410300926,
+              "laplacian_variance": 30.957564742395093,
+              "sml_per_pixel": 1.1626428674768519,
+              "brightness_mean": 1.3164876302083333,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v001/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1848,
+              1347
+            ],
+            "anchor_match": null,
+            "metrics": {
+              "tenengrad": 212.4424732349537,
+              "laplacian_variance": 63.12110222898557,
+              "sml_per_pixel": 1.4511447482638888,
+              "brightness_mean": 1.2359483506944444,
+              "background_noise_estimate": 0.0
+            },
+            "image": "panels/20261113_104731_v001/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1856,
+              1356
+            ],
+            "match": null,
+            "metrics": {
+              "tenengrad": 46.621184172453695,
+              "laplacian_variance": 31.98077614676968,
+              "sml_per_pixel": 1.3396267361111112,
+              "brightness_mean": 1.3075358072916665,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v001/roi1_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          -8,
+          -9
+        ],
+        "anchor_to_helicon_score": null,
+        "helicon_to_focus_stack_shift": [
+          8,
+          12
+        ],
+        "helicon_to_focus_stack_score": 0.2547471225261688
+      }
+    },
+    {
+      "id": "20261113_104731_v031",
+      "metadata": {
+        "first_z": 1,
+        "last_z": 30,
+        "date": "2026-11-13",
+        "scan": "Images_104731",
+        "source_view": "31_(1440_-1080)",
+        "directory": "原图备份\\2026-11-13\\Images_104731\\31_(1440_-1080)",
+        "source_size": [
+          4096,
+          3000
+        ],
+        "x_token": 1440,
+        "y_token": -1080,
+        "scouting_sn": 30,
+        "scouting_z": 38,
+        "selection_reason": "大面积暗背景与少数小颗粒",
+        "first_archive_z": -20,
+        "last_archive_z": 38
+      },
+      "layers": 30,
+      "blank": false,
+      "helicon": {
+        "width": 4088,
+        "height": 2988,
+        "preview": "panels/20261113_104731_v031/helicon.png",
+        "elapsed_s": 3.156999999890104,
+        "peak_rss_bytes": 2195419136,
+        "sha256": "b7eceff5150c52d0fe937247f77e5645b052f1294c552098edba6f72063abd16",
+        "format": "TIFF",
+        "log": "helicon_tiff/20261113_104731_v031/helicon.log",
+        "record": "helicon_tiff/20261113_104731_v031/run.json",
+        "full_resolution_filename": "ordered.tiff"
+      },
+      "focus_stack": {
+        "elapsed_s": 17.015999999828637,
+        "status": "success",
+        "log": "focus-stack/experiment_20261126T090449Z_2d655d1f/view_010_20261113_104731_v031/001_FS_Default/attempt_001/execution.log",
+        "diagnostic": "",
+        "acceleration": "opencl_unavailable",
+        "width": 4091,
+        "height": 2996,
+        "preview": "panels/20261113_104731_v031/focus-stack.png",
+        "peak_rss_bytes": 3656929280,
+        "sha256": "3e291c1da5206fd9932d67d316ee76d5cf235613a855820492376fe49cd6b664",
+        "format": "PNG",
+        "full_resolution_filename": "fused.png"
+      },
+      "variants": {},
+      "rois": [
+        {
+          "number": 1,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 29,
+            "z": 36,
+            "path": "原图备份\\2026-11-13\\Images_104731\\31_(1440_-1080)\\SN_29+10_47_31+Z_36+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9781792163848877,
+            "xy": [
+              1476,
+              560
+            ],
+            "metrics": {
+              "tenengrad": 298.05409071180554,
+              "laplacian_variance": 50.31882956881583,
+              "sml_per_pixel": 3.6843713831018516,
+              "brightness_mean": 18.925925925925924,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v031/roi1_source.png"
+          },
+          "helicon": {
+            "xy": [
+              1476,
+              550
+            ],
+            "anchor_match": 0.9783665537834167,
+            "metrics": {
+              "tenengrad": 269.387134693287,
+              "laplacian_variance": 31.161448013553564,
+              "sml_per_pixel": 3.9569679542824074,
+              "brightness_mean": 20.54197410300926,
+              "background_noise_estimate": 0.6630388498306274
+            },
+            "image": "panels/20261113_104731_v031/roi1_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              1474,
+              558
+            ],
+            "match": 0.9715018272399902,
+            "metrics": {
+              "tenengrad": 395.768482349537,
+              "laplacian_variance": 114.51254158443545,
+              "sml_per_pixel": 8.405155888310185,
+              "brightness_mean": 17.69944480613426,
+              "background_noise_estimate": 0.9945582151412964
+            },
+            "image": "panels/20261113_104731_v031/roi1_new.png"
+          }
+        },
+        {
+          "number": 2,
+          "size": [
+            384,
+            288
+          ],
+          "raw": {
+            "sn": 27,
+            "z": 32,
+            "path": "原图备份\\2026-11-13\\Images_104731\\31_(1440_-1080)\\SN_27+10_47_31+Z_32+(4096_3000)+Format24bppRgb+0.173.jpg",
+            "match": 0.9907109141349792,
+            "xy": [
+              3048,
+              2119
+            ],
+            "metrics": {
+              "tenengrad": 185.21925636574073,
+              "laplacian_variance": 34.08663255581313,
+              "sml_per_pixel": 2.1785210503472223,
+              "brightness_mean": 7.714870876736111,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v031/roi2_source.png"
+          },
+          "helicon": {
+            "xy": [
+              3046,
+              2110
+            ],
+            "anchor_match": 0.9873794913291931,
+            "metrics": {
+              "tenengrad": 191.36879701967592,
+              "laplacian_variance": 25.76742433806669,
+              "sml_per_pixel": 2.532344111689815,
+              "brightness_mean": 9.761040581597221,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v031/roi2_helicon.png"
+          },
+          "focus_stack": {
+            "xy": [
+              3044,
+              2117
+            ],
+            "match": 0.9958381652832031,
+            "metrics": {
+              "tenengrad": 228.10064019097223,
+              "laplacian_variance": 63.93601638225861,
+              "sml_per_pixel": 4.888789424189815,
+              "brightness_mean": 6.979600694444444,
+              "background_noise_estimate": 0.3315194249153137
+            },
+            "image": "panels/20261113_104731_v031/roi2_new.png"
+          }
+        }
+      ],
+      "alignment": {
+        "anchor_to_helicon_shift": [
+          0,
+          -8
+        ],
+        "anchor_to_helicon_score": 0.9577393531799316,
+        "helicon_to_focus_stack_shift": [
+          0,
+          8
+        ],
+        "helicon_to_focus_stack_score": 0.9650647044181824
+      }
+    }
+  ]
+}

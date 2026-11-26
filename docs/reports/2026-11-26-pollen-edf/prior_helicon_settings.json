@@ -1,0 +1,17 @@
+{
+  "source_log": "<user-profile>\\AppData\\Local\\HeliconFocus\\HeliconFocus.log",
+  "source_log_sha256_before_replay": "319e9a6654b4ea58315ec41153d1c91a96524ee531266c0cba00f8d0773be85f",
+  "source_log_last_modified": 1795142372.8384466,
+  "version": "Helicon Focus 8.1.0 x64",
+  "parameters": [
+    "-mp:1",
+    "-rp:8",
+    "-sp:4",
+    "-i"
+  ],
+  "prior_output_basename": "ordered.bmp",
+  "prior_output_extension": ".bmp",
+  "first_replay_output_format_verified_by_signature": "JPEG",
+  "comparison_rerun_output_format_verified_by_signature": "TIFF",
+  "comparison_rerun_tiff_compression_tag": 1
+}
