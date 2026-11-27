@@ -1,0 +1,56 @@
+{
+  "archived_originals_verified": 266,
+  "acquisition_dates": {
+    "dev": [
+      "2026-10-29",
+      "2026-10-30",
+      "2026-11-05",
+      "2026-11-06"
+    ],
+    "holdout": [
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-11",
+      "2026-11-13"
+    ]
+  },
+  "input_order_and_output_hashes": "verified",
+  "runs": {
+    "dev-native-ofat": {
+      "tasks": 70,
+      "manifest": "runs/dev-native-ofat.json"
+    },
+    "dev-native-locked": {
+      "tasks": 5,
+      "manifest": "runs/dev-native-locked.json"
+    },
+    "dev-pollen-ofat": {
+      "tasks": 55,
+      "manifest": "runs/dev-pollen-ofat.json"
+    },
+    "dev-pollen-revised": {
+      "tasks": 10,
+      "manifest": "runs/dev-pollen-revised.json"
+    },
+    "dev-pollen-fallback": {
+      "tasks": 5,
+      "manifest": "runs/dev-pollen-fallback.json"
+    },
+    "holdout-native-locked": {
+      "tasks": 8,
+      "manifest": "runs/holdout-native-locked.json"
+    },
+    "holdout-pollen-locked": {
+      "tasks": 16,
+      "manifest": "runs/holdout-pollen-locked.json"
+    }
+  },
+  "helicon_verified": 9,
+  "diagnostic_native_jobs": 4,
+  "exact_high_confidence_bgr_pixels_by_holdout_view": {
+    "20261103_160942_v061": 215626,
+    "20261104_085918_v016": 995233,
+    "20261111_145648_v031": 110708,
+    "20261113_104731_v106": 0
+  }
+}

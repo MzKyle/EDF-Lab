@@ -1,0 +1,108 @@
+{
+  "view": "20261106_163002_v016",
+  "region": "dark",
+  "experiment": "runs/native-steps.json",
+  "native_pixel_crop": true,
+  "reports": {
+    "FS_Steps_Default": {
+      "xy": [
+        96,
+        96
+      ],
+      "ncc": null,
+      "dark_metrics": {
+        "raw_standard_luma": {
+          "rms": 0.6966829299926758,
+          "p95": 4.0
+        },
+        "inverse_wavelet_pca_gray": {
+          "rms": 0.6052454710006714,
+          "p95": 5.0
+        },
+        "final_standard_luma": {
+          "rms": 0.5655505657196045,
+          "p95": 4.0
+        }
+      },
+      "observed_color_fraction": null,
+      "inverse_debug_file": "denoised_merge_result.jpg",
+      "inverse_debug_codec": ".jpg",
+      "folder": "native-diagnostics/FS_Steps_Default"
+    },
+    "FS_Steps_NoAlign": {
+      "xy": [
+        96,
+        96
+      ],
+      "ncc": null,
+      "dark_metrics": {
+        "raw_standard_luma": {
+          "rms": 0.6966829299926758,
+          "p95": 4.0
+        },
+        "inverse_wavelet_pca_gray": {
+          "rms": 1.3012746572494507,
+          "p95": 6.0
+        },
+        "final_standard_luma": {
+          "rms": 1.0557808876037598,
+          "p95": 5.0
+        }
+      },
+      "observed_color_fraction": 1.0,
+      "inverse_debug_file": "denoised_merge_result.jpg",
+      "inverse_debug_codec": ".jpg",
+      "folder": "native-diagnostics/FS_Steps_NoAlign"
+    },
+    "FS_Steps_NoAlign_Denoise0": {
+      "xy": [
+        96,
+        96
+      ],
+      "ncc": null,
+      "dark_metrics": {
+        "raw_standard_luma": {
+          "rms": 0.6966829299926758,
+          "p95": 4.0
+        },
+        "inverse_wavelet_pca_gray": {
+          "rms": 1.540510892868042,
+          "p95": 7.0
+        },
+        "final_standard_luma": {
+          "rms": 1.1503074169158936,
+          "p95": 5.0
+        }
+      },
+      "observed_color_fraction": 1.0,
+      "inverse_debug_file": "merge_result.jpg",
+      "inverse_debug_codec": ".jpg",
+      "folder": "native-diagnostics/FS_Steps_NoAlign_Denoise0"
+    },
+    "FS_Steps_NoAlign_Denoise64": {
+      "xy": [
+        96,
+        96
+      ],
+      "ncc": null,
+      "dark_metrics": {
+        "raw_standard_luma": {
+          "rms": 0.6966829299926758,
+          "p95": 4.0
+        },
+        "inverse_wavelet_pca_gray": {
+          "rms": 0.16855870187282562,
+          "p95": 3.0
+        },
+        "final_standard_luma": {
+          "rms": 0.43228864669799805,
+          "p95": 4.0
+        }
+      },
+      "observed_color_fraction": 1.0,
+      "inverse_debug_file": "denoised_merge_result.jpg",
+      "inverse_debug_codec": ".jpg",
+      "folder": "native-diagnostics/FS_Steps_NoAlign_Denoise64"
+    }
+  }
+}

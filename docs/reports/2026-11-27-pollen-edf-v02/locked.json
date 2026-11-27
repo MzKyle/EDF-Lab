@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-11-27T02:35:52+00:00",
+  "pollen_identity_sha256": "f7bfa88bbc6ba10d25df4927bcd3e58d02c2265e449ecfa5d874aef32d8f0788",
+  "pollen_edf": {
+    "halo_guard": true,
+    "weak_stack_anchor": true
+  },
+  "frozen_adaptive_options": {
+    "scorer": "multiscale",
+    "score_scale": 2,
+    "noise_aware": true,
+    "refine": true,
+    "background": true,
+    "defects": true,
+    "soft": true,
+    "halo_guard": true,
+    "broad_pool": false,
+    "weak_stack_anchor": true,
+    "pyramid_levels": 0,
+    "threads": 8,
+    "depth": true,
+    "intermediate": true
+  },
+  "focus_stack": {
+    "alignment": "none",
+    "denoise": 64.0
+  },
+  "dev_candidate_manifest": "runs/dev-pollen-fallback.json",
+  "holdout_index_sha256": "21584eb2a5ff78838471a7c6655a0db852511cb89205e8e080af4ed94a100398",
+  "development_basis": "Preserves the three measured inter-grain gaps. One weak short stack reuses a representative recorded plane rather than block switching. Other four development outputs are byte-identical to Guard alone. Broad pooling was measured but left disabled."
+}

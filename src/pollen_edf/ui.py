@@ -14,8 +14,9 @@ from .config import Settings
 from .dataset import Dataset, Stack, load_dataset, manual_dataset, validate_stack
 from .engine import EngineCapabilities, FocusStackEngine
 from .evaluation import METRIC_LABELS, focus_curve, measure_file
-from .experiments import PRESETS, ExperimentRunner, ExperimentUpdate, ensure_separate_output
+from .experiments import POLLEN_PRESETS, PRESETS, ExperimentRunner, ExperimentUpdate, ensure_separate_output, manifest_backend
 from .images import absolute_path, check_cancel, sha256
+from .pollen_engine import PollenEDFEngine
 from .process_runner import log_tail
 from .records import artifact_path, attach_reference, get_reference, read_json, save_review, write_report
 from .ui_compare import Comparison, button
@@ -94,6 +95,7 @@ class MainWindow(QMainWindow):
         self.settings = settings
         self.engine = FocusStackEngine(settings.engine)
         self.runner = ExperimentRunner(self.engine, settings.artifacts_dir)
+        self.pollen_runner = ExperimentRunner(PollenEDFEngine(), settings.artifacts_dir)
         self.capabilities: EngineCapabilities | None = None
         self.dataset: Dataset | None = None
         self.stack: Stack | None = None
@@ -112,7 +114,7 @@ class MainWindow(QMainWindow):
         self.work.complete.connect(self._finished)
         self.work.busy_changed.connect(self._update_actions)
         self.cache = PreviewCache(settings.preview_cache_mib)
-        self.setWindowTitle("Pollen-EDF-Lab 0.1 · 景深合成工作台")
+        self.setWindowTitle("Pollen-EDF-Lab 0.2 · 景深合成工作台")
         self.resize(1460, 920)
         self.setMinimumSize(1060, 680)
         self._build()
@@ -200,6 +202,9 @@ class MainWindow(QMainWindow):
         self.depth = ImageViewer(self._preview_pool, self.cache, "选中带有焦层图的实验结果")
         self.depth.load_failed.connect(self._message)
         self.tabs.addTab(self.depth, "焦层图")
+        self.confidence = ImageViewer(self._preview_pool, self.cache, "选中 PollenEDF 的置信度图")
+        self.confidence.load_failed.connect(self._message)
+        self.tabs.addTab(self.confidence, "置信度")
         self.tabs.currentChanged.connect(self._tab_changed)
         self.raw.image_changed.connect(self._raw_info)
         self.raw.roi_changed.connect(self._raw_info)
@@ -211,6 +216,7 @@ class MainWindow(QMainWindow):
             shortcut.activated.connect(lambda step=delta: self.slider.setValue(self.slider.value() + step))
 
         self.parameters = Parameters(self.settings.timeout_s)
+        self.parameters.preset.currentIndexChanged.connect(self._update_actions)
         parameter_scroll = QScrollArea()
         parameter_scroll.setWidgetResizable(True)
         parameter_scroll.setWidget(self.parameters)
@@ -271,9 +277,9 @@ class MainWindow(QMainWindow):
         for action in (self.a_reference, self.validate_button, self.curve_button):
             action.setEnabled(ready and view)
         self.detect_button.setEnabled(ready)
-        self.run_button.setEnabled(ready and view and self.capabilities is not None)
+        self.run_button.setEnabled(ready and view and (self.parameters.is_pollen() or self.capabilities is not None))
         self.a_batch.setEnabled(self.run_button.isEnabled())
-        self.a_resume.setEnabled(ready and self.capabilities is not None)
+        self.a_resume.setEnabled(ready)
         self.a_stop.setEnabled(not ready)
         self.a_export.setEnabled(ready and bool(self.runs))
         self.a_review.setEnabled(ready and self.selected_result is not None and self.selected_result.task["status"] == "success")
@@ -481,8 +487,9 @@ class MainWindow(QMainWindow):
         self.raw_label.setText(f"{dimensions}   ·   ROI ({roi.x}, {roi.y}, {roi.width}, {roi.height})" if roi else dimensions)
 
     def _tab_changed(self, index: int) -> None:
-        if index == 2:
-            self.depth.set_source(self.selected_result.file("depth") if self.selected_result else None)
+        entry = self.selected_result
+        self.depth.set_source(entry.file("depth") if entry and index == 2 else None)
+        self.confidence.set_source(entry.file("confidence") if entry and index == 3 else None)
 
     def _rebuild_results(self, target=None) -> None:
         view = self.stack.id if self.stack else None
@@ -531,8 +538,7 @@ class MainWindow(QMainWindow):
             left = self.results[left_index].file("output") if isinstance(left_index, int) else None
         right = self.selected_result.file("output") if self.selected_result and self.selected_result.task["status"] == "success" else None
         self.compare.set_sources(left, right)
-        depth = self.selected_result.file("depth") if right else None
-        self.depth.set_source(depth if self.tabs.currentIndex() == 2 else None)
+        self._tab_changed(self.tabs.currentIndex())
         self._result_metrics()
         self._update_actions()
 
@@ -546,7 +552,7 @@ class MainWindow(QMainWindow):
         elapsed_text = f"{elapsed:.3f} s" if elapsed is not None else "—"
         rss_text = f"{rss / 1048576:.1f} MiB" if rss is not None else "—"
         text = (f"{entry.task['xy']}  ·  {entry.label}\n"
-                f"原生进程 {elapsed_text}    采样峰值 RSS {rss_text}\n"
+                f"融合进程 {elapsed_text}    采样峰值 RSS {rss_text}\n"
                 f"执行证据 {attempt.get('acceleration', '—')}\n"
                 f"{entry.root.name}\n")
         if attempt.get("metrics"):
@@ -556,7 +562,7 @@ class MainWindow(QMainWindow):
         self.metrics.setPlainText(text)
         result_log = entry.file("log")
         if result_log and (tail := log_tail(result_log, 6200)):
-            self._log(f"{entry.label} · 原生日志末尾\n{tail.rstrip()}")
+            self._log(f"{entry.label} · 日志末尾\n{tail.rstrip()}")
 
     @staticmethod
     def _format_metrics(metrics: dict) -> str:
@@ -630,7 +636,9 @@ class MainWindow(QMainWindow):
         include_all = QCheckBox(f"处理全部 {len(all_views)} 个视野")
         include_all.setChecked(len(selected) < 2)
         layout.addWidget(include_all)
-        for index, preset in enumerate(PRESETS):
+        family = POLLEN_PRESETS if self.parameters.is_pollen() else PRESETS
+        for preset in family:
+            index = self.parameters.preset.findData(preset)
             option = QCheckBox(preset)
             option.setEnabled(self.parameters.preset.model().item(index).isEnabled())
             option.setChecked(preset == self.parameters.preset.currentData())
@@ -654,8 +662,9 @@ class MainWindow(QMainWindow):
         except ValueError as error:
             self._message(str(error))
             return
+        runner = self.pollen_runner if trials[0].backend == "pollen-edf" else self.runner
         self._start(f"准备实验 · {len(views)} 视野 × {len(trials)} 组合",
-                    lambda cancel, notify: self._read_run(self.runner.run(dataset, views, trials, timeout, cancel, notify)),
+                    lambda cancel, notify: self._read_run(runner.run(dataset, views, trials, timeout, cancel, notify)),
                     self._add_run)
 
     def stop(self) -> None:
@@ -694,7 +703,12 @@ class MainWindow(QMainWindow):
     def resume_experiment(self) -> None:
         path = QFileDialog.getExistingDirectory(self, "选择需恢复的实验目录", str(self.settings.artifacts_dir))
         if path:
-            self._start("恢复实验", lambda cancel, notify: self._read_run(self.runner.resume(Path(path), cancel, notify)), self._add_run)
+            def resume(cancel, notify):
+                root, manifest = self._read_run(Path(path))
+                runner = self.pollen_runner if manifest_backend(manifest) == "pollen-edf" else self.runner
+                return self._read_run(runner.resume(root, cancel, notify))
+
+            self._start("恢复实验", resume, self._add_run)
 
     def export_report(self) -> None:
         root = self.selected_result.root if self.selected_result else next(reversed(self.runs), None)

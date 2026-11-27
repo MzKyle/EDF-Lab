@@ -6,7 +6,7 @@ import platform
 import re
 import subprocess
 import sys
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, fields
 from datetime import datetime, timezone
 from pathlib import Path
 from threading import Event
@@ -23,19 +23,46 @@ from .dataset import Dataset, StackCheck, validate_stack
 from .engine import EngineOptions, FusionEngine, FusionRequest, FusionResult
 from .evaluation import measure_file
 from .images import Cancelled, absolute_path, canonical_path, check_cancel, sha256
+from .pollen_algorithm import PollenEDFOptions
 from .records import (artifact_path, experiment_lock, get_reference, read_json, relative_artifact, timestamp,
                       write_json, write_report, write_summary, write_text)
 from .sampling import SampleSpec
 
 
 PRESETS = yaml.safe_load((RESOURCES / "experiment_presets.yaml").read_text(encoding="utf-8"))
+_HARD = {"background": False, "soft": False}
+POLLEN_PRESETS = {
+    "PollenEDF-SML": {**_HARD, "scorer": "sml", "noise_aware": False, "refine": False},
+    "PollenEDF-Tenengrad": {**_HARD, "scorer": "tenengrad", "noise_aware": False, "refine": False},
+    "PollenEDF-DepthMap": _HARD,
+    "PollenEDF-Adaptive": {"halo_guard": True, "weak_stack_anchor": True},
+    "PollenEDF-Brightfield": {"brightfield": True, "background": False, "defects": False},
+    "PollenEDF-Brightfield-Context": {"brightfield": True, "background": False, "defects": False,
+                                    "focus_context_px": 24, "pyramid_levels": 3},
+}
+
+
+def manifest_backend(manifest: dict) -> str:
+    return manifest["engine"].get("backend", "focus-stack")
+
+
+def _options_type(backend: str) -> type[EngineOptions] | type[PollenEDFOptions]:
+    if backend == "pollen-edf":
+        return PollenEDFOptions
+    if backend == "focus-stack":
+        return EngineOptions
+    raise ValueError(f"未知融合引擎 {backend}")
 
 
 @dataclass(frozen=True)
 class Trial:
     preset: str
-    options: EngineOptions
+    options: EngineOptions | PollenEDFOptions
     sampling: SampleSpec = SampleSpec()
+
+    @property
+    def backend(self) -> str:
+        return "pollen-edf" if isinstance(self.options, PollenEDFOptions) else "focus-stack"
 
 
 def trials_for(names: Iterable[str], samples: Iterable[SampleSpec] = (SampleSpec(),),
@@ -43,9 +70,16 @@ def trials_for(names: Iterable[str], samples: Iterable[SampleSpec] = (SampleSpec
     trials = []
     samples = tuple(samples)
     for name in names:
-        if name not in PRESETS:
+        if name in PRESETS:
+            cls, values = EngineOptions, PRESETS[name]
+        elif name in POLLEN_PRESETS:
+            cls, values = PollenEDFOptions, POLLEN_PRESETS[name]
+        else:
             raise ValueError(f"未知实验预设 {name}")
-        options = EngineOptions(**{**PRESETS[name], **(overrides or {})})
+        extra = set(overrides or ()) - {field.name for field in fields(cls)}
+        if extra:
+            raise ValueError(f"{name} 不支持参数 {', '.join(sorted(extra))}")
+        options = cls(**{**values, **(overrides or {})})
         trials.extend(Trial(name, options, sample) for sample in samples)
     return trials
 
@@ -120,6 +154,8 @@ class ExperimentRunner:
         trial_list = list(trials)
         if not view_list or not trial_list or any(view not in by_view for view in view_list):
             raise ValueError("实验需要有效的视野和至少一个参数组合。")
+        if any(trial.backend != capabilities.backend for trial in trial_list):
+            raise ValueError("同一实验的预设必须使用同一种融合引擎。")
         experiment_id = ("experiment_" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + "_" + uuid4().hex[:8])
         root = absolute_path(self.artifacts / experiment_id)
         root.mkdir(parents=True, exist_ok=False)
@@ -141,7 +177,8 @@ class ExperimentRunner:
                     "engine": capabilities.record(), "environments": [{"recorded_at": timestamp(), **machine_information()}],
                     "helicon_references": references, "source_hashes": {}, "validation": {}}
         with experiment_lock(root):
-            snapshot = {"dataset_id": record["id"], "timeout_s": timeout_s, "engine": manifest["engine"]["binary_sha256"],
+            snapshot = {"dataset_id": record["id"], "timeout_s": timeout_s, "engine": capabilities.identity_sha256,
+                        "backend": capabilities.backend,
                         "trials": [{"xy": task["xy"], "preset": task["preset"], "options": task["options"],
                                     "sampling": task["sampling"]} for task in tasks]}
             write_text(root / "config.yaml", yaml.safe_dump(snapshot, allow_unicode=True, sort_keys=False))
@@ -157,7 +194,9 @@ class ExperimentRunner:
             dataset = Dataset.from_record(manifest["dataset"])
             ensure_separate_output(root, dataset)
             capabilities = self.engine.validate_environment()
-            if capabilities.binary_sha256 != manifest["engine"]["binary_sha256"]:
+            stored = manifest["engine"]
+            digest = stored.get("identity_sha256") or stored.get("binary_sha256")
+            if capabilities.backend != manifest_backend(manifest) or capabilities.identity_sha256 != digest:
                 raise ValueError("引擎哈希与实验记录不同。请使用原引擎恢复，或开始新实验。")
             for view, inputs in manifest["source_hashes"].items():
                 for path, previous_hash in inputs.items():
@@ -165,7 +204,7 @@ class ExperimentRunner:
                     if sha256(Path(path), cancel) != previous_hash:
                         raise ValueError(f"视野 {view} 的输入哈希已变化，请作为新数据集实验 ({path})")
             for task in manifest["tasks"]:
-                if task["status"] == "success" and self._outputs_match(root, task, cancel):
+                if task["status"] == "success" and self._outputs_match(root, task, cancel, capabilities.backend):
                     continue
                 if task["attempts"]:
                     previous = task["attempts"][-1]
@@ -179,14 +218,19 @@ class ExperimentRunner:
         return root
 
     @staticmethod
-    def _outputs_match(root: Path, task: dict, cancel: Event) -> bool:
+    def _outputs_match(root: Path, task: dict, cancel: Event, backend: str = "focus-stack") -> bool:
         attempt = task["attempts"][-1]
-        expected = {"fused.png", "depth.png"} if task["options"]["depth"] else {"fused.png"}
+        if backend == "pollen-edf":
+            expected = set(PollenEDFOptions(**task["options"]).output_names())
+        else:
+            expected = {"fused.png", "depth.png"} if task["options"]["depth"] else {"fused.png"}
         if set(attempt.get("files", {})) != expected:
             return False
         if attempt.get("output") != f"{attempt['dir']}/fused.png":
             return False
         if "depth.png" in expected and attempt.get("depth") != f"{attempt['dir']}/depth.png":
+            return False
+        if "confidence.png" in expected and attempt.get("confidence") != f"{attempt['dir']}/confidence.png":
             return False
         try:
             return all(sha256(artifact_path(root, f"{attempt['dir']}/{name}"), cancel) == file["sha256"]
@@ -198,6 +242,7 @@ class ExperimentRunner:
         tasks = manifest["tasks"]
         by_view = {stack.id: stack for stack in dataset.stacks}
         checks: dict[str, StackCheck] = {}
+        options_type = _options_type(manifest_backend(manifest))
         total = len(tasks)
         finished = sum(task["status"] == "success" for task in tasks)
         manifest["status"] = "running"
@@ -240,7 +285,7 @@ class ExperimentRunner:
                 attempt["inputs"] = [{**frame.record(), "sha256": check.hashes[str(frame.path)]} for frame in frames]
                 write_json(root / "manifest.json", manifest)
                 result = self.engine.fuse(FusionRequest(tuple(frame.path for frame in frames), out,
-                                                         EngineOptions(**task["options"]), manifest["timeout_s"], cancel,
+                                                         options_type(**task["options"]), manifest["timeout_s"], cancel,
                                                          lambda message: emit(f"{label} · {message}"),
                                                          tuple(item["sha256"] for item in attempt["inputs"])))
                 self._record_result(root, out, attempt, result, cancel)
@@ -282,5 +327,7 @@ class ExperimentRunner:
             write_json(out / "metrics.json", metrics)
             attempt.update(output=relative_artifact(result.output, root), files=result.files, metrics=metrics,
                            depth=relative_artifact(result.depth, root) if result.depth else None)
+            if "confidence.png" in result.files:
+                attempt["confidence"] = relative_artifact(out / "confidence.png", root)
         elif result.status == "success":
             raise ValueError("引擎报告成功但没有给出融合图路径。")

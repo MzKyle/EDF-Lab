@@ -1,6 +1,6 @@
-# Pollen-EDF-Lab 0.1
+# Pollen-EDF-Lab 0.2
 
-Windows x64 上运行的离线景深合成实验工作台。用 PySide6 浏览显微镜 Z-stack、比较融合结果和 Helicon 参考图，用固定版本的原生 focus-stack 执行融合。GUI 和 CLI 共用数据校验、实验编排、指标和记录模块。
+Windows x64 上运行的离线景深合成实验工作台。用 PySide6 浏览显微镜 Z-stack 和对照结果。V0.2 新增使用 NumPy 和 OpenCV 的 PollenEDF，保留固定版本的原生 focus-stack 和 Helicon 参考。GUI 和 CLI 共用数据校验、实验编排、指标和记录模块。
 
 ## 安装与启动
 
@@ -43,6 +43,20 @@ Windows x64 上运行的离线景深合成实验工作台。用 PySide6 浏览�
 
 ## CLI 示例
 
+按预设选择自研引擎。焦层图、原始选择索引和置信度图随默认结果保存。
+
+~~~powershell
+.\scripts\run.ps1 fuse --input '.\datasets\dataset.json' --view XY_00_00 --preset PollenEDF-Adaptive --intermediate
+.\scripts\run.ps1 benchmark --input '.\datasets\dataset.json' --backend pollen-edf
+.\scripts\run.ps1 doctor --backend pollen-edf
+~~~
+
+PollenEDF 提供 SML、Tenengrad 硬选择、多尺度深度图和自适应四种预设。CLI 参数可逐项控制噪声感知评分、焦层优化、背景融合、孤立亮点处理、低置信度软融合和拉普拉斯金字塔。GUI 的预设列表可运行以上四种方法，结果页可打开焦层图和置信度图。 [V0.2 算法与实拍复跑方法](docs/pollen-edf-v02.md)
+
+新打光的明背景焦栈可试用 `PollenEDF-Brightfield` 和 `PollenEDF-Brightfield-Context`。两种实验预设以连续焦层权重合成，后者加入邻域评分和金字塔融合。 [新打光试验及复跑方法](docs/new-lighting-edf.md)
+
+以下命令使用固定的原生 focus-stack。
+
 ```powershell
 .\scripts\run.ps1 benchmark --input '.\datasets\SYNTHETIC_demo\dataset.json' --view XY_00_00 --preset FS_Default --preset FS_NoAlign
 .\scripts\run.ps1 benchmark --input '.\datasets\SYNTHETIC_demo\dataset.json' --view XY_00_00 --preset FS_CPU --sample stride --step 3 --offset 0 --offset 1 --keep-endpoints
@@ -74,3 +88,5 @@ preview_cache_mib: 112
 - [第三方许可证](THIRD_PARTY_NOTICES.md) 记录原生归档、Wheel 与版权说明。
 - [验收记录](docs/verification.md) 提供实际运行、报告和日志路径。
 - [实拍花粉景深融合对照](docs/reports/2026-11-26-pollen-edf/README.md) 收录 10 个真实视野的 focus-stack 与 Helicon 对照图、指标和运行证据。
+- V0.2 实拍研发报告收录失效分析、单因素实验和日期留出验证。 [V0.2 实拍报告](docs/reports/2026-11-27-pollen-edf-v02/README.md)
+- 新打光报告保留 40 个视野的明场融合对照、外壁剖面和裁片复验。 [新打光测试报告](docs/reports/2026-11-27-new-lighting-edf/README.md)

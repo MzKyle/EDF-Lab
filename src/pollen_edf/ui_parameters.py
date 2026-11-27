@@ -6,7 +6,8 @@ from PySide6.QtWidgets import (QCheckBox, QComboBox, QFormLayout, QGroupBox, QHB
                                QLineEdit, QVBoxLayout, QWidget)
 
 from .engine import EngineCapabilities, EngineOptions
-from .experiments import PRESETS, trials_for
+from .experiments import POLLEN_PRESETS, PRESETS, trials_for
+from .pollen_algorithm import PollenEDFOptions
 from .sampling import SampleSpec
 
 
@@ -21,7 +22,7 @@ class Parameters(QWidget):
     def __init__(self, timeout_s: float, parent=None):
         super().__init__(parent)
         self.capabilities: EngineCapabilities | None = None
-        self.preset = combo([(key, key) for key in PRESETS])
+        self.preset = combo([(key, key) for key in (*PRESETS, *POLLEN_PRESETS)])
         self.alignment = combo([("相邻帧", "default"), ("全局参考帧", "global"), ("关闭", "none")])
         self.crop = combo([("自动裁剪", "auto"), ("保留输入大小", "keep-size"), ("保留外推边界", "none")])
         self.acceleration = combo([("引擎默认", "auto"), ("强制 CPU", "cpu"), ("请求 OpenCL", "opencl")])
@@ -118,19 +119,30 @@ class Parameters(QWidget):
             self.acceleration.setCurrentIndex(0)
 
     def _apply_preset(self) -> None:
-        base = EngineOptions(**PRESETS[self.preset.currentData()])
+        name = self.preset.currentData()
+        pollen = name in POLLEN_PRESETS
+        base = EngineOptions(**PRESETS.get(name, {}))
+        selected = PollenEDFOptions(**POLLEN_PRESETS[name]) if pollen else base
         for name in ("alignment", "crop", "acceleration", "consistency"):
             widget = getattr(self, name)
             widget.setCurrentIndex(widget.findData(getattr(base, name)))
-        for name in ("transform", "full_resolution_align", "whitebalance", "contrast", "depth", "intermediate"):
+        for name in ("transform", "full_resolution_align", "whitebalance", "contrast"):
             getattr(self, name).setChecked(getattr(base, name))
-        for name in ("denoise", "threads", "batch_size", "reference"):
+        for name in ("depth", "intermediate"):
+            getattr(self, name).setChecked(getattr(selected, name))
+        for name in ("denoise", "batch_size", "reference"):
             value = getattr(base, name)
             getattr(self, name).setText("" if value is None else f"{value:g}")
+        self.threads.setText("" if selected.threads is None else str(selected.threads))
+        for name in ("alignment", "crop", "acceleration", "consistency", "denoise", "batch_size", "reference"):
+            getattr(self, name).setEnabled(not pollen)
         self._align_fields()
 
+    def is_pollen(self) -> bool:
+        return self.preset.currentData() in POLLEN_PRESETS
+
     def _align_fields(self) -> None:
-        enabled = self.alignment.currentData() != "none"
+        enabled = not self.is_pollen() and self.alignment.currentData() != "none"
         for widget in (self.whitebalance, self.contrast, self.transform):
             widget.setEnabled(enabled)
         self.full_resolution_align.setEnabled(enabled and self.transform.isChecked())
@@ -173,7 +185,15 @@ class Parameters(QWidget):
         except ValueError as error:
             raise ValueError("请按抽层输入框内的示例填写整数。") from error
 
-    def selected_options(self) -> EngineOptions:
+    def selected_options(self) -> EngineOptions | PollenEDFOptions:
+        if self.is_pollen():
+            base = POLLEN_PRESETS[self.preset.currentData()]
+            try:
+                threads = int(self.threads.text().strip() or "8")
+            except ValueError as error:
+                raise ValueError("threads 参数格式无效。") from error
+            return PollenEDFOptions(**{**base, "threads": threads, "depth": self.depth.isChecked(),
+                                       "intermediate": self.intermediate.isChecked()})
         values = {name: getattr(self, name).currentData() for name in ("alignment", "crop", "acceleration", "consistency")}
         values.update({name: getattr(self, name).isChecked()
                        for name in ("transform", "full_resolution_align", "whitebalance", "contrast", "depth", "intermediate")})
@@ -191,6 +211,7 @@ class Parameters(QWidget):
 
     def trials(self, names: list[str] | None = None):
         base_name = self.preset.currentData()
-        base, current = asdict(EngineOptions(**PRESETS[base_name])), asdict(self.selected_options())
+        base = asdict(trials_for([base_name])[0].options)
+        current = asdict(self.selected_options())
         overrides = {name: value for name, value in current.items() if value != base[name]}
         return trials_for(names or [base_name], self.samples(), overrides)

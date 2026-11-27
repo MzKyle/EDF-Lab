@@ -1,0 +1,2978 @@
+{
+  "20261103_160942_v061": {
+    "Helicon-B": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2414,
+            1481
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9866228103637695,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 308.41565393518516,
+            "sml_per_pixel": 4.4040708188657405,
+            "brightness_mean": 24.640570746527775,
+            "laplacian_variance": 43.2990731250275,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 42.673587799072266,
+            "fg_bgr": [
+              31.27685902847057,
+              48.582169442099605,
+              35.457984805463894
+            ],
+            "source_edge_corr": 0.5281913422836019,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1876
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.8769429922103882,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 123.50311053240739,
+            "sml_per_pixel": 3.203730830439815,
+            "brightness_mean": 11.54808666087963,
+            "laplacian_variance": 25.208987588499795,
+            "dark_rms": 0.8104403018951416,
+            "dark_p95": 7.0,
+            "dark_mean": 4.684929847717285,
+            "halo_p95": 8.0,
+            "halo_mean": 5.328813552856445,
+            "fg_luma": 21.93840980529785,
+            "fg_bgr": [
+              15.040084388185655,
+              25.233734857765075,
+              18.07649380699605
+            ],
+            "source_edge_corr": 0.1809251329802748,
+            "trail_pixels": 20
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            366,
+            1201
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 49.38673683449073,
+            "sml_per_pixel": 1.8226906105324074,
+            "brightness_mean": 2.373589409722222,
+            "laplacian_variance": 11.350430900586158,
+            "dark_rms": 0.6234166622161865,
+            "dark_p95": 4.0,
+            "dark_mean": 1.8510313034057617,
+            "halo_p95": 6.0,
+            "halo_mean": 2.2746198177337646,
+            "fg_luma": 8.439794540405273,
+            "fg_bgr": [
+              7.458528478622148,
+              9.928992294908596,
+              5.886387671853754
+            ],
+            "source_edge_corr": 0.3066901825225991,
+            "trail_pixels": 128
+          }
+        }
+      },
+      "elapsed_s": 3.234999999869615,
+      "rss_mib": 1955.0390625,
+      "width": 4078,
+      "height": 2990,
+      "path": "holdout-helicon/20261103_160942_v061/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/Helicon-B",
+      "stage": "helicon",
+      "sha256": "ee14aa8d55172222d1fc6a366aa3b4117315aa01c1390f0c7837ffd3a0beb1ca"
+    },
+    "FS_Default": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2413,
+            1486
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9926084876060486,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 756.5647424768518,
+            "sml_per_pixel": 12.499150028935183,
+            "brightness_mean": 27.645444516782405,
+            "laplacian_variance": 281.57315650463755,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 41.438724517822266,
+            "fg_bgr": [
+              30.922204742537026,
+              47.276475328063846,
+              33.9692464124012
+            ],
+            "source_edge_corr": 0.25505770415062456,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3228,
+            1882
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9317525625228882,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 485.18699363425924,
+            "sml_per_pixel": 8.690095124421296,
+            "brightness_mean": 11.98098415798611,
+            "laplacian_variance": 179.23034979768903,
+            "dark_rms": 1.2579721212387085,
+            "dark_p95": 6.0,
+            "dark_mean": 2.332486629486084,
+            "halo_p95": 9.0,
+            "halo_mean": 4.472881317138672,
+            "fg_luma": 26.208282470703125,
+            "fg_bgr": [
+              18.926330475023818,
+              29.925786035116374,
+              21.678236014699877
+            ],
+            "source_edge_corr": 0.28952759482258944,
+            "trail_pixels": 347
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            365,
+            1206
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 161.53929759837962,
+            "sml_per_pixel": 4.124385127314815,
+            "brightness_mean": 3.2213270399305554,
+            "laplacian_variance": 70.78636789910587,
+            "dark_rms": 1.4094207286834717,
+            "dark_p95": 6.0,
+            "dark_mean": 2.8222298622131348,
+            "halo_p95": 6.0,
+            "halo_mean": 2.8392553329467773,
+            "fg_luma": 8.490859985351562,
+            "fg_bgr": [
+              7.448406103641033,
+              9.88472578939417,
+              6.2882610666263785
+            ],
+            "source_edge_corr": 0.24092677114261787,
+            "trail_pixels": 359
+          }
+        }
+      },
+      "elapsed_s": 25.219000000040978,
+      "rss_mib": 4019.4921875,
+      "width": 4084,
+      "height": 2996,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_001_20261103_160942_v061/001_FS_Default/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/FS_Default",
+      "stage": "native-locked",
+      "sha256": "a334db9b5924ec2c03d7b5fdbc480fb56f258eab47a4e8757bc4af65d1b9eb54"
+    },
+    "FS_Tuned": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2416,
+            1488
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 208.7427300347222,
+            "sml_per_pixel": 3.7150788483796293,
+            "brightness_mean": 26.779161241319443,
+            "laplacian_variance": 41.630735325388116,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 46.05093765258789,
+            "fg_bgr": [
+              34.076298825876755,
+              52.36842913053488,
+              38.260302355920494
+            ],
+            "source_edge_corr": 0.522868587071383,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1884
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 62.09856047453704,
+            "sml_per_pixel": 1.9206904658564814,
+            "brightness_mean": 10.215160228587962,
+            "laplacian_variance": 25.283763390264394,
+            "dark_rms": 0.22669459879398346,
+            "dark_p95": 4.0,
+            "dark_mean": 1.7233914136886597,
+            "halo_p95": 5.0,
+            "halo_mean": 3.0830509662628174,
+            "fg_luma": 28.486082077026367,
+            "fg_bgr": [
+              20.345753368721926,
+              32.419422893698105,
+              23.847114468490542
+            ],
+            "source_edge_corr": 0.669221884773689,
+            "trail_pixels": 19
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            368,
+            1208
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 10.570945457175926,
+            "sml_per_pixel": 0.23679832175925924,
+            "brightness_mean": 2.024540653935185,
+            "laplacian_variance": 5.94791666535847,
+            "dark_rms": 0.20980633795261383,
+            "dark_p95": 3.0,
+            "dark_mean": 1.9839221239089966,
+            "halo_p95": 3.0,
+            "halo_mean": 1.9169921875,
+            "fg_luma": 2.7625019550323486,
+            "fg_bgr": [
+              2.8120562018431787,
+              3.6429974316361986,
+              1.780480435111044
+            ],
+            "source_edge_corr": 0.8579571865357256,
+            "trail_pixels": 21
+          }
+        }
+      },
+      "elapsed_s": 14.546000000089407,
+      "rss_mib": 4791.16796875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_001_20261103_160942_v061/002_FS_Tuned/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/FS_Tuned",
+      "stage": "native-locked",
+      "sha256": "fd5c18cb6b4bf75672fd745db005af561afd2151f1340d57b1feec6807aa04a0"
+    },
+    "PollenEDF-SML": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2416,
+            1488
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 791.5437825520833,
+            "sml_per_pixel": 8.49245876736111,
+            "brightness_mean": 34.01548936631944,
+            "laplacian_variance": 122.62615580486828,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 44.73115921020508,
+            "fg_bgr": [
+              32.82079272504029,
+              50.89147033995856,
+              37.205529122860874
+            ],
+            "source_edge_corr": 0.201285422474977,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1884
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 299.3721607349537,
+            "sml_per_pixel": 5.32154224537037,
+            "brightness_mean": 15.745225694444443,
+            "laplacian_variance": 61.532223226275136,
+            "dark_rms": 0.9716175198554993,
+            "dark_p95": 7.0,
+            "dark_mean": 4.491291522979736,
+            "halo_p95": 7.0,
+            "halo_mean": 4.832203388214111,
+            "fg_luma": 28.66840171813965,
+            "fg_bgr": [
+              20.336089560364776,
+              32.70552606506057,
+              23.917959711446848
+            ],
+            "source_edge_corr": 0.24826957042613884,
+            "trail_pixels": 168
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            368,
+            1208
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 55.435149016203695,
+            "sml_per_pixel": 2.3183774594907405,
+            "brightness_mean": 2.708740234375,
+            "laplacian_variance": 14.217954007359362,
+            "dark_rms": 0.7281933426856995,
+            "dark_p95": 4.0,
+            "dark_mean": 2.1465985774993896,
+            "halo_p95": 6.0,
+            "halo_mean": 2.5219368934631348,
+            "fg_luma": 9.549176216125488,
+            "fg_bgr": [
+              8.143828372865991,
+              11.155310469859495,
+              6.948028403082037
+            ],
+            "source_edge_corr": 0.6218724674636353,
+            "trail_pixels": 160
+          }
+        }
+      },
+      "elapsed_s": 5.577999999979511,
+      "rss_mib": 285.86328125,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_001_20261103_160942_v061/001_PollenEDF-SML/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/PollenEDF-SML",
+      "stage": "pollen-locked",
+      "sha256": "911ef21abbdf5f0c43b7ed0d9e47debda5059f2cafe037f22ae32acb503948ec"
+    },
+    "PollenEDF-Tenengrad": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2416,
+            1488
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 515.8726851851852,
+            "sml_per_pixel": 6.600802951388888,
+            "brightness_mean": 27.712809244791664,
+            "laplacian_variance": 84.13482884189881,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 44.44503402709961,
+            "fg_bgr": [
+              32.57541631494129,
+              50.54932468728417,
+              37.0148683907605
+            ],
+            "source_edge_corr": 0.3846554072152339,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1884
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 229.18869357638886,
+            "sml_per_pixel": 4.455114293981481,
+            "brightness_mean": 12.505515769675926,
+            "laplacian_variance": 46.96651464888752,
+            "dark_rms": 0.902583122253418,
+            "dark_p95": 7.0,
+            "dark_mean": 3.915940999984741,
+            "halo_p95": 7.0,
+            "halo_mean": 4.300000190734863,
+            "fg_luma": 27.579113006591797,
+            "fg_bgr": [
+              19.317442493534777,
+              31.416972914114606,
+              23.18133251667347
+            ],
+            "source_edge_corr": 0.5069328206258068,
+            "trail_pixels": 143
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            368,
+            1208
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 48.92708333333333,
+            "sml_per_pixel": 2.154513888888889,
+            "brightness_mean": 2.523799189814815,
+            "laplacian_variance": 14.448278042187582,
+            "dark_rms": 0.7055383324623108,
+            "dark_p95": 4.0,
+            "dark_mean": 2.1896703243255615,
+            "halo_p95": 5.0,
+            "halo_mean": 2.652648687362671,
+            "fg_luma": 6.067684173583984,
+            "fg_bgr": [
+              5.674724278591932,
+              7.094576219972805,
+              4.600241728357758
+            ],
+            "source_edge_corr": 0.7636095995821283,
+            "trail_pixels": 127
+          }
+        }
+      },
+      "elapsed_s": 5.468000000109896,
+      "rss_mib": 288.1796875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_001_20261103_160942_v061/002_PollenEDF-Tenengrad/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/PollenEDF-Tenengrad",
+      "stage": "pollen-locked",
+      "sha256": "fabb722971d193aa1ab27409c245d81c2f0746115bb44fcfb88f7dd26295828a"
+    },
+    "PollenEDF-DepthMap": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2416,
+            1488
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 931.7401439525463,
+            "sml_per_pixel": 8.08005099826389,
+            "brightness_mean": 29.505759910300924,
+            "laplacian_variance": 124.51880683943075,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 43.47530746459961,
+            "fg_bgr": [
+              31.91130765098611,
+              49.471567799861866,
+              36.139897168291
+            ],
+            "source_edge_corr": 0.20879168174731208,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1884
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 419.656105324074,
+            "sml_per_pixel": 5.361762152777778,
+            "brightness_mean": 13.277940538194443,
+            "laplacian_variance": 67.05809720062916,
+            "dark_rms": 0.784937858581543,
+            "dark_p95": 6.0,
+            "dark_mean": 2.5545475482940674,
+            "halo_p95": 7.0,
+            "halo_mean": 4.274576187133789,
+            "fg_luma": 27.443037033081055,
+            "fg_bgr": [
+              19.383183612358785,
+              31.262624200353887,
+              23.00792840615217
+            ],
+            "source_edge_corr": 0.31484472615552644,
+            "trail_pixels": 153
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            368,
+            1208
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 53.322934751157405,
+            "sml_per_pixel": 2.019576461226852,
+            "brightness_mean": 2.2167335792824074,
+            "laplacian_variance": 14.070302260674238,
+            "dark_rms": 0.6652681827545166,
+            "dark_p95": 3.0,
+            "dark_mean": 1.9795637130737305,
+            "halo_p95": 4.0,
+            "halo_mean": 2.0603692531585693,
+            "fg_luma": 5.584831714630127,
+            "fg_bgr": [
+              4.931409578486176,
+              6.796192778365312,
+              3.89167547967971
+            ],
+            "source_edge_corr": 0.4992018426270759,
+            "trail_pixels": 157
+          }
+        }
+      },
+      "elapsed_s": 7.359000000171363,
+      "rss_mib": 333.48828125,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_001_20261103_160942_v061/003_PollenEDF-DepthMap/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/PollenEDF-DepthMap",
+      "stage": "pollen-locked",
+      "sha256": "4c11a14fa8a8abf35af434687af9ba27ce2d3aaf18fcd806e8f3e481d113c624"
+    },
+    "PollenEDF-Adaptive": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2416,
+            1488
+          ],
+          "xy": [
+            2416,
+            1488
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 482.4677372685185,
+            "sml_per_pixel": 5.22412109375,
+            "brightness_mean": 29.47510669849537,
+            "laplacian_variance": 56.66506621932461,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 43.394405364990234,
+            "fg_bgr": [
+              31.86317243496278,
+              49.37084644309723,
+              36.0685672626813
+            ],
+            "source_edge_corr": 0.317948423796757,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            3232,
+            1884
+          ],
+          "xy": [
+            3232,
+            1884
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 185.45053891782408,
+            "sml_per_pixel": 3.0155707465277777,
+            "brightness_mean": 13.131175853587962,
+            "laplacian_variance": 32.757664934270835,
+            "dark_rms": 0.32645735144615173,
+            "dark_p95": 4.0,
+            "dark_mean": 2.8789308071136475,
+            "halo_p95": 5.0,
+            "halo_mean": 3.8745763301849365,
+            "fg_luma": 27.253129959106445,
+            "fg_bgr": [
+              19.239281339322172,
+              31.0495100040833,
+              22.839934667211107
+            ],
+            "source_edge_corr": 0.41560254562711657,
+            "trail_pixels": 53
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            368,
+            1208
+          ],
+          "xy": [
+            368,
+            1208
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 16.86382378472222,
+            "sml_per_pixel": 0.7934479890046295,
+            "brightness_mean": 2.3053837528935186,
+            "laplacian_variance": 5.714255658605624,
+            "dark_rms": 0.34700390696525574,
+            "dark_p95": 3.0,
+            "dark_mean": 2.046907901763916,
+            "halo_p95": 3.0,
+            "halo_mean": 2.1500132083892822,
+            "fg_luma": 5.794530868530273,
+            "fg_bgr": [
+              5.134763559450068,
+              7.0052878078259555,
+              4.064662335700257
+            ],
+            "source_edge_corr": 0.5483213121437559,
+            "trail_pixels": 75
+          }
+        }
+      },
+      "elapsed_s": 16.608999999938533,
+      "rss_mib": 661.94921875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_001_20261103_160942_v061/004_PollenEDF-Adaptive/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261103_160942_v061/PollenEDF-Adaptive",
+      "stage": "pollen-locked",
+      "sha256": "8a11dbfd2c4a87da006ab394f0f3796132363359958f7694530f75ebbdaf88d6"
+    }
+  },
+  "20261104_085918_v016": {
+    "Helicon-B": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2222,
+            90
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9948815107345581,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2096.2340675636574,
+            "sml_per_pixel": 9.590983072916666,
+            "brightness_mean": 101.64728009259258,
+            "laplacian_variance": 139.52862376015537,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 131.1477813720703,
+            "fg_bgr": [
+              118.81499693439608,
+              147.87670141017782,
+              103.01150214592275
+            ],
+            "source_edge_corr": 0.7117659764204386,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            241,
+            1005
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9730468988418579,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 149.37107566550924,
+            "sml_per_pixel": 3.0537561487268516,
+            "brightness_mean": 12.091290509259258,
+            "laplacian_variance": 20.269627916387737,
+            "dark_rms": 0.8395063281059265,
+            "dark_p95": 6.0,
+            "dark_mean": 3.817237138748169,
+            "halo_p95": 7.0,
+            "halo_mean": 5.699507236480713,
+            "fg_luma": 59.0865364074707,
+            "fg_bgr": [
+              42.09414198025087,
+              63.93641579930611,
+              56.0563784360822
+            ],
+            "source_edge_corr": 0.07968104055801332,
+            "trail_pixels": 8
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2838,
+            1890
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 47.78757957175925,
+            "sml_per_pixel": 2.1627785011574074,
+            "brightness_mean": 3.385226779513889,
+            "laplacian_variance": 9.374258038438397,
+            "dark_rms": 0.7215506434440613,
+            "dark_p95": 5.0,
+            "dark_mean": 3.3720743656158447,
+            "halo_p95": 5.0,
+            "halo_mean": 3.3897042274475098,
+            "fg_luma": 6.305785179138184,
+            "fg_bgr": [
+              7.545454545454546,
+              6.75206611570248,
+              4.595041322314049
+            ],
+            "source_edge_corr": 0.6503968655947296,
+            "trail_pixels": 143
+          }
+        }
+      },
+      "elapsed_s": 3.3120000001508743,
+      "rss_mib": 1991.83203125,
+      "width": 4072,
+      "height": 2990,
+      "path": "holdout-helicon/20261104_085918_v016/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/Helicon-B",
+      "stage": "helicon",
+      "sha256": "d5eeccc3aa3348e3296dcd5ff8a31558e8f6133025a78fcc695620061ed7373e"
+    },
+    "FS_Default": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            94
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9822918772697449,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2505.938458478009,
+            "sml_per_pixel": 21.46185980902778,
+            "brightness_mean": 125.70878544560185,
+            "laplacian_variance": 654.5960835691016,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 152.4261016845703,
+            "fg_bgr": [
+              138.28767627222564,
+              171.02380134886573,
+              121.30877988963826
+            ],
+            "source_edge_corr": 0.4071255365868683,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            251,
+            1010
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9814954996109009,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 336.1831235532407,
+            "sml_per_pixel": 7.199137369791666,
+            "brightness_mean": 11.31592701099537,
+            "laplacian_variance": 97.98279701428814,
+            "dark_rms": 1.5241296291351318,
+            "dark_p95": 6.0,
+            "dark_mean": 2.730833053588867,
+            "halo_p95": 6.0,
+            "halo_mean": 2.798029661178589,
+            "fg_luma": 61.86155700683594,
+            "fg_bgr": [
+              43.944689084601016,
+              66.65619161996264,
+              59.27862289831865
+            ],
+            "source_edge_corr": 0.1383865208568192,
+            "trail_pixels": 70
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1894
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 152.134205005787,
+            "sml_per_pixel": 5.101444950810185,
+            "brightness_mean": 3.3981300636574074,
+            "laplacian_variance": 62.7956902002111,
+            "dark_rms": 1.6149524450302124,
+            "dark_p95": 6.0,
+            "dark_mean": 3.363079786300659,
+            "halo_p95": 6.0,
+            "halo_mean": 3.409694194793701,
+            "fg_luma": 12.677685737609863,
+            "fg_bgr": [
+              14.206611570247935,
+              12.933884297520661,
+              11.545454545454545
+            ],
+            "source_edge_corr": 0.7617915045324635,
+            "trail_pixels": 508
+          }
+        }
+      },
+      "elapsed_s": 25.014999999897555,
+      "rss_mib": 4278.9375,
+      "width": 4082,
+      "height": 2996,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_002_20261104_085918_v016/001_FS_Default/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/FS_Default",
+      "stage": "native-locked",
+      "sha256": "376021de4331bddc9e76018f98a96d06e27f0e03770b1a11e810b413c471e090"
+    },
+    "FS_Tuned": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            96
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 1962.5796802662035,
+            "sml_per_pixel": 13.229112413194443,
+            "brightness_mean": 109.23902271412037,
+            "laplacian_variance": 265.9804630030983,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 138.3816375732422,
+            "fg_bgr": [
+              125.62580012262416,
+              155.99807480073574,
+              108.68862047823421
+            ],
+            "source_edge_corr": 0.6339955965562348,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            260,
+            1012
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 89.24614800347221,
+            "sml_per_pixel": 1.840015552662037,
+            "brightness_mean": 12.40479419849537,
+            "laplacian_variance": 18.760786691565567,
+            "dark_rms": 0.33314475417137146,
+            "dark_p95": 6.0,
+            "dark_mean": 4.382858753204346,
+            "halo_p95": 6.0,
+            "halo_mean": 5.078817844390869,
+            "fg_luma": 60.63991165161133,
+            "fg_bgr": [
+              43.07752868961836,
+              65.45850013344008,
+              57.86802775553776
+            ],
+            "source_edge_corr": 0.23251129000286835,
+            "trail_pixels": 13
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1896
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 12.463740596064815,
+            "sml_per_pixel": 0.9880732783564814,
+            "brightness_mean": 4.149495442708333,
+            "laplacian_variance": 7.128806761671648,
+            "dark_rms": 0.34009841084480286,
+            "dark_p95": 5.0,
+            "dark_mean": 4.149898052215576,
+            "halo_p95": 5.0,
+            "halo_mean": 4.163228988647461,
+            "fg_luma": 9.173553466796875,
+            "fg_bgr": [
+              10.37190082644628,
+              9.768595041322314,
+              7.6115702479338845
+            ],
+            "source_edge_corr": 0.937784778170806,
+            "trail_pixels": 23
+          }
+        }
+      },
+      "elapsed_s": 14.906999999890104,
+      "rss_mib": 4865.21875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_002_20261104_085918_v016/002_FS_Tuned/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/FS_Tuned",
+      "stage": "native-locked",
+      "sha256": "2198fc4e658c022619236c065ff4b4d556ac664c873d04acacf84b28d41807a0"
+    },
+    "PollenEDF-SML": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            96
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 4373.354944299768,
+            "sml_per_pixel": 17.775056061921298,
+            "brightness_mean": 115.60324435763889,
+            "laplacian_variance": 488.4286784104522,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 133.28407287597656,
+            "fg_bgr": [
+              120.6403065603924,
+              150.28484365419988,
+              104.76527283874924
+            ],
+            "source_edge_corr": 0.41896536657561867,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            260,
+            1012
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 285.58906611689815,
+            "sml_per_pixel": 4.72142650462963,
+            "brightness_mean": 14.228886357060185,
+            "laplacian_variance": 48.20414723290338,
+            "dark_rms": 0.9330631494522095,
+            "dark_p95": 6.0,
+            "dark_mean": 4.20332670211792,
+            "halo_p95": 7.0,
+            "halo_mean": 5.246305465698242,
+            "fg_luma": 60.72404479980469,
+            "fg_bgr": [
+              42.861622631438486,
+              65.51094208700293,
+              58.16446490525754
+            ],
+            "source_edge_corr": 0.09103832500981782,
+            "trail_pixels": 62
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1896
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 63.43353949652778,
+            "sml_per_pixel": 2.8113425925925926,
+            "brightness_mean": 3.7829047309027777,
+            "laplacian_variance": 16.682960070373262,
+            "dark_rms": 0.8814329504966736,
+            "dark_p95": 6.0,
+            "dark_mean": 3.765451431274414,
+            "halo_p95": 6.0,
+            "halo_mean": 3.7679760456085205,
+            "fg_luma": 11.909090995788574,
+            "fg_bgr": [
+              13.87603305785124,
+              12.231404958677686,
+              10.702479338842975
+            ],
+            "source_edge_corr": 0.9718743885699068,
+            "trail_pixels": 197
+          }
+        }
+      },
+      "elapsed_s": 5.561999999918044,
+      "rss_mib": 286.04296875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_002_20261104_085918_v016/001_PollenEDF-SML/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/PollenEDF-SML",
+      "stage": "pollen-locked",
+      "sha256": "82aa66c77137c520d9983f8acb75c551551919dc34e05c4531ce5f18ab821268"
+    },
+    "PollenEDF-Tenengrad": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            96
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2929.1774992766204,
+            "sml_per_pixel": 15.093786168981481,
+            "brightness_mean": 106.060302734375,
+            "laplacian_variance": 334.2126518414345,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 132.59950256347656,
+            "fg_bgr": [
+              119.79428571428572,
+              149.63686082158185,
+              104.06280809319436
+            ],
+            "source_edge_corr": 0.5401290102305286,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            260,
+            1012
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 217.7035771122685,
+            "sml_per_pixel": 4.294994212962963,
+            "brightness_mean": 14.236707899305555,
+            "laplacian_variance": 40.148198299120146,
+            "dark_rms": 0.9031948447227478,
+            "dark_p95": 7.0,
+            "dark_mean": 4.253340244293213,
+            "halo_p95": 8.0,
+            "halo_mean": 5.497537136077881,
+            "fg_luma": 60.98445510864258,
+            "fg_bgr": [
+              43.23552175073392,
+              65.7427275153456,
+              58.409994662396585
+            ],
+            "source_edge_corr": 0.16592394531792073,
+            "trail_pixels": 45
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1896
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 62.03944227430555,
+            "sml_per_pixel": 2.712773075810185,
+            "brightness_mean": 3.8202039930555554,
+            "laplacian_variance": 16.565221535243783,
+            "dark_rms": 0.8501954078674316,
+            "dark_p95": 6.0,
+            "dark_mean": 3.7957119941711426,
+            "halo_p95": 6.0,
+            "halo_mean": 3.757613182067871,
+            "fg_luma": 13.355371475219727,
+            "fg_bgr": [
+              15.12396694214876,
+              13.760330578512397,
+              12.115702479338843
+            ],
+            "source_edge_corr": 0.9674066327743913,
+            "trail_pixels": 180
+          }
+        }
+      },
+      "elapsed_s": 5.812000000150874,
+      "rss_mib": 286.2890625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_002_20261104_085918_v016/002_PollenEDF-Tenengrad/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/PollenEDF-Tenengrad",
+      "stage": "pollen-locked",
+      "sha256": "ea54fb3e74c34619e523e3c6b508a95f60a06981ea840cdbe1f63d1c267a16c9"
+    },
+    "PollenEDF-DepthMap": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            96
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 3596.666865596065,
+            "sml_per_pixel": 15.36571361400463,
+            "brightness_mean": 106.56159577546296,
+            "laplacian_variance": 384.8180428956762,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 130.69674682617188,
+            "fg_bgr": [
+              118.50235438381361,
+              147.34809319435928,
+              102.6940282035561
+            ],
+            "source_edge_corr": 0.6450510205247935,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            260,
+            1012
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 261.92549189814815,
+            "sml_per_pixel": 4.363181785300926,
+            "brightness_mean": 12.775526258680555,
+            "laplacian_variance": 42.92869818578531,
+            "dark_rms": 0.867003321647644,
+            "dark_p95": 6.0,
+            "dark_mean": 3.9922285079956055,
+            "halo_p95": 7.0,
+            "halo_mean": 5.113300323486328,
+            "fg_luma": 57.00994110107422,
+            "fg_bgr": [
+              40.580531091539896,
+              61.48725647184414,
+              54.498932479316785
+            ],
+            "source_edge_corr": 0.15920036832216805,
+            "trail_pixels": 59
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1896
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 59.00039785879629,
+            "sml_per_pixel": 2.5888129340277777,
+            "brightness_mean": 3.7232349537037033,
+            "laplacian_variance": 15.96377670094473,
+            "dark_rms": 0.825994610786438,
+            "dark_p95": 6.0,
+            "dark_mean": 3.7069497108459473,
+            "halo_p95": 6.0,
+            "halo_mean": 3.718168258666992,
+            "fg_luma": 12.60330581665039,
+            "fg_bgr": [
+              14.28099173553719,
+              13.049586776859504,
+              11.198347107438016
+            ],
+            "source_edge_corr": 0.9736128085429084,
+            "trail_pixels": 185
+          }
+        }
+      },
+      "elapsed_s": 7.343000000109896,
+      "rss_mib": 323.640625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_002_20261104_085918_v016/003_PollenEDF-DepthMap/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/PollenEDF-DepthMap",
+      "stage": "pollen-locked",
+      "sha256": "d4156666d299b6a7f70ef77d456465e63bc8d7c700ab2553df76e0ce89776f40"
+    },
+    "PollenEDF-Adaptive": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            2232,
+            96
+          ],
+          "xy": [
+            2232,
+            96
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2403.9841579861113,
+            "sml_per_pixel": 11.197347005208332,
+            "brightness_mean": 105.94654224537037,
+            "laplacian_variance": 183.10330954688732,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 130.71214294433594,
+            "fg_bgr": [
+              118.504193746168,
+              147.35870018393624,
+              102.70339668914777
+            ],
+            "source_edge_corr": 0.6933978304474193,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            260,
+            1012
+          ],
+          "xy": [
+            260,
+            1012
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 143.3262622974537,
+            "sml_per_pixel": 2.4442545572916665,
+            "brightness_mean": 12.820393880208332,
+            "laplacian_variance": 19.457218690091846,
+            "dark_rms": 0.39502713084220886,
+            "dark_p95": 5.0,
+            "dark_mean": 4.133360862731934,
+            "halo_p95": 6.0,
+            "halo_mean": 4.714285850524902,
+            "fg_luma": 56.817588806152344,
+            "fg_bgr": [
+              40.421403789698424,
+              61.28416066186282,
+              54.28102481985589
+            ],
+            "source_edge_corr": 0.18724178627577368,
+            "trail_pixels": 29
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2848,
+            1896
+          ],
+          "xy": [
+            2848,
+            1896
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 12.618055555555555,
+            "sml_per_pixel": 1.0893283420138888,
+            "brightness_mean": 3.7922544126157405,
+            "laplacian_variance": 4.19723833269543,
+            "dark_rms": 0.3789761960506439,
+            "dark_p95": 5.0,
+            "dark_mean": 3.780421018600464,
+            "halo_p95": 5.0,
+            "halo_mean": 3.7975263595581055,
+            "fg_luma": 8.355371475219727,
+            "fg_bgr": [
+              9.851239669421487,
+              8.818181818181818,
+              6.768595041322314
+            ],
+            "source_edge_corr": 0.4473956205906507,
+            "trail_pixels": 97
+          }
+        }
+      },
+      "elapsed_s": 16.031999999890104,
+      "rss_mib": 678.31640625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_002_20261104_085918_v016/004_PollenEDF-Adaptive/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261104_085918_v016/PollenEDF-Adaptive",
+      "stage": "pollen-locked",
+      "sha256": "73b8adb18d771211830057214da4965be514a65620d413ba2c6d0f75ca1d62ac"
+    }
+  },
+  "20261111_145648_v031": {
+    "Helicon-B": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1786,
+            2456
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9800023436546326,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2174.331398292824,
+            "sml_per_pixel": 9.382713035300924,
+            "brightness_mean": 92.6676613136574,
+            "laplacian_variance": 132.7382830859702,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 124.71552276611328,
+            "fg_bgr": [
+              148.19634733923718,
+              146.04410379263007,
+              73.92682565745201
+            ],
+            "source_edge_corr": 0.8506624749971105,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2410,
+            2612
+          ],
+          "coordinate_mode": "weak_match",
+          "ncc": 0.5863469243049622,
+          "usable": false,
+          "metrics": {
+            "tenengrad": 53.671603732638886,
+            "sml_per_pixel": 2.3328179253472223,
+            "brightness_mean": 4.913357204861111,
+            "laplacian_variance": 10.761040071319323,
+            "dark_rms": 0.8118942379951477,
+            "dark_p95": 5.0,
+            "dark_mean": 3.377584218978882,
+            "halo_p95": 5.0,
+            "halo_mean": 3.6053872108459473,
+            "fg_luma": 10.667987823486328,
+            "fg_bgr": [
+              14.496531219028741,
+              12.55203171456888,
+              5.274529236868187
+            ],
+            "source_edge_corr": 0.24725639041878425,
+            "trail_pixels": 69
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2542,
+            1608
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 33.34955512152777,
+            "sml_per_pixel": 1.793556495949074,
+            "brightness_mean": 2.188340928819444,
+            "laplacian_variance": 6.943693772510245,
+            "dark_rms": 0.6898077130317688,
+            "dark_p95": 3.0,
+            "dark_mean": 2.1877284049987793,
+            "halo_p95": 3.0,
+            "halo_mean": 2.227285623550415,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 88
+          }
+        }
+      },
+      "elapsed_s": 3.219000000040978,
+      "rss_mib": 2071.66796875,
+      "width": 4076,
+      "height": 2990,
+      "path": "holdout-helicon/20261111_145648_v031/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/Helicon-B",
+      "stage": "helicon",
+      "sha256": "421c92258194c55b007d612d86bad487769011fe8375a27af5bc1d048ca96d45"
+    },
+    "FS_Default": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1783,
+            2454
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9836170077323914,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 1932.0452112268517,
+            "sml_per_pixel": 18.554280598958332,
+            "brightness_mean": 98.26690899884258,
+            "laplacian_variance": 476.8645430591534,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 119.85035705566406,
+            "fg_bgr": [
+              140.8736507765605,
+              140.95137412182714,
+              70.41526473042448
+            ],
+            "source_edge_corr": 0.6995899175811887,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2407,
+            2610
+          ],
+          "coordinate_mode": "weak_match",
+          "ncc": 0.5863341689109802,
+          "usable": false,
+          "metrics": {
+            "tenengrad": 113.11083984375,
+            "sml_per_pixel": 4.193901909722221,
+            "brightness_mean": 5.474274811921296,
+            "laplacian_variance": 44.105339017588086,
+            "dark_rms": 1.2857242822647095,
+            "dark_p95": 8.0,
+            "dark_mean": 5.472590923309326,
+            "halo_p95": 8.0,
+            "halo_mean": 5.437560558319092,
+            "fg_luma": 11.48661994934082,
+            "fg_bgr": [
+              14.916749256689792,
+              13.517343904856293,
+              6.090188305252726
+            ],
+            "source_edge_corr": 0.695134827445072,
+            "trail_pixels": 343
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2539,
+            1606
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 82.75367115162037,
+            "sml_per_pixel": 3.677354600694444,
+            "brightness_mean": 4.880407262731481,
+            "laplacian_variance": 31.11979128859825,
+            "dark_rms": 1.1960304975509644,
+            "dark_p95": 7.0,
+            "dark_mean": 4.872576713562012,
+            "halo_p95": 7.0,
+            "halo_mean": 4.920169830322266,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 243
+          }
+        }
+      },
+      "elapsed_s": 24.812000000150874,
+      "rss_mib": 3881.890625,
+      "width": 4083,
+      "height": 2991,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_003_20261111_145648_v031/001_FS_Default/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/FS_Default",
+      "stage": "native-locked",
+      "sha256": "e95e91ca94af73178ef241620cc2865a3645bccc5e24c6eced6bd0ded12e8454"
+    },
+    "FS_Tuned": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1788,
+            2460
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 1939.4968352141202,
+            "sml_per_pixel": 11.773157190393519,
+            "brightness_mean": 95.24156358506944,
+            "laplacian_variance": 210.88869350854264,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 127.69395446777344,
+            "fg_bgr": [
+              150.86826734139055,
+              149.3906220559339,
+              76.27735457995747
+            ],
+            "source_edge_corr": 0.8744334207330962,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2412,
+            2616
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 16.40851056134259,
+            "sml_per_pixel": 0.8680013020833333,
+            "brightness_mean": 3.470296223958333,
+            "laplacian_variance": 8.403103214886618,
+            "dark_rms": 0.3046724200248718,
+            "dark_p95": 4.0,
+            "dark_mean": 3.218080520629883,
+            "halo_p95": 4.0,
+            "halo_mean": 3.429255485534668,
+            "fg_luma": 10.328047752380371,
+            "fg_bgr": [
+              13.608523290386522,
+              11.959365708622398,
+              5.862239841427155
+            ],
+            "source_edge_corr": 0.9437995622083778,
+            "trail_pixels": 23
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2544,
+            1612
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 10.578486689814815,
+            "sml_per_pixel": 0.7867476851851851,
+            "brightness_mean": 2.5179126880787037,
+            "laplacian_variance": 5.586769228282451,
+            "dark_rms": 0.3296270966529846,
+            "dark_p95": 4.0,
+            "dark_mean": 2.5158157348632812,
+            "halo_p95": 4.0,
+            "halo_mean": 2.2129595279693604,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 25
+          }
+        }
+      },
+      "elapsed_s": 14.483999999938533,
+      "rss_mib": 4706.90625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_003_20261111_145648_v031/002_FS_Tuned/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/FS_Tuned",
+      "stage": "native-locked",
+      "sha256": "6738ed31f89e8a744e34ac6ce80490fde89fa84edd77f0ab14f638913faa79e7"
+    },
+    "PollenEDF-SML": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1788,
+            2460
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 3637.3092990451387,
+            "sml_per_pixel": 16.252197265625,
+            "brightness_mean": 105.32071035879629,
+            "laplacian_variance": 391.32433178387214,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 124.43498229980469,
+            "fg_bgr": [
+              147.98934079836343,
+              145.97407875965655,
+              73.1795375629189
+            ],
+            "source_edge_corr": 0.5998763933153516,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2412,
+            2616
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 114.03526475694443,
+            "sml_per_pixel": 3.470314308449074,
+            "brightness_mean": 6.447148075810185,
+            "laplacian_variance": 25.780929082623885,
+            "dark_rms": 0.8869071006774902,
+            "dark_p95": 6.0,
+            "dark_mean": 3.544903516769409,
+            "halo_p95": 6.0,
+            "halo_mean": 3.631500244140625,
+            "fg_luma": 20.657085418701172,
+            "fg_bgr": [
+              24.45589692765114,
+              24.107036669970267,
+              12.251734390485629
+            ],
+            "source_edge_corr": 0.8385492966251028,
+            "trail_pixels": 201
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2544,
+            1612
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 44.03137659143518,
+            "sml_per_pixel": 2.2533637152777777,
+            "brightness_mean": 2.6015715422453702,
+            "laplacian_variance": 12.381817769284764,
+            "dark_rms": 0.7454912066459656,
+            "dark_p95": 4.0,
+            "dark_mean": 2.5950162410736084,
+            "halo_p95": 4.0,
+            "halo_mean": 2.6090950965881348,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 93
+          }
+        }
+      },
+      "elapsed_s": 5.436999999918044,
+      "rss_mib": 285.76171875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_003_20261111_145648_v031/001_PollenEDF-SML/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/PollenEDF-SML",
+      "stage": "pollen-locked",
+      "sha256": "8f9c58c4c56149c8e131128050cc8206d7550a19ad6d90d3a18e81a6963104dc"
+    },
+    "PollenEDF-Tenengrad": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1788,
+            2460
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2860.9241174768517,
+            "sml_per_pixel": 13.603922526041666,
+            "brightness_mean": 96.65597873263889,
+            "laplacian_variance": 277.18533670746893,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 124.11143493652344,
+            "fg_bgr": [
+              147.69758552932626,
+              145.5774407149202,
+              72.99004064493553
+            ],
+            "source_edge_corr": 0.7773741515014085,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2412,
+            2616
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 94.60105613425925,
+            "sml_per_pixel": 3.204345703125,
+            "brightness_mean": 6.378842954282407,
+            "laplacian_variance": 23.25778526133143,
+            "dark_rms": 0.8612970113754272,
+            "dark_p95": 6.0,
+            "dark_mean": 3.5748496055603027,
+            "halo_p95": 6.0,
+            "halo_mean": 3.6157875061035156,
+            "fg_luma": 19.757184982299805,
+            "fg_bgr": [
+              23.67492566897919,
+              23.079286422200198,
+              11.758176412289396
+            ],
+            "source_edge_corr": 0.9164615019089788,
+            "trail_pixels": 186
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2544,
+            1612
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 41.328776041666664,
+            "sml_per_pixel": 2.124855324074074,
+            "brightness_mean": 2.601417824074074,
+            "laplacian_variance": 11.283781789130797,
+            "dark_rms": 0.7111840844154358,
+            "dark_p95": 4.0,
+            "dark_mean": 2.593982219696045,
+            "halo_p95": 4.0,
+            "halo_mean": 2.604665517807007,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 103
+          }
+        }
+      },
+      "elapsed_s": 5.4530000002123415,
+      "rss_mib": 286.80859375,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_003_20261111_145648_v031/002_PollenEDF-Tenengrad/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/PollenEDF-Tenengrad",
+      "stage": "pollen-locked",
+      "sha256": "33a0413728f5cab1abbfe96d264d06312d7777350a7ca11f988750f0ff38e8a1"
+    },
+    "PollenEDF-DepthMap": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1788,
+            2460
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 3654.920229311342,
+            "sml_per_pixel": 15.128300419560183,
+            "brightness_mean": 100.86420355902777,
+            "laplacian_variance": 369.67672226090485,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 122.61884307861328,
+            "fg_bgr": [
+              146.15318564776183,
+              143.83240020457055,
+              72.0114263411483
+            ],
+            "source_edge_corr": 0.6278190397434227,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2412,
+            2616
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 129.48110170717592,
+            "sml_per_pixel": 3.442093460648148,
+            "brightness_mean": 5.799063223379629,
+            "laplacian_variance": 26.773943644655752,
+            "dark_rms": 0.8563858866691589,
+            "dark_p95": 5.0,
+            "dark_mean": 3.29476261138916,
+            "halo_p95": 5.0,
+            "halo_mean": 3.3994014263153076,
+            "fg_luma": 22.24677848815918,
+            "fg_bgr": [
+              26.14370664023786,
+              25.90386521308226,
+              13.406342913776015
+            ],
+            "source_edge_corr": 0.8803073906880197,
+            "trail_pixels": 196
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2544,
+            1612
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 40.60601128472222,
+            "sml_per_pixel": 2.1211389612268516,
+            "brightness_mean": 2.5779170283564814,
+            "laplacian_variance": 11.241436881701805,
+            "dark_rms": 0.7105745673179626,
+            "dark_p95": 4.0,
+            "dark_mean": 2.5708324909210205,
+            "halo_p95": 4.0,
+            "halo_mean": 2.5936851501464844,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 122
+          }
+        }
+      },
+      "elapsed_s": 7.3899999998975545,
+      "rss_mib": 335.57421875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_003_20261111_145648_v031/003_PollenEDF-DepthMap/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/PollenEDF-DepthMap",
+      "stage": "pollen-locked",
+      "sha256": "9d6b06d0e43de54978199df2696312bdcda9e49464dcf8488f1bfd314b2be44c"
+    },
+    "PollenEDF-Adaptive": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            1788,
+            2460
+          ],
+          "xy": [
+            1788,
+            2460
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 2501.2862413194443,
+            "sml_per_pixel": 10.786476417824073,
+            "brightness_mean": 100.85421187789352,
+            "laplacian_variance": 163.4847214987248,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 122.56880187988281,
+            "fg_bgr": [
+              146.0834297865468,
+              143.77669510914916,
+              71.97819708756157
+            ],
+            "source_edge_corr": 0.7503802285281272,
+            "trail_pixels": null
+          }
+        },
+        "small": {
+          "camera_xy": [
+            2412,
+            2616
+          ],
+          "xy": [
+            2412,
+            2616
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 48.03651258680555,
+            "sml_per_pixel": 1.633599175347222,
+            "brightness_mean": 5.885308159722222,
+            "laplacian_variance": 10.035996020984912,
+            "dark_rms": 0.3848479390144348,
+            "dark_p95": 4.0,
+            "dark_mean": 3.5537056922912598,
+            "halo_p95": 4.0,
+            "halo_mean": 3.72472882270813,
+            "fg_luma": 21.34489631652832,
+            "fg_bgr": [
+              25.274529236868187,
+              24.918731417244796,
+              12.781962338949455
+            ],
+            "source_edge_corr": 0.7963032142827232,
+            "trail_pixels": 102
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2544,
+            1612
+          ],
+          "xy": [
+            2544,
+            1612
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 11.832320601851851,
+            "sml_per_pixel": 1.0631419994212963,
+            "brightness_mean": 2.700981987847222,
+            "laplacian_variance": 3.4442544329313582,
+            "dark_rms": 0.39324986934661865,
+            "dark_p95": 3.0,
+            "dark_mean": 2.697502613067627,
+            "halo_p95": 3.0,
+            "halo_mean": 2.715221405029297,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 70
+          }
+        }
+      },
+      "elapsed_s": 16.436999999918044,
+      "rss_mib": 634.32421875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_003_20261111_145648_v031/004_PollenEDF-Adaptive/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261111_145648_v031/PollenEDF-Adaptive",
+      "stage": "pollen-locked",
+      "sha256": "1eae02777f3f52bca2e53df58c2901fb97cdbfc2fe2fc5f8018183aab0edd531"
+    }
+  },
+  "20261113_104731_v106": {
+    "Helicon-B": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            43,
+            562
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.7567908763885498,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 117.14438657407408,
+            "sml_per_pixel": 4.019486038773148,
+            "brightness_mean": 17.21978985821759,
+            "laplacian_variance": 28.507025023301438,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 18.174341201782227,
+            "fg_bgr": [
+              14.580392366493825,
+              21.018196397070614,
+              13.844785374458759
+            ],
+            "source_edge_corr": 0.022581004764150384,
+            "trail_pixels": 14
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            55,
+            817
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.9669724702835083,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 131.36114728009258,
+            "sml_per_pixel": 2.680248119212963,
+            "brightness_mean": 5.922236689814815,
+            "laplacian_variance": 34.01622121128035,
+            "dark_rms": 1.1775734424591064,
+            "dark_p95": 8.0,
+            "dark_mean": 2.8225183486938477,
+            "halo_p95": 9.0,
+            "halo_mean": 3.980717897415161,
+            "fg_luma": 14.543564796447754,
+            "fg_bgr": [
+              12.15545151563244,
+              17.057133788287572,
+              10.387557530550707
+            ],
+            "source_edge_corr": 0.014773127371844554,
+            "trail_pixels": 47
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2559,
+            1750
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 60.59608289930555,
+            "sml_per_pixel": 1.1945891203703702,
+            "brightness_mean": 1.270363136574074,
+            "laplacian_variance": 14.895164160080897,
+            "dark_rms": 0.936789333820343,
+            "dark_p95": 2.0,
+            "dark_mean": 1.2699264287948608,
+            "halo_p95": 3.0,
+            "halo_mean": 1.626076102256775,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 104
+          }
+        }
+      },
+      "elapsed_s": 3.344000000040978,
+      "rss_mib": 2024.828125,
+      "width": 4078,
+      "height": 2986,
+      "path": "holdout-helicon/20261113_104731_v106/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/Helicon-B",
+      "stage": "helicon",
+      "sha256": "14425007ea02a234aa46ffc6d6043f5da7d274a7b77a285160a019a6d2d32793"
+    },
+    "FS_Default": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            49,
+            575
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.8571362495422363,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 312.5333839699074,
+            "sml_per_pixel": 8.283311631944445,
+            "brightness_mean": 20.489646629050924,
+            "laplacian_variance": 103.76480799251132,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 23.092510223388672,
+            "fg_bgr": [
+              17.925835248837334,
+              26.244657080237346,
+              18.925514513283797
+            ],
+            "source_edge_corr": 0.03039300668164953,
+            "trail_pixels": 49
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            53,
+            817
+          ],
+          "coordinate_mode": "integer_match",
+          "ncc": 0.8407727479934692,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 154.56857638888889,
+            "sml_per_pixel": 4.607864945023148,
+            "brightness_mean": 4.67749927662037,
+            "laplacian_variance": 48.56755353385691,
+            "dark_rms": 1.231987714767456,
+            "dark_p95": 6.0,
+            "dark_mean": 2.5213615894317627,
+            "halo_p95": 7.0,
+            "halo_mean": 2.8001701831817627,
+            "fg_luma": 11.267179489135742,
+            "fg_bgr": [
+              9.271345818124107,
+              13.166957625773687,
+              8.349904777019521
+            ],
+            "source_edge_corr": -0.006965699203561485,
+            "trail_pixels": 131
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2565,
+            1763
+          ],
+          "coordinate_mode": "field_offset",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 31.48488136574074,
+            "sml_per_pixel": 1.939136646412037,
+            "brightness_mean": 1.6014720775462963,
+            "laplacian_variance": 9.813647688089247,
+            "dark_rms": 0.7626476287841797,
+            "dark_p95": 3.0,
+            "dark_mean": 1.601101279258728,
+            "halo_p95": 3.0,
+            "halo_mean": 1.7178813219070435,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 126
+          }
+        }
+      },
+      "elapsed_s": 25.734000000171363,
+      "rss_mib": 3658.74609375,
+      "width": 4083,
+      "height": 2987,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_004_20261113_104731_v106/001_FS_Default/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/FS_Default",
+      "stage": "native-locked",
+      "sha256": "c9568b8d06d23ff1b30c7c3659583e2cadfc60280720a44f9e849143c0bcbebc"
+    },
+    "FS_Tuned": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            64,
+            580
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 86.4911205150463,
+            "sml_per_pixel": 3.7569806134259256,
+            "brightness_mean": 25.140842013888886,
+            "laplacian_variance": 37.388595722339765,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 29.417865753173828,
+            "fg_bgr": [
+              23.58826107874058,
+              33.427187683754745,
+              23.888234350777783
+            ],
+            "source_edge_corr": 0.27027063993287326,
+            "trail_pixels": 3
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            68,
+            868
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 30.560872395833332,
+            "sml_per_pixel": 0.5996817129629629,
+            "brightness_mean": 1.9033926504629628,
+            "laplacian_variance": 18.48377699485695,
+            "dark_rms": 0.24187293648719788,
+            "dark_p95": 2.0,
+            "dark_mean": 1.6605123281478882,
+            "halo_p95": 2.0,
+            "halo_mean": 1.7507898807525635,
+            "fg_luma": 2.667473316192627,
+            "fg_bgr": [
+              2.706911601333122,
+              3.547135375337248,
+              1.3774400888747818
+            ],
+            "source_edge_corr": 0.81923901615149,
+            "trail_pixels": 22
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2580,
+            1768
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 5.968786168981481,
+            "sml_per_pixel": 0.15591543692129628,
+            "brightness_mean": 1.1258861400462963,
+            "laplacian_variance": 3.2329372809420556,
+            "dark_rms": 0.21270109713077545,
+            "dark_p95": 2.0,
+            "dark_mean": 1.1227959394454956,
+            "halo_p95": 2.0,
+            "halo_mean": 1.1807188987731934,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 22
+          }
+        }
+      },
+      "elapsed_s": 14.234000000171363,
+      "rss_mib": 4299.25,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-native-locked/experiment_20261127T023631Z_81c4a01d/view_004_20261113_104731_v106/002_FS_Tuned/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/FS_Tuned",
+      "stage": "native-locked",
+      "sha256": "713b75298a0690b28a5a7d4d247f66c9baf7be2b1f1e7fb270315fb8cda0c495"
+    },
+    "PollenEDF-SML": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            64,
+            580
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 623.8021375868055,
+            "sml_per_pixel": 7.563386140046296,
+            "brightness_mean": 28.680040147569443,
+            "laplacian_variance": 99.29967562063239,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 31.76897430419922,
+            "fg_bgr": [
+              25.38910568236489,
+              36.15443416902764,
+              25.553536109477736
+            ],
+            "source_edge_corr": 0.10838998109610626,
+            "trail_pixels": 31
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            68,
+            868
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 91.00566044560185,
+            "sml_per_pixel": 2.665599681712963,
+            "brightness_mean": 4.164378978587963,
+            "laplacian_variance": 30.829154258892864,
+            "dark_rms": 0.700642466545105,
+            "dark_p95": 4.0,
+            "dark_mean": 1.9356852769851685,
+            "halo_p95": 6.0,
+            "halo_mean": 2.397512674331665,
+            "fg_luma": 10.6758451461792,
+            "fg_bgr": [
+              9.354983335978416,
+              12.424734169179496,
+              7.405967306776702
+            ],
+            "source_edge_corr": 0.6549306555970174,
+            "trail_pixels": 173
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2580,
+            1768
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 25.669361255787038,
+            "sml_per_pixel": 1.6045373987268519,
+            "brightness_mean": 1.5440719039351851,
+            "laplacian_variance": 8.09422923826877,
+            "dark_rms": 0.5843762755393982,
+            "dark_p95": 3.0,
+            "dark_mean": 1.539798378944397,
+            "halo_p95": 3.0,
+            "halo_mean": 1.5646973848342896,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 119
+          }
+        }
+      },
+      "elapsed_s": 4.75,
+      "rss_mib": 286.90234375,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_004_20261113_104731_v106/001_PollenEDF-SML/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/PollenEDF-SML",
+      "stage": "pollen-locked",
+      "sha256": "308484c5e8d0d4aaa04e88f139d443653c96ad120b75434a757c23e315ad8102"
+    },
+    "PollenEDF-Tenengrad": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            64,
+            580
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 324.9877567997685,
+            "sml_per_pixel": 6.008364076967593,
+            "brightness_mean": 27.482313368055554,
+            "laplacian_variance": 65.45862991222793,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 30.999774932861328,
+            "fg_bgr": [
+              24.65054792323729,
+              35.14654407441065,
+              25.256898487197304
+            ],
+            "source_edge_corr": 0.11021945525208196,
+            "trail_pixels": 22
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            68,
+            868
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 82.86454716435185,
+            "sml_per_pixel": 2.4842212818287037,
+            "brightness_mean": 3.370442708333333,
+            "laplacian_variance": 28.971685491880436,
+            "dark_rms": 0.7026756405830383,
+            "dark_p95": 5.0,
+            "dark_mean": 2.0116193294525146,
+            "halo_p95": 6.0,
+            "halo_mean": 2.5339057445526123,
+            "fg_luma": 7.10256290435791,
+            "fg_bgr": [
+              6.872639263608951,
+              8.282772575781623,
+              4.7879304872242505
+            ],
+            "source_edge_corr": 0.647343189739321,
+            "trail_pixels": 160
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2580,
+            1768
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 25.070963541666664,
+            "sml_per_pixel": 1.4624475549768516,
+            "brightness_mean": 1.5374258535879628,
+            "laplacian_variance": 7.967221709354098,
+            "dark_rms": 0.5688908100128174,
+            "dark_p95": 3.0,
+            "dark_mean": 1.5324264764785767,
+            "halo_p95": 3.0,
+            "halo_mean": 1.548925518989563,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 120
+          }
+        }
+      },
+      "elapsed_s": 4.875,
+      "rss_mib": 285.97265625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_004_20261113_104731_v106/002_PollenEDF-Tenengrad/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/PollenEDF-Tenengrad",
+      "stage": "pollen-locked",
+      "sha256": "0b79c5b48816fd86fb343067a6747c3a13988c483a17ee7d4637f1583e9d5914"
+    },
+    "PollenEDF-DepthMap": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            64,
+            580
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 1055.6773907696759,
+            "sml_per_pixel": 8.232521339699074,
+            "brightness_mean": 26.25859013310185,
+            "laplacian_variance": 135.8662677771924,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 28.891752243041992,
+            "fg_bgr": [
+              23.158924466777144,
+              32.993938098038164,
+              22.980157160421232
+            ],
+            "source_edge_corr": 0.10319229600966595,
+            "trail_pixels": 61
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            68,
+            868
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 95.95194950810185,
+            "sml_per_pixel": 2.667598017939815,
+            "brightness_mean": 4.057816116898148,
+            "laplacian_variance": 30.93333078698039,
+            "dark_rms": 0.6997987627983093,
+            "dark_p95": 4.0,
+            "dark_mean": 1.9369111061096191,
+            "halo_p95": 6.0,
+            "halo_mean": 2.38993763923645,
+            "fg_luma": 10.221869468688965,
+            "fg_bgr": [
+              9.001983812093318,
+              11.888866846532297,
+              7.117282970956991
+            ],
+            "source_edge_corr": 0.595458347527723,
+            "trail_pixels": 161
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2580,
+            1768
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 25.404025607638886,
+            "sml_per_pixel": 1.4559280960648149,
+            "brightness_mean": 1.5186451099537037,
+            "laplacian_variance": 7.885759799732266,
+            "dark_rms": 0.5639071464538574,
+            "dark_p95": 3.0,
+            "dark_mean": 1.5137611627578735,
+            "halo_p95": 3.0,
+            "halo_mean": 1.533679485321045,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 129
+          }
+        }
+      },
+      "elapsed_s": 6.468000000109896,
+      "rss_mib": 326.1640625,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_004_20261113_104731_v106/003_PollenEDF-DepthMap/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/PollenEDF-DepthMap",
+      "stage": "pollen-locked",
+      "sha256": "69430ec919474d5e5eee530e9e3b2be3a23591d07d463fb588baf8a5b6443487"
+    },
+    "PollenEDF-Adaptive": {
+      "regions": {
+        "detail": {
+          "camera_xy": [
+            64,
+            580
+          ],
+          "xy": [
+            64,
+            580
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 165.4100296585648,
+            "sml_per_pixel": 4.526005497685185,
+            "brightness_mean": 21.633201316550924,
+            "laplacian_variance": 39.27701419959833,
+            "dark_rms": null,
+            "dark_p95": null,
+            "dark_mean": null,
+            "halo_p95": null,
+            "halo_mean": null,
+            "fg_luma": 24.152734756469727,
+            "fg_bgr": [
+              19.429796332923505,
+              27.77148660929064,
+              18.86399743411557
+            ],
+            "source_edge_corr": 0.2127884336516454,
+            "trail_pixels": 11
+          }
+        },
+        "second": {
+          "camera_xy": [
+            68,
+            868
+          ],
+          "xy": [
+            68,
+            868
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 42.32157841435185,
+            "sml_per_pixel": 1.4831904658564814,
+            "brightness_mean": 3.0795265480324074,
+            "laplacian_variance": 16.068241629499138,
+            "dark_rms": 0.3944001793861389,
+            "dark_p95": 2.0,
+            "dark_mean": 1.7664904594421387,
+            "halo_p95": 3.0,
+            "halo_mean": 1.8982014656066895,
+            "fg_luma": 7.293961048126221,
+            "fg_bgr": [
+              6.700007935248373,
+              8.680328519282654,
+              4.8219330265037295
+            ],
+            "source_edge_corr": 0.6957394345267789,
+            "trail_pixels": 107
+          }
+        },
+        "dark": {
+          "camera_xy": [
+            2580,
+            1768
+          ],
+          "xy": [
+            2580,
+            1768
+          ],
+          "coordinate_mode": "camera",
+          "ncc": null,
+          "usable": true,
+          "metrics": {
+            "tenengrad": 11.82373046875,
+            "sml_per_pixel": 1.1059299045138888,
+            "brightness_mean": 1.404956958912037,
+            "laplacian_variance": 3.26348136898912,
+            "dark_rms": 0.40818026661872864,
+            "dark_p95": 2.0,
+            "dark_mean": 1.402312994003296,
+            "halo_p95": 2.0,
+            "halo_mean": 1.4420713186264038,
+            "fg_luma": null,
+            "fg_bgr": null,
+            "source_edge_corr": null,
+            "trail_pixels": 80
+          }
+        }
+      },
+      "elapsed_s": 15.469000000040978,
+      "rss_mib": 691.3671875,
+      "width": 4096,
+      "height": 3000,
+      "path": "holdout-pollen-locked/experiment_20261127T023924Z_cf5bca91/view_004_20261113_104731_v106/004_PollenEDF-Adaptive/attempt_001/fused.png",
+      "folder": "comparisons/holdout/20261113_104731_v106/PollenEDF-Adaptive",
+      "stage": "pollen-locked",
+      "sha256": "d576e0c13fdbb5a75867335ffbf2695ef7ea87695ac914cf99fdeffb9141c93a"
+    }
+  }
+}

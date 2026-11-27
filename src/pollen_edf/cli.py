@@ -15,9 +15,11 @@ import yaml
 from .config import load_settings
 from .dataset import Dataset, load_dataset, manual_dataset, validate_stack
 from .engine import FocusStackEngine
-from .experiments import PRESETS, ExperimentRunner, ensure_separate_output, machine_information, trials_for
+from .experiments import (POLLEN_PRESETS, PRESETS, ExperimentRunner, ensure_separate_output,
+                          machine_information, manifest_backend, trials_for)
 from .images import Cancelled, absolute_path, check_cancel, display_path
 from .records import attach_reference, read_json, write_report
+from .pollen_engine import PollenEDFEngine
 from .sampling import SampleSpec
 from .synthetic import generate
 
@@ -39,9 +41,10 @@ def _add_fusion(parser: argparse.ArgumentParser, batch: bool) -> None:
     _add_input(parser, required=not batch)
     if batch:
         parser.add_argument("--resume", type=Path, help="恢复已有实验目录")
-    parser.add_argument("--preset", action="append", choices=PRESETS, help="选择预设，可重复")
+    parser.add_argument("--backend", choices=("focus-stack", "pollen-edf"), help="融合引擎，可由预设推断")
+    parser.add_argument("--preset", action="append", choices=(*PRESETS, *POLLEN_PRESETS), help="选择同引擎预设，可重复")
     parser.add_argument("--output", type=Path, help="实验记录父目录")
-    parser.add_argument("--timeout", type=float, help="单任务原生进程超时秒数")
+    parser.add_argument("--timeout", type=float, help="单任务融合进程超时秒数")
     parser.add_argument("--alignment", choices=("default", "global", "none"))
     parser.add_argument("--crop", choices=("auto", "keep-size", "none"))
     parser.add_argument("--acceleration", choices=("auto", "cpu", "opencl"))
@@ -50,6 +53,12 @@ def _add_fusion(parser: argparse.ArgumentParser, batch: bool) -> None:
     for flag in ("consistency", "threads", "batch-size", "reference"):
         parser.add_argument(f"--{flag}", type=int)
     parser.add_argument("--denoise", type=float)
+    pollen = parser.add_argument_group("PollenEDF")
+    pollen.add_argument("--scorer", choices=("sml", "tenengrad", "multiscale"))
+    pollen.add_argument("--score-scale", type=int, help="清晰度图相对原始像素的最小降采样倍数")
+    pollen.add_argument("--pyramid-levels", type=int, help="拉普拉斯金字塔层数，0 为关闭")
+    for flag in ("noise-aware", "refine", "background", "defects", "soft", "halo-guard", "broad-pool", "weak-stack-anchor"):
+        pollen.add_argument(f"--{flag}", action=argparse.BooleanOptionalAction, default=None)
     parser.add_argument("--sample", choices=("all", "stride", "range", "list", "uniform"), default="all")
     parser.add_argument("--step", type=int, help="每隔多少个已采集焦层抽取")
     parser.add_argument("--offset", type=int, action="append", help="stride 的起始位置，可重复")
@@ -65,6 +74,7 @@ def make_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="action", required=True)
     doctor = subparsers.add_parser("doctor", help="检测环境和真实 native engine")
     doctor.add_argument("--json", action="store_true", help="输出完整探测记录")
+    doctor.add_argument("--backend", choices=("focus-stack", "pollen-edf"), default="focus-stack")
     gui = subparsers.add_parser("gui", help="启动 PySide6 工作台")
     inspect = subparsers.add_parser("inspect", help="导入并逐帧校验")
     _add_input(inspect)
@@ -134,7 +144,9 @@ def _samples(args: argparse.Namespace) -> list[SampleSpec]:
 
 
 ENGINE_FIELDS = ("alignment", "whitebalance", "contrast", "transform", "full_resolution_align", "consistency",
-                 "denoise", "threads", "batch_size", "reference", "crop", "depth", "intermediate", "acceleration")
+                 "denoise", "threads", "batch_size", "reference", "crop", "depth", "intermediate", "acceleration",
+                 "scorer", "score_scale", "pyramid_levels", "noise_aware", "refine", "background", "defects", "soft",
+                 "halo_guard", "broad_pool", "weak_stack_anchor")
 
 
 def _run_command(args: argparse.Namespace, cancel: Event) -> int:
@@ -160,9 +172,16 @@ def _run_command(args: argparse.Namespace, cancel: Event) -> int:
                 raise ValueError("报告输出文件必须以 .html 结尾。")
         print(display_path(write_report(root, manifest, args.output)))
         return 0
-    engine = FocusStackEngine(settings.engine)
     if args.action == "doctor":
-        return _doctor(engine, args.json)
+        if args.backend == "pollen-edf":
+            capabilities = PollenEDFEngine().validate_environment()
+            if args.json:
+                print(json.dumps(capabilities.record(), ensure_ascii=False, indent=2))
+            else:
+                print(f"{capabilities.version} · CPU · OpenCV {capabilities.opencv}\n"
+                      f"SHA-256 {capabilities.identity_sha256}\n" + "\n".join(POLLEN_PRESETS))
+            return 0
+        return _doctor(FocusStackEngine(settings.engine), args.json)
     if args.action == "inspect":
         dataset = _dataset(args, cancel)
         checks = {}
@@ -185,7 +204,9 @@ def _run_command(args: argparse.Namespace, cancel: Event) -> int:
         print(json.dumps(reference, ensure_ascii=False, indent=2))
         return 0
     overrides = {key: getattr(args, key) for key in ENGINE_FIELDS if getattr(args, key) is not None}
-    engine_runner = ExperimentRunner(engine, args.output or settings.artifacts_dir)
+    def runner(backend: str) -> ExperimentRunner:
+        engine = PollenEDFEngine() if backend == "pollen-edf" else FocusStackEngine(settings.engine)
+        return ExperimentRunner(engine, args.output or settings.artifacts_dir)
 
     def progress(update) -> None:
         if any(token in update.message for token in (" · 开始", " · success", " · failed", " · timed_out", " · cancelled", "实验 ")):
@@ -195,14 +216,22 @@ def _run_command(args: argparse.Namespace, cancel: Event) -> int:
         if (args.input or args.files or args.explicit_order or args.view or args.preset or args.output or
                 args.timeout is not None or overrides or _samples(args) != [SampleSpec()]):
             raise ValueError("恢复时请沿用记录内的数据集和参数组合，使用 --resume 指定目录即可。")
-        root = engine_runner.resume(args.resume, cancel, progress)
+        backend = manifest_backend(read_json(args.resume / "manifest.json"))
+        if args.backend and args.backend != backend:
+            raise ValueError("恢复时的融合引擎必须与原记录一致。")
+        root = runner(backend).resume(args.resume, cancel, progress)
     else:
         dataset = _dataset(args, cancel)
-        presets = args.preset or (["FS_Default"] if args.action == "fuse" else list(PRESETS))
+        backend = args.backend or ("pollen-edf" if any(name in POLLEN_PRESETS for name in args.preset or ()) else "focus-stack")
+        available = POLLEN_PRESETS if backend == "pollen-edf" else PRESETS
+        default = "PollenEDF-Adaptive" if backend == "pollen-edf" else "FS_Default"
+        presets = args.preset or ([default] if args.action == "fuse" else list(available))
+        if any(preset not in available for preset in presets):
+            raise ValueError("同一实验的预设必须使用同一种融合引擎。")
         views = _views(dataset, args.view, single=args.action == "fuse")
         trials = trials_for(dict.fromkeys(presets), _samples(args), overrides)
         timeout = args.timeout if args.timeout is not None else settings.timeout_s
-        root = engine_runner.run(dataset, views, trials, timeout, cancel, progress)
+        root = runner(backend).run(dataset, views, trials, timeout, cancel, progress)
     manifest = read_json(root / "manifest.json")
     print(display_path(root))
     return {"completed": 0, "cancelled": 130}.get(manifest["status"], 1)

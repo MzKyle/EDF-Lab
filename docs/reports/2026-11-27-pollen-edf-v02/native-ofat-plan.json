@@ -1,0 +1,62 @@
+{
+  "baseline_options": {
+    "alignment": "default",
+    "whitebalance": true,
+    "contrast": true,
+    "transform": true,
+    "full_resolution_align": false,
+    "consistency": null,
+    "denoise": null,
+    "threads": 8,
+    "batch_size": 8,
+    "reference": null,
+    "crop": "auto",
+    "depth": false,
+    "intermediate": false,
+    "acceleration": "auto"
+  },
+  "changes": {
+    "FS_Default": {},
+    "FS_NoAlign": {
+      "alignment": "none"
+    },
+    "FS_Global": {
+      "alignment": "global"
+    },
+    "FS_FullRes": {
+      "full_resolution_align": true
+    },
+    "FS_WhiteBalanceOff": {
+      "whitebalance": false
+    },
+    "FS_ContrastOff": {
+      "contrast": false
+    },
+    "FS_Consistency0": {
+      "consistency": 0
+    },
+    "FS_Consistency1": {
+      "consistency": 1
+    },
+    "FS_Consistency2": {
+      "consistency": 2
+    },
+    "FS_Denoise0": {
+      "denoise": 0.0
+    },
+    "FS_Denoise4": {
+      "denoise": 4.0
+    },
+    "FS_Denoise16": {
+      "denoise": 16.0
+    },
+    "FS_Denoise64": {
+      "denoise": 64.0
+    },
+    "FS_Reference6": {
+      "reference": 6
+    }
+  },
+  "same_views_for_all_variants": true,
+  "opencl_available_in_pinned_binary": false
+}

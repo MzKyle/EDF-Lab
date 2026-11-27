@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "views": 6,
+    "frames_verified_during_roi_measurement": 279,
+    "results_checked": 42,
+    "input_index_sha256": "8b9ceefba400fde7137b7fec70dbd181603d96c5b65db93befa80fd98d1a1a4b"
+  },
+  "holdout": {
+    "views": 16,
+    "frames_verified_during_roi_measurement": 800,
+    "results_checked": 32,
+    "input_index_sha256": "c78d38e1914fc7ba699d3131caeb2c9673ac8b4b0ead1588be77f33303b071e5"
+  },
+  "coverage": {
+    "views": 18,
+    "frames_verified_during_roi_measurement": 900,
+    "results_checked": 36,
+    "input_index_sha256": "a7f9e60480f1e3e54ccc9dabc62c30a5efdf156190255b2bf08cca4f7a059d6a"
+  }
+}

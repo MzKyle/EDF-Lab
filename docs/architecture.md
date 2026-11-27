@@ -6,8 +6,8 @@ scripts/run.ps1 → pollen_edf.cli
                        ├── GUI (PySide6)
                        └── fuse / benchmark
                                ↓
-             dataset → sampling → ExperimentRunner → FocusStackEngine
-                              └── records / evaluation     └── subprocess
+             dataset → sampling → ExperimentRunner ┬→ FocusStackEngine → 官方原生进程
+                              └── records/evaluation └→ PollenEDFEngine → Python 工作进程
 ```
 
 | 文件 | 职责 |
@@ -16,6 +16,7 @@ scripts/run.ps1 → pollen_edf.cli
 | `dataset.py`、`images.py` | 目录与索引导入、逐帧验证、Unicode 和长路径 I/O、PNG 校验 |
 | `sampling.py`、`experiments.py` | 可复现抽层、格式化待运行计划、串行执行、超时与取消状态、恢复 |
 | `engine.py`、`process_runner.py` | 原生能力探测、明确参数映射、输入暂存、Windows Job Object、日志和 RSS 监控 |
+| `pollen_algorithm.py`、`pollen_engine.py`、`pollen_worker.py` | 自研清晰度评分、焦层选择和融合，复用可取消的工作进程与产物校验 |
 | `evaluation.py` | 真实像素 ROI、像素对应映射、辅助指标和焦层曲线 |
 | `records.py` | 原子更新、独占实验锁、Helicon 参考、人工审查、CSV 和 HTML |
 | `ui.py`、`ui_compare.py`、`ui_parameters.py` | 工作台、比较器、参数和抽层控件 |
@@ -23,7 +24,7 @@ scripts/run.ps1 → pollen_edf.cli
 | `synthetic.py`、`tools/generate_synthetic_zstack.py` | 可重复的 `SYNTHETIC` 测试输入 |
 | `tests/` | 后端、模拟进程、Qt 状态和真实原生引擎集成 |
 
-批处理按视野及参数组合依次启动原生进程，原生程序可配置线程和小波合并批次。预检逐帧解码并释放，只保留文件信息和 SHA-256。待执行输入以短 ASCII 名复制到单独临时目录，逐字节核对已记录的哈希。这样可以在 Windows 上把包含汉字、空格和长路径的原图交给窄字符 CLI。实验输出以 PNG 校验后写入单独的尝试目录。Windows 进程在恢复运行前加入 Job Object，结束、取消或超时都关闭 Job Object 以回收整棵进程树。
+批处理按视野及参数组合依次启动融合进程。预检逐帧解码并释放，只保留文件信息和 SHA-256。原生引擎用经哈希核对的短 ASCII 路径副本向窄字符 CLI 传入源图。PollenEDF 的工作进程根据同一记录逐张读原图，使用受内存上限约束的评分体积，再逐张读入涉及的焦层完成融合。实验输出以 PNG 校验后写入单独的尝试目录。Windows 进程在恢复运行前加入 Job Object，结束、取消或超时都关闭 Job Object 以回收整棵进程树。
 
 GUI 最多运行两个同时解码的预览任务。缩略图和全尺寸图分别进入按字节限制的 LRU，默认合计 112 MiB。场景坐标使用原始像素，放大后才请求全尺寸图。切换焦层时会使旧预览任务失效。ROI 指标由 OpenCV 在后台读取实际像素。单个预览窗口只保留当前图，处理进程和当前显示图各自占用额外内存。
 
@@ -41,6 +42,8 @@ artifacts/experiment_<UTC>_<id>/
     │   ├── execution.log
     │   ├── fused.png
     │   ├── depth.png                    # 可选
+    │   ├── confidence.png               # PollenEDF，可选
+    │   ├── depth-index.png              # PollenEDF，16 位序号，可选
     │   ├── metrics.json
     │   └── steps/                       # 可选中间图
     └── attempt_002/                     # 重试时创建

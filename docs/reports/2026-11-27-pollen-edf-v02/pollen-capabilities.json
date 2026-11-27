@@ -1,0 +1,16 @@
+{
+  "backend": "pollen-edf",
+  "version": "PollenEDF 0.2",
+  "interpreter": "[workspace]\\.venv\\Scripts\\python.exe",
+  "identity_sha256": "f7bfa88bbc6ba10d25df4927bcd3e58d02c2265e449ecfa5d874aef32d8f0788",
+  "source_hashes": {
+    "pollen_algorithm.py": "3462e126b831bd2bb92f98c5329a9937417e9ea3155461d2fdd9be1ef46a18ab",
+    "pollen_weights.py": "1e09c052e8cbbf6b99be28b722341c16efbc60ad53212c7d4f477c2a1b105331",
+    "pollen_engine.py": "98b3cd4e01509f880f6bea955ad9ae3e318952e85040bfbfc974b98482b7c1ae",
+    "pollen_worker.py": "1dfaeeea0c79c218f4867911f4dd7eda51af9003ad46ebb8997eeb264ef4e545",
+    "images.py": "e5a5d52ca211b708b032c78356b425e16ebfc2e4cba164d57f52170fc3e7bb76"
+  },
+  "python": "3.11.16",
+  "opencv": "4.14.0",
+  "numpy": "2.4.6"
+}

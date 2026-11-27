@@ -1,0 +1,29 @@
+{
+  "method": "PollenEDF-Brightfield-Context",
+  "options": {
+    "scorer": "multiscale",
+    "score_scale": 2,
+    "noise_aware": true,
+    "refine": true,
+    "background": false,
+    "defects": false,
+    "soft": true,
+    "halo_guard": false,
+    "broad_pool": false,
+    "weak_stack_anchor": false,
+    "pyramid_levels": 3,
+    "threads": 8,
+    "depth": true,
+    "intermediate": true,
+    "brightfield": true,
+    "focus_context_px": 24
+  },
+  "frozen_at": "2026-11-27T03:34:50+00:00",
+  "identity_sha256": "5559c4b3aefa4fd4c40e5750bec08bddf168d71e9567642efacc193a2215c0c9",
+  "development_manifest": "runs/dev-pollen-fallback.json",
+  "index_hashes": {
+    "dev": "8b9ceefba400fde7137b7fec70dbd181603d96c5b65db93befa80fd98d1a1a4b",
+    "holdout": "c78d38e1914fc7ba699d3131caeb2c9673ac8b4b0ead1588be77f33303b071e5",
+    "coverage": "a7f9e60480f1e3e54ccc9dabc62c30a5efdf156190255b2bf08cca4f7a059d6a"
+  }
+}

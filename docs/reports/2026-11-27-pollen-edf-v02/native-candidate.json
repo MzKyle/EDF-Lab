@@ -1,0 +1,9 @@
+{
+  "selected_at": "2026-11-27T02:27:44+00:00",
+  "focus_stack": {
+    "alignment": "none",
+    "denoise": 64.0
+  },
+  "development_manifest": "runs/dev-native-ofat.json",
+  "basis": "Disable frame transforms after tracing recurring camera points. Level 64 reduced dark residual across the dev OFAT and in the no-alignment diagnostic crop."
+}

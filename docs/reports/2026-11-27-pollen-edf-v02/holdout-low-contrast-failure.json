@@ -1,0 +1,370 @@
+{
+  "view": "20261103_160942_v061",
+  "foreground_area": 0.7540834553440703,
+  "high_confidence_area": 0.022603221083455343,
+  "single_plane_fallback_index": null,
+  "observations": {
+    "grain_surface": {
+      "coords_in_roi": [
+        30,
+        174,
+        60,
+        58
+      ],
+      "label_index_p10_p90": [
+        1.0,
+        13.0
+      ],
+      "local_confidence_median": 0.28627450980392155,
+      "halo_mass_median": 0.0,
+      "anchor_mass_median": 0.0
+    },
+    "intergrain_gap": {
+      "coords_in_roi": [
+        94,
+        166,
+        50,
+        64
+      ],
+      "label_index_p10_p90": [
+        1.0,
+        12.0
+      ],
+      "local_confidence_median": 0.3411764705882353,
+      "halo_mass_median": 0.0,
+      "anchor_mass_median": 0.0
+    }
+  },
+  "raw_z_curves": [
+    {
+      "z": -20,
+      "grain_surface": {
+        "score": 0.8950083255767822,
+        "luma": 51.0
+      },
+      "intergrain_gap": {
+        "score": 0.9229347109794617,
+        "luma": 43.0
+      }
+    },
+    {
+      "z": -18,
+      "grain_surface": {
+        "score": 0.9578084349632263,
+        "luma": 63.0
+      },
+      "intergrain_gap": {
+        "score": 0.8540526032447815,
+        "luma": 41.0
+      }
+    },
+    {
+      "z": -16,
+      "grain_surface": {
+        "score": 0.9644688367843628,
+        "luma": 62.0
+      },
+      "intergrain_gap": {
+        "score": 0.9107211232185364,
+        "luma": 41.0
+      }
+    },
+    {
+      "z": -14,
+      "grain_surface": {
+        "score": 0.9058879017829895,
+        "luma": 63.0
+      },
+      "intergrain_gap": {
+        "score": 0.8155746459960938,
+        "luma": 42.0
+      }
+    },
+    {
+      "z": -12,
+      "grain_surface": {
+        "score": 0.9710720181465149,
+        "luma": 63.0
+      },
+      "intergrain_gap": {
+        "score": 0.8389042615890503,
+        "luma": 43.0
+      }
+    },
+    {
+      "z": -10,
+      "grain_surface": {
+        "score": 0.9637230038642883,
+        "luma": 62.0
+      },
+      "intergrain_gap": {
+        "score": 0.8248184323310852,
+        "luma": 45.0
+      }
+    },
+    {
+      "z": -8,
+      "grain_surface": {
+        "score": 1.0057538747787476,
+        "luma": 61.0
+      },
+      "intergrain_gap": {
+        "score": 0.8394106030464172,
+        "luma": 46.0
+      }
+    },
+    {
+      "z": -6,
+      "grain_surface": {
+        "score": 0.9445149898529053,
+        "luma": 61.0
+      },
+      "intergrain_gap": {
+        "score": 0.8044500946998596,
+        "luma": 46.5
+      }
+    },
+    {
+      "z": -4,
+      "grain_surface": {
+        "score": 0.965937614440918,
+        "luma": 61.0
+      },
+      "intergrain_gap": {
+        "score": 0.7994470000267029,
+        "luma": 48.0
+      }
+    },
+    {
+      "z": -2,
+      "grain_surface": {
+        "score": 0.9475009441375732,
+        "luma": 60.0
+      },
+      "intergrain_gap": {
+        "score": 0.8106252551078796,
+        "luma": 49.0
+      }
+    },
+    {
+      "z": 0,
+      "grain_surface": {
+        "score": 0.8901014924049377,
+        "luma": 59.0
+      },
+      "intergrain_gap": {
+        "score": 0.8188557624816895,
+        "luma": 50.0
+      }
+    },
+    {
+      "z": 2,
+      "grain_surface": {
+        "score": 0.9127100706100464,
+        "luma": 58.0
+      },
+      "intergrain_gap": {
+        "score": 0.8082518577575684,
+        "luma": 50.0
+      }
+    },
+    {
+      "z": 4,
+      "grain_surface": {
+        "score": 0.8776203989982605,
+        "luma": 56.0
+      },
+      "intergrain_gap": {
+        "score": 0.8131920099258423,
+        "luma": 50.0
+      }
+    },
+    {
+      "z": 6,
+      "grain_surface": {
+        "score": 0.8208146095275879,
+        "luma": 53.0
+      },
+      "intergrain_gap": {
+        "score": 0.8047886490821838,
+        "luma": 49.0
+      }
+    },
+    {
+      "z": 8,
+      "grain_surface": {
+        "score": 0.8648393750190735,
+        "luma": 51.0
+      },
+      "intergrain_gap": {
+        "score": 0.8436579704284668,
+        "luma": 47.0
+      }
+    },
+    {
+      "z": 10,
+      "grain_surface": {
+        "score": 0.8368586301803589,
+        "luma": 48.0
+      },
+      "intergrain_gap": {
+        "score": 0.8508227467536926,
+        "luma": 45.0
+      }
+    },
+    {
+      "z": 12,
+      "grain_surface": {
+        "score": 0.8546309471130371,
+        "luma": 45.0
+      },
+      "intergrain_gap": {
+        "score": 0.8218348622322083,
+        "luma": 44.0
+      }
+    },
+    {
+      "z": 14,
+      "grain_surface": {
+        "score": 0.8295169472694397,
+        "luma": 42.0
+      },
+      "intergrain_gap": {
+        "score": 0.8091866970062256,
+        "luma": 41.0
+      }
+    },
+    {
+      "z": 16,
+      "grain_surface": {
+        "score": 0.7700924873352051,
+        "luma": 39.0
+      },
+      "intergrain_gap": {
+        "score": 0.7854480743408203,
+        "luma": 40.0
+      }
+    },
+    {
+      "z": 18,
+      "grain_surface": {
+        "score": 0.7376157641410828,
+        "luma": 36.0
+      },
+      "intergrain_gap": {
+        "score": 0.762688159942627,
+        "luma": 38.0
+      }
+    },
+    {
+      "z": 20,
+      "grain_surface": {
+        "score": 0.7619755268096924,
+        "luma": 34.0
+      },
+      "intergrain_gap": {
+        "score": 0.7545242309570312,
+        "luma": 36.0
+      }
+    },
+    {
+      "z": 22,
+      "grain_surface": {
+        "score": 0.714052677154541,
+        "luma": 32.0
+      },
+      "intergrain_gap": {
+        "score": 0.7363743782043457,
+        "luma": 35.0
+      }
+    },
+    {
+      "z": 24,
+      "grain_surface": {
+        "score": 0.6991085410118103,
+        "luma": 30.0
+      },
+      "intergrain_gap": {
+        "score": 0.7093542218208313,
+        "luma": 33.0
+      }
+    },
+    {
+      "z": 26,
+      "grain_surface": {
+        "score": 0.7009379863739014,
+        "luma": 29.0
+      },
+      "intergrain_gap": {
+        "score": 0.7300360202789307,
+        "luma": 31.0
+      }
+    },
+    {
+      "z": 28,
+      "grain_surface": {
+        "score": 0.6919617652893066,
+        "luma": 28.0
+      },
+      "intergrain_gap": {
+        "score": 0.732747495174408,
+        "luma": 30.0
+      }
+    },
+    {
+      "z": 30,
+      "grain_surface": {
+        "score": 0.6892878413200378,
+        "luma": 27.0
+      },
+      "intergrain_gap": {
+        "score": 0.7147895693778992,
+        "luma": 28.0
+      }
+    },
+    {
+      "z": 32,
+      "grain_surface": {
+        "score": 0.667011559009552,
+        "luma": 26.0
+      },
+      "intergrain_gap": {
+        "score": 0.6862757802009583,
+        "luma": 27.0
+      }
+    },
+    {
+      "z": 34,
+      "grain_surface": {
+        "score": 0.6260606646537781,
+        "luma": 25.0
+      },
+      "intergrain_gap": {
+        "score": 0.6502353549003601,
+        "luma": 26.0
+      }
+    },
+    {
+      "z": 36,
+      "grain_surface": {
+        "score": 0.6585890054702759,
+        "luma": 25.0
+      },
+      "intergrain_gap": {
+        "score": 0.647407054901123,
+        "luma": 25.0
+      }
+    },
+    {
+      "z": 38,
+      "grain_surface": {
+        "score": 0.652546763420105,
+        "luma": 25.0
+      },
+      "intergrain_gap": {
+        "score": 0.6159405708312988,
+        "luma": 24.0
+      }
+    }
+  ]
+}

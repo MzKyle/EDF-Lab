@@ -1,0 +1,95 @@
+{
+  "view": "20261106_163002_v016",
+  "signed_transforms": 30,
+  "crop_origin": [
+    8,
+    40
+  ],
+  "recurring_points": 24,
+  "observations": [
+    {
+      "location_in_camera": [
+        2408,
+        1135
+      ],
+      "axis_aligned_displacement_px": 12.913492667114733,
+      "default_bright_pixels_on_predicted_path": 9,
+      "default_residual_span_px": 11.180339887498949,
+      "no_alignment_central_7px_residual_span_px": 3.605551275463989,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-1-native.png",
+      "no_align": "alignment-points/point-1-no-align.png",
+      "predicted": "alignment-points/point-1-predicted.png"
+    },
+    {
+      "location_in_camera": [
+        2397,
+        1184
+      ],
+      "axis_aligned_displacement_px": 12.619611948312087,
+      "default_bright_pixels_on_predicted_path": 12,
+      "default_residual_span_px": 13.0,
+      "no_alignment_central_7px_residual_span_px": 5.830951894845301,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-2-native.png",
+      "no_align": "alignment-points/point-2-no-align.png",
+      "predicted": "alignment-points/point-2-predicted.png"
+    },
+    {
+      "location_in_camera": [
+        2526,
+        1163
+      ],
+      "axis_aligned_displacement_px": 12.37748751619793,
+      "default_bright_pixels_on_predicted_path": 18,
+      "default_residual_span_px": 13.892443989449804,
+      "no_alignment_central_7px_residual_span_px": 7.211102550927978,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-3-native.png",
+      "no_align": "alignment-points/point-3-no-align.png",
+      "predicted": "alignment-points/point-3-predicted.png"
+    },
+    {
+      "location_in_camera": [
+        2596,
+        1152
+      ],
+      "axis_aligned_displacement_px": 12.245364628747398,
+      "default_bright_pixels_on_predicted_path": 16,
+      "default_residual_span_px": 12.529964086141668,
+      "no_alignment_central_7px_residual_span_px": 5.0,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-4-native.png",
+      "no_align": "alignment-points/point-4-no-align.png",
+      "predicted": "alignment-points/point-4-predicted.png"
+    },
+    {
+      "location_in_camera": [
+        2657,
+        1148
+      ],
+      "axis_aligned_displacement_px": 12.094063700432644,
+      "default_bright_pixels_on_predicted_path": 16,
+      "default_residual_span_px": 11.40175425099138,
+      "no_alignment_central_7px_residual_span_px": 6.4031242374328485,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-5-native.png",
+      "no_align": "alignment-points/point-5-no-align.png",
+      "predicted": "alignment-points/point-5-predicted.png"
+    },
+    {
+      "location_in_camera": [
+        2411,
+        1319
+      ],
+      "axis_aligned_displacement_px": 11.752694998576647,
+      "default_bright_pixels_on_predicted_path": 13,
+      "default_residual_span_px": 11.180339887498949,
+      "no_alignment_central_7px_residual_span_px": 5.0,
+      "derived_display_multiplier": 8,
+      "native": "alignment-points/point-6-native.png",
+      "no_align": "alignment-points/point-6-no-align.png",
+      "predicted": "alignment-points/point-6-predicted.png"
+    }
+  ]
+}

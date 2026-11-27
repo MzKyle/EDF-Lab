@@ -10,15 +10,20 @@ import tempfile
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from threading import Event, Lock
-from typing import Protocol
+from typing import ClassVar, Protocol, TYPE_CHECKING
 
 from .config import ENGINE_PIN
 from .images import FORMATS, Cancelled, absolute_path, check_cancel, png_info, sha256
 from .process_runner import Progress, log_tail, run_process
 
+if TYPE_CHECKING:
+    from .pollen_algorithm import PollenEDFOptions
+    from .pollen_engine import PollenEDFCapabilities
+
 
 @dataclass(frozen=True)
 class EngineCapabilities:
+    backend: ClassVar[str] = "focus-stack"
     executable: Path
     release: str
     commit: str
@@ -32,6 +37,10 @@ class EngineCapabilities:
 
     def record(self) -> dict:
         return {**asdict(self), "executable": str(self.executable), "options": sorted(self.options)}
+
+    @property
+    def identity_sha256(self) -> str:
+        return self.binary_sha256
 
 
 @dataclass(frozen=True)
@@ -103,7 +112,7 @@ class EngineOptions:
 class FusionRequest:
     inputs: tuple[Path, ...]
     output_dir: Path
-    options: EngineOptions = field(default_factory=EngineOptions)
+    options: EngineOptions | PollenEDFOptions = field(default_factory=EngineOptions)
     timeout_s: float = 1200.0
     cancel: Event = field(default_factory=Event)
     progress: Progress | None = None
@@ -128,8 +137,8 @@ class FusionResult:
 
 
 class FusionEngine(Protocol):
-    def validate_environment(self) -> EngineCapabilities: ...
-    def get_capabilities(self) -> EngineCapabilities: ...
+    def validate_environment(self) -> EngineCapabilities | PollenEDFCapabilities: ...
+    def get_capabilities(self) -> EngineCapabilities | PollenEDFCapabilities: ...
     def fuse(self, request: FusionRequest) -> FusionResult: ...
     def cancel(self) -> None: ...
 
@@ -220,6 +229,8 @@ class FocusStackEngine:
     def _fuse(self, request: FusionRequest) -> FusionResult:
         capabilities = self.get_capabilities()
         count = len(request.inputs)
+        if not isinstance(request.options, EngineOptions):
+            raise ValueError("focus-stack 需要原生引擎选项。")
         args = request.options.arguments(count, capabilities)
         if not math.isfinite(request.timeout_s) or request.timeout_s <= 0:
             raise ValueError("融合超时必须是正的有限数。")

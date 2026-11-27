@@ -1,0 +1,1759 @@
+{
+  "id": "experiment_20261127T023924Z_cf5bca91",
+  "schema": 1,
+  "lab_version": "0.2.0",
+  "created_at": "2026-11-27T02:39:24+00:00",
+  "updated_at": "2026-11-27T02:42:07+00:00",
+  "status": "completed",
+  "resource_sampling": {
+    "rss": "peak sampled aggregate process-tree RSS",
+    "interval_s": 0.08
+  },
+  "engine": {
+    "backend": "pollen-edf",
+    "version": "PollenEDF 0.2",
+    "identity_sha256": "f7bfa88bbc6ba10d25df4927bcd3e58d02c2265e449ecfa5d874aef32d8f0788",
+    "source_hashes": {
+      "pollen_algorithm.py": "3462e126b831bd2bb92f98c5329a9937417e9ea3155461d2fdd9be1ef46a18ab",
+      "pollen_weights.py": "1e09c052e8cbbf6b99be28b722341c16efbc60ad53212c7d4f477c2a1b105331",
+      "pollen_engine.py": "98b3cd4e01509f880f6bea955ad9ae3e318952e85040bfbfc974b98482b7c1ae",
+      "pollen_worker.py": "1dfaeeea0c79c218f4867911f4dd7eda51af9003ad46ebb8997eeb264ef4e545",
+      "images.py": "e5a5d52ca211b708b032c78356b425e16ebfc2e4cba164d57f52170fc3e7bb76"
+    },
+    "python": "3.11.16",
+    "opencv": "4.14.0",
+    "numpy": "2.4.6"
+  },
+  "tasks": [
+    {
+      "started_at": "2026-11-27T02:39:25+00:00",
+      "ended_at": "2026-11-27T02:39:32+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.577999999979511,
+      "peak_rss_bytes": 299749376,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 14442149,
+          "sha256": "911ef21abbdf5f0c43b7ed0d9e47debda5059f2cafe037f22ae32acb503948ec"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1274364,
+          "sha256": "8eadca6a4064ec282715f498a3fe970ca635fc4f2140a2ac4c5fdc069338babc"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1423017,
+          "sha256": "da2a6acc59a67e273e1b6a93eb93f81cf440fb3d8b073704a75afe41fab260a3"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5632051,
+          "sha256": "1b33ffb3a35a27f5fcbc621a9776df7f31135613d020f93f1fbef213b37cf023"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1580362,
+          "sha256": "d23f8a3f236c2eb425f924388f77edcad93a60485d20131ef0e66d1b136beb60"
+        },
+        "stages.json": {
+          "sha256": "5b73fde127f9dbadca1178f792ee385b83122c8d1754682d7efe77f6151b4d6e",
+          "size_bytes": 773
+        }
+      },
+      "view": "20261103_160942_v061",
+      "method": "PollenEDF-SML",
+      "options": {
+        "scorer": "sml",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "050465e37907d539412c0687d4ab65d5e152b30d61213cf8c4a4e3e2471880ef",
+        "0f6e25e0c68c0b4155780e8d30abfca300b62bab64079d9bd93dadcc49e7e527",
+        "535a7db04d6ef1f2012fdb6577e4c486f8317460fab693c61162204beaad32e3",
+        "23a784cbbf30d676d7dff23bc1295835135b7cf70962a4812c96457d7fa413da",
+        "040e7e93a4e1035d4c5abb90f8bb454ba75161f348ed99eab87ec6e978f104df",
+        "3b03b2983e404676494d06fc2edf3dd74e8154ea28d7ff8131c6f814b6a7d552",
+        "1e588f8514d84332f078f59ed81e2decd4f9227f7d510f7f8c6cde36ce52ec6c",
+        "9f9f8d6275517fec3e3fdc2fb492acf66fa4fc927a03f3e950e7b8e2d190819a",
+        "b25c746d6609dc947ffe314e03c0072a681502ec59c3c85abfbac03cf9ccbc5c",
+        "6196f121b76a6e72a9641f40f0fdeda82c9c971454c2b07fac87266d4e9b63a5",
+        "eed965a26fe3c2913414917ea609202a11453378d4a8e1880e864abc348ad7a9",
+        "46ec85714d9d80d13f16a29c82676e20cc8bf8e58459fa078b9b19c986460f63",
+        "1fc97aaae2aedcaac287094891341e810012ac742c7f9e1a8f1d9789923c3db8",
+        "69ac6fd588a4864ecb18529165f68e850eec3bd0be5ae52f81a257a7a8f739e7",
+        "72aeac5f3254ea959f35abc982a94343fee43a2b4eb999c5ee720aa402cc36d3",
+        "8dc287f6962b3df96c2677b58873c4a3175164585424c39967babec57d4f70e3",
+        "d31c12e8a9e42a935f4dfd3f822128248ecd03a7b0901be58e20d6d2e43a8e44",
+        "b12337f8ff34790564145e37c7bb0209b67daa94c7a5c34ffa745fda9defdb60",
+        "cfddf5e431858643f49f6eaab1dbb5325178d6105b7bdf30b95e4daa31b217ab",
+        "d8505390d48f8ddb14e62a0e7491b17e7fd9de9a157223bec8139059454372fa",
+        "c34ceed3b7c546fae5680bbb90ae0be50331bdb2abea92c25d59273ce57b97ea",
+        "7cce7c05270f9c721d3dd442c1211fd2e6fa304c1f1908c940adcbb7eba7f75f",
+        "86a55320caec0c78083e95e58b8506d8d62c4c082b9f87dec3adb6417ed75dd7",
+        "5a99b73825a0af6270c850599f1369cf00cb59ef5161a9ae2989827fa2d7903b",
+        "aa8d5fd9213bee2905a449f455d84eaec590f2674611ef00c2224c4ea14cfe30",
+        "c7de095957d2f6c28dc6c1b884630a01c36af94522d31a9d5728e1238cf65fb1",
+        "00fb6ad7709c7bbafdb10c5ef00a90d5558d82d0dc2ab435f4ea9c452f5ced85",
+        "65f49849631689421e449a09f10ba3be6c4c259ec64a391a76871b4fd0e56a67",
+        "6fac6898958521d71cb4109b9beee03858a89ad4f1bb859b9d657aa756696cd6",
+        "5251ffb0908fa893c5f96b9a01fd93b29c6641b64aa0ba851022012df140b79f"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:39:32+00:00",
+      "ended_at": "2026-11-27T02:39:39+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.468000000109896,
+      "peak_rss_bytes": 302178304,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13846976,
+          "sha256": "fabb722971d193aa1ab27409c245d81c2f0746115bb44fcfb88f7dd26295828a"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 958576,
+          "sha256": "0cbdd7462733da2563f13fcf1d1f8e2f60c8904279bfb256c7216d7f237e8a56"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1080094,
+          "sha256": "17c6cded0bcc544bd5ea9a7a67bd2dce75182276586ec4d042a00756df6e36ee"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5270239,
+          "sha256": "5ac444ab0b112c2c37dcc127f5e607e688a034775a0576e3e71b5d03fa965fe6"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1248562,
+          "sha256": "a03e0b8621c7a33cbfce56de0813558aa68893d1318697737b63a0a4cb305f45"
+        },
+        "stages.json": {
+          "sha256": "c37f05e54bf06eb5ff453515b67e47dd5641bc205145b8c603857fb9a4daeb76",
+          "size_bytes": 771
+        }
+      },
+      "view": "20261103_160942_v061",
+      "method": "PollenEDF-Tenengrad",
+      "options": {
+        "scorer": "tenengrad",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "050465e37907d539412c0687d4ab65d5e152b30d61213cf8c4a4e3e2471880ef",
+        "0f6e25e0c68c0b4155780e8d30abfca300b62bab64079d9bd93dadcc49e7e527",
+        "535a7db04d6ef1f2012fdb6577e4c486f8317460fab693c61162204beaad32e3",
+        "23a784cbbf30d676d7dff23bc1295835135b7cf70962a4812c96457d7fa413da",
+        "040e7e93a4e1035d4c5abb90f8bb454ba75161f348ed99eab87ec6e978f104df",
+        "3b03b2983e404676494d06fc2edf3dd74e8154ea28d7ff8131c6f814b6a7d552",
+        "1e588f8514d84332f078f59ed81e2decd4f9227f7d510f7f8c6cde36ce52ec6c",
+        "9f9f8d6275517fec3e3fdc2fb492acf66fa4fc927a03f3e950e7b8e2d190819a",
+        "b25c746d6609dc947ffe314e03c0072a681502ec59c3c85abfbac03cf9ccbc5c",
+        "6196f121b76a6e72a9641f40f0fdeda82c9c971454c2b07fac87266d4e9b63a5",
+        "eed965a26fe3c2913414917ea609202a11453378d4a8e1880e864abc348ad7a9",
+        "46ec85714d9d80d13f16a29c82676e20cc8bf8e58459fa078b9b19c986460f63",
+        "1fc97aaae2aedcaac287094891341e810012ac742c7f9e1a8f1d9789923c3db8",
+        "69ac6fd588a4864ecb18529165f68e850eec3bd0be5ae52f81a257a7a8f739e7",
+        "72aeac5f3254ea959f35abc982a94343fee43a2b4eb999c5ee720aa402cc36d3",
+        "8dc287f6962b3df96c2677b58873c4a3175164585424c39967babec57d4f70e3",
+        "d31c12e8a9e42a935f4dfd3f822128248ecd03a7b0901be58e20d6d2e43a8e44",
+        "b12337f8ff34790564145e37c7bb0209b67daa94c7a5c34ffa745fda9defdb60",
+        "cfddf5e431858643f49f6eaab1dbb5325178d6105b7bdf30b95e4daa31b217ab",
+        "d8505390d48f8ddb14e62a0e7491b17e7fd9de9a157223bec8139059454372fa",
+        "c34ceed3b7c546fae5680bbb90ae0be50331bdb2abea92c25d59273ce57b97ea",
+        "7cce7c05270f9c721d3dd442c1211fd2e6fa304c1f1908c940adcbb7eba7f75f",
+        "86a55320caec0c78083e95e58b8506d8d62c4c082b9f87dec3adb6417ed75dd7",
+        "5a99b73825a0af6270c850599f1369cf00cb59ef5161a9ae2989827fa2d7903b",
+        "aa8d5fd9213bee2905a449f455d84eaec590f2674611ef00c2224c4ea14cfe30",
+        "c7de095957d2f6c28dc6c1b884630a01c36af94522d31a9d5728e1238cf65fb1",
+        "00fb6ad7709c7bbafdb10c5ef00a90d5558d82d0dc2ab435f4ea9c452f5ced85",
+        "65f49849631689421e449a09f10ba3be6c4c259ec64a391a76871b4fd0e56a67",
+        "6fac6898958521d71cb4109b9beee03858a89ad4f1bb859b9d657aa756696cd6",
+        "5251ffb0908fa893c5f96b9a01fd93b29c6641b64aa0ba851022012df140b79f"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:39:39+00:00",
+      "ended_at": "2026-11-27T02:39:48+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 7.359000000171363,
+      "peak_rss_bytes": 349687808,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13890947,
+          "sha256": "4c11a14fa8a8abf35af434687af9ba27ce2d3aaf18fcd806e8f3e481d113c624"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1164229,
+          "sha256": "8e08f6ef7d63fff25e9ce632f48f416e1ab9ce00cdd4a3a269f39642c685daea"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1307270,
+          "sha256": "03d0bab25ea0c63f8ec465ae883206606f93ce69838eed17cf7a18cda887dec2"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6063136,
+          "sha256": "494a268dde37914666dac55236e9fcaaf780bc72190beeda10eadc4c8f160f4f"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1403016,
+          "sha256": "0a32801ff59b52b9903182c08a632ede92b72e8102f8e944e79ffa7264810280"
+        },
+        "stages.json": {
+          "sha256": "2d5a85ea118344a6453c622851ca7dffa0a64cb440bdec9ad8c8c0e3aa26bdc9",
+          "size_bytes": 1219
+        }
+      },
+      "view": "20261103_160942_v061",
+      "method": "PollenEDF-DepthMap",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "050465e37907d539412c0687d4ab65d5e152b30d61213cf8c4a4e3e2471880ef",
+        "0f6e25e0c68c0b4155780e8d30abfca300b62bab64079d9bd93dadcc49e7e527",
+        "535a7db04d6ef1f2012fdb6577e4c486f8317460fab693c61162204beaad32e3",
+        "23a784cbbf30d676d7dff23bc1295835135b7cf70962a4812c96457d7fa413da",
+        "040e7e93a4e1035d4c5abb90f8bb454ba75161f348ed99eab87ec6e978f104df",
+        "3b03b2983e404676494d06fc2edf3dd74e8154ea28d7ff8131c6f814b6a7d552",
+        "1e588f8514d84332f078f59ed81e2decd4f9227f7d510f7f8c6cde36ce52ec6c",
+        "9f9f8d6275517fec3e3fdc2fb492acf66fa4fc927a03f3e950e7b8e2d190819a",
+        "b25c746d6609dc947ffe314e03c0072a681502ec59c3c85abfbac03cf9ccbc5c",
+        "6196f121b76a6e72a9641f40f0fdeda82c9c971454c2b07fac87266d4e9b63a5",
+        "eed965a26fe3c2913414917ea609202a11453378d4a8e1880e864abc348ad7a9",
+        "46ec85714d9d80d13f16a29c82676e20cc8bf8e58459fa078b9b19c986460f63",
+        "1fc97aaae2aedcaac287094891341e810012ac742c7f9e1a8f1d9789923c3db8",
+        "69ac6fd588a4864ecb18529165f68e850eec3bd0be5ae52f81a257a7a8f739e7",
+        "72aeac5f3254ea959f35abc982a94343fee43a2b4eb999c5ee720aa402cc36d3",
+        "8dc287f6962b3df96c2677b58873c4a3175164585424c39967babec57d4f70e3",
+        "d31c12e8a9e42a935f4dfd3f822128248ecd03a7b0901be58e20d6d2e43a8e44",
+        "b12337f8ff34790564145e37c7bb0209b67daa94c7a5c34ffa745fda9defdb60",
+        "cfddf5e431858643f49f6eaab1dbb5325178d6105b7bdf30b95e4daa31b217ab",
+        "d8505390d48f8ddb14e62a0e7491b17e7fd9de9a157223bec8139059454372fa",
+        "c34ceed3b7c546fae5680bbb90ae0be50331bdb2abea92c25d59273ce57b97ea",
+        "7cce7c05270f9c721d3dd442c1211fd2e6fa304c1f1908c940adcbb7eba7f75f",
+        "86a55320caec0c78083e95e58b8506d8d62c4c082b9f87dec3adb6417ed75dd7",
+        "5a99b73825a0af6270c850599f1369cf00cb59ef5161a9ae2989827fa2d7903b",
+        "aa8d5fd9213bee2905a449f455d84eaec590f2674611ef00c2224c4ea14cfe30",
+        "c7de095957d2f6c28dc6c1b884630a01c36af94522d31a9d5728e1238cf65fb1",
+        "00fb6ad7709c7bbafdb10c5ef00a90d5558d82d0dc2ab435f4ea9c452f5ced85",
+        "65f49849631689421e449a09f10ba3be6c4c259ec64a391a76871b4fd0e56a67",
+        "6fac6898958521d71cb4109b9beee03858a89ad4f1bb859b9d657aa756696cd6",
+        "5251ffb0908fa893c5f96b9a01fd93b29c6641b64aa0ba851022012df140b79f"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:39:48+00:00",
+      "ended_at": "2026-11-27T02:40:06+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 16.608999999938533,
+      "peak_rss_bytes": 694104064,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13826210,
+          "sha256": "8a11dbfd2c4a87da006ab394f0f3796132363359958f7694530f75ebbdaf88d6"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1164229,
+          "sha256": "8e08f6ef7d63fff25e9ce632f48f416e1ab9ce00cdd4a3a269f39642c685daea"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1307270,
+          "sha256": "03d0bab25ea0c63f8ec465ae883206606f93ce69838eed17cf7a18cda887dec2"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6063136,
+          "sha256": "494a268dde37914666dac55236e9fcaaf780bc72190beeda10eadc4c8f160f4f"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 997697,
+          "sha256": "4bb3bc703bf952ff0df1e9fe422e84b1e582c37ee54901df29efd3ebb44cd5dd"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1403016,
+          "sha256": "0a32801ff59b52b9903182c08a632ede92b72e8102f8e944e79ffa7264810280"
+        },
+        "stages.json": {
+          "sha256": "04a633a9be38886c851ed7c87463cce517b1f6fda6feafe36dd264a623ab16ef",
+          "size_bytes": 1348
+        },
+        "halo.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 269855,
+          "sha256": "ae1ade6ac4e6cf1d6eaae66b57ac1546a89d1d960afd299503da9ae9491ad418"
+        },
+        "anchor.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 53774,
+          "sha256": "a2699583b774555d59206bc4f529d7c7b4273c5698adf1a7925c7afa3ae3740f"
+        }
+      },
+      "view": "20261103_160942_v061",
+      "method": "PollenEDF-Adaptive",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": true,
+        "defects": true,
+        "soft": true,
+        "halo_guard": true,
+        "broad_pool": false,
+        "weak_stack_anchor": true,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "050465e37907d539412c0687d4ab65d5e152b30d61213cf8c4a4e3e2471880ef",
+        "0f6e25e0c68c0b4155780e8d30abfca300b62bab64079d9bd93dadcc49e7e527",
+        "535a7db04d6ef1f2012fdb6577e4c486f8317460fab693c61162204beaad32e3",
+        "23a784cbbf30d676d7dff23bc1295835135b7cf70962a4812c96457d7fa413da",
+        "040e7e93a4e1035d4c5abb90f8bb454ba75161f348ed99eab87ec6e978f104df",
+        "3b03b2983e404676494d06fc2edf3dd74e8154ea28d7ff8131c6f814b6a7d552",
+        "1e588f8514d84332f078f59ed81e2decd4f9227f7d510f7f8c6cde36ce52ec6c",
+        "9f9f8d6275517fec3e3fdc2fb492acf66fa4fc927a03f3e950e7b8e2d190819a",
+        "b25c746d6609dc947ffe314e03c0072a681502ec59c3c85abfbac03cf9ccbc5c",
+        "6196f121b76a6e72a9641f40f0fdeda82c9c971454c2b07fac87266d4e9b63a5",
+        "eed965a26fe3c2913414917ea609202a11453378d4a8e1880e864abc348ad7a9",
+        "46ec85714d9d80d13f16a29c82676e20cc8bf8e58459fa078b9b19c986460f63",
+        "1fc97aaae2aedcaac287094891341e810012ac742c7f9e1a8f1d9789923c3db8",
+        "69ac6fd588a4864ecb18529165f68e850eec3bd0be5ae52f81a257a7a8f739e7",
+        "72aeac5f3254ea959f35abc982a94343fee43a2b4eb999c5ee720aa402cc36d3",
+        "8dc287f6962b3df96c2677b58873c4a3175164585424c39967babec57d4f70e3",
+        "d31c12e8a9e42a935f4dfd3f822128248ecd03a7b0901be58e20d6d2e43a8e44",
+        "b12337f8ff34790564145e37c7bb0209b67daa94c7a5c34ffa745fda9defdb60",
+        "cfddf5e431858643f49f6eaab1dbb5325178d6105b7bdf30b95e4daa31b217ab",
+        "d8505390d48f8ddb14e62a0e7491b17e7fd9de9a157223bec8139059454372fa",
+        "c34ceed3b7c546fae5680bbb90ae0be50331bdb2abea92c25d59273ce57b97ea",
+        "7cce7c05270f9c721d3dd442c1211fd2e6fa304c1f1908c940adcbb7eba7f75f",
+        "86a55320caec0c78083e95e58b8506d8d62c4c082b9f87dec3adb6417ed75dd7",
+        "5a99b73825a0af6270c850599f1369cf00cb59ef5161a9ae2989827fa2d7903b",
+        "aa8d5fd9213bee2905a449f455d84eaec590f2674611ef00c2224c4ea14cfe30",
+        "c7de095957d2f6c28dc6c1b884630a01c36af94522d31a9d5728e1238cf65fb1",
+        "00fb6ad7709c7bbafdb10c5ef00a90d5558d82d0dc2ab435f4ea9c452f5ced85",
+        "65f49849631689421e449a09f10ba3be6c4c259ec64a391a76871b4fd0e56a67",
+        "6fac6898958521d71cb4109b9beee03858a89ad4f1bb859b9d657aa756696cd6",
+        "5251ffb0908fa893c5f96b9a01fd93b29c6641b64aa0ba851022012df140b79f"
+      ],
+      "log": "logs/holdout-pollen-locked/PollenEDF-Adaptive.log",
+      "stage_measurement": "logs/holdout-pollen-locked/PollenEDF-Adaptive-stages.json"
+    },
+    {
+      "started_at": "2026-11-27T02:40:06+00:00",
+      "ended_at": "2026-11-27T02:40:14+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.561999999918044,
+      "peak_rss_bytes": 299937792,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 16592837,
+          "sha256": "82aa66c77137c520d9983f8acb75c551551919dc34e05c4531ce5f18ab821268"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1233989,
+          "sha256": "d963c58579972d3221b70d3e24d8dd83c8d4b9c158b25f5ebe195c7985d20b36"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1388223,
+          "sha256": "7464f22c870ddaabb8d481bb1c9a24a0ed3a268c59463cf3d035d9e0e151d431"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5711855,
+          "sha256": "aa11e1ab051509d62cf5907daaba5105d425e1e4a129457fd029f535d7ac41f0"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1539946,
+          "sha256": "6072c908e965f71965dafe6ca9ddfd89362dbe76b706603229e2c33972ffa175"
+        },
+        "stages.json": {
+          "sha256": "a9f7bc3977d4eb10b0c5c45e2e72e684184825ae5a71cafc08010f4c79f1dfe9",
+          "size_bytes": 770
+        }
+      },
+      "view": "20261104_085918_v016",
+      "method": "PollenEDF-SML",
+      "options": {
+        "scorer": "sml",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "3a8910391030abc81cc802f95b53969c68312fc1f9ca28aec2df3eea9f78822d",
+        "75c9ac54b97ace0bad79ad9279853f8ff1efeecc96f80cb224c857704254fdfa",
+        "7872efc70080710e1641910a013f7df06d1487f3ff5cf7270c67ba627665346c",
+        "05b93bec85281022f6d73b412c189bda553641d16bf2e04846bac938fd25e1d2",
+        "b7e95e6aa945c03e1ee1469f725e42aae8460e017fd7499032555d69ab89359c",
+        "3d932debd3229f1b83e927e8feff349261f1bee0943bc9f98b8d7866476e6904",
+        "010f66c500d6559495ab5cc3a1f7919098fe0d30e1989d827d3fd2c0d2542ea0",
+        "fd2b20756df67b82024f65716cdb8991c50cce5594e5287b08c3502b8b7edd25",
+        "82d798ba09bde549db3a0279f3151fa6eb82d7bbf5f271552742a3fca1e3ea8b",
+        "80466550fd81977e4b5fa6b22cd91ab53195eb0751611bfc135618053f604305",
+        "07bc936930f099f46c4b91d99c9494070f99b76c00d263b2e0fdea3e2560b6bf",
+        "35a84e229f42f035d3913d04bf5121737bfc9982bdc63cc5885bb9bf09bc46c5",
+        "bb701acb1a5e3e9d320822dbde6deec8bceaa727ed86493b036673cf490a3930",
+        "b063a08c1f30d808fad7f025d619e31edb28826821de0a6df1be3f8990ae94f0",
+        "922eaaa8bf620191648c95b564656ca4f1d12edcc09efa7f718a9462e23529e8",
+        "ef1b8118da74c6a7c680bbff7c0cb377674350daaf873efb8fb48da1d6c0d9a5",
+        "aebb2d1a6437dd04d3d22d4ba943dc21afcdf59506ce87658597101bc9e6fc09",
+        "a8c7a55146844eeca03358f5a5a3e130f146c0f9eba9cf583468f9a191bf78bd",
+        "eb71b91ca42f6044247c738bce9603f4c1ca02c4cdde2c2f75584736569a57c9",
+        "44de840cd35c103fd3bc99d847fc1681fd92e2efe697dc9dd36e683253a3badc",
+        "7fc65cf09f3303b5c1f1907656074be436ffbbd48d1891261223036d403b367a",
+        "f02cc0d6b3ab773ab6665c060862ed6e9b3fe9c012a4a0e6fbd6b9741bfc8cb2",
+        "21097d3af6b1b2aa3e9598c04564f2e17ad43c5c60d9ca1f2904fc51baaf0d60",
+        "ca1877487938410d7c4fd0037ca768630f52dadccbfd5e5c7148bac433c7e2f9",
+        "8e0ab202c25eba620652b5f7f3475ec2a7293ffbb1e220551a5d79c02c00c343",
+        "10b582bb2b04fefa2a0504eadf20ec230e29ff8e591badf2270ef6f1dbef6567",
+        "130fa04917ceb858c0db85ec8f078ca04e9814b886dbed27c871a0be95bb26aa",
+        "5388e089c29f157cadcd5a72c4f82fc0101e294eef2e2ab20e1c1ef73309d013",
+        "b1014e352f8fe2e2209ad2347c642d025632a01295d79a41838c751a2c30f9f4",
+        "84fba5457100be37cccc71d4154ba14cc911948f8ca662f3ae072caa600b2e4e"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:40:14+00:00",
+      "ended_at": "2026-11-27T02:40:21+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.812000000150874,
+      "peak_rss_bytes": 300195840,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 16222549,
+          "sha256": "ea54fb3e74c34619e523e3c6b508a95f60a06981ea840cdbe1f63d1c267a16c9"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1017291,
+          "sha256": "72e71b3179ffee9b28bf4515a4a8f776e82cb1bec2869d6a87b8886d334a6951"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1151171,
+          "sha256": "ffe866a13c8c7ce9874f8c1b19cfa248d9a71ae5eeb01bb9767601b60e15ceaf"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5243149,
+          "sha256": "7b5589505259ff86a92ad4baf5d2ccf46150ddda3d037f3ef2b001ccae3897a2"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1318403,
+          "sha256": "6d8c970dbe8b3c22274db4a63afd25799d6c5f92c3df9f4881cbf843ee99f02f"
+        },
+        "stages.json": {
+          "sha256": "ebdd1f7a413fd7e6df8e9c0c8e9d6221ce33c5c5f5088b3c9a587b1a54ae35fb",
+          "size_bytes": 771
+        }
+      },
+      "view": "20261104_085918_v016",
+      "method": "PollenEDF-Tenengrad",
+      "options": {
+        "scorer": "tenengrad",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "3a8910391030abc81cc802f95b53969c68312fc1f9ca28aec2df3eea9f78822d",
+        "75c9ac54b97ace0bad79ad9279853f8ff1efeecc96f80cb224c857704254fdfa",
+        "7872efc70080710e1641910a013f7df06d1487f3ff5cf7270c67ba627665346c",
+        "05b93bec85281022f6d73b412c189bda553641d16bf2e04846bac938fd25e1d2",
+        "b7e95e6aa945c03e1ee1469f725e42aae8460e017fd7499032555d69ab89359c",
+        "3d932debd3229f1b83e927e8feff349261f1bee0943bc9f98b8d7866476e6904",
+        "010f66c500d6559495ab5cc3a1f7919098fe0d30e1989d827d3fd2c0d2542ea0",
+        "fd2b20756df67b82024f65716cdb8991c50cce5594e5287b08c3502b8b7edd25",
+        "82d798ba09bde549db3a0279f3151fa6eb82d7bbf5f271552742a3fca1e3ea8b",
+        "80466550fd81977e4b5fa6b22cd91ab53195eb0751611bfc135618053f604305",
+        "07bc936930f099f46c4b91d99c9494070f99b76c00d263b2e0fdea3e2560b6bf",
+        "35a84e229f42f035d3913d04bf5121737bfc9982bdc63cc5885bb9bf09bc46c5",
+        "bb701acb1a5e3e9d320822dbde6deec8bceaa727ed86493b036673cf490a3930",
+        "b063a08c1f30d808fad7f025d619e31edb28826821de0a6df1be3f8990ae94f0",
+        "922eaaa8bf620191648c95b564656ca4f1d12edcc09efa7f718a9462e23529e8",
+        "ef1b8118da74c6a7c680bbff7c0cb377674350daaf873efb8fb48da1d6c0d9a5",
+        "aebb2d1a6437dd04d3d22d4ba943dc21afcdf59506ce87658597101bc9e6fc09",
+        "a8c7a55146844eeca03358f5a5a3e130f146c0f9eba9cf583468f9a191bf78bd",
+        "eb71b91ca42f6044247c738bce9603f4c1ca02c4cdde2c2f75584736569a57c9",
+        "44de840cd35c103fd3bc99d847fc1681fd92e2efe697dc9dd36e683253a3badc",
+        "7fc65cf09f3303b5c1f1907656074be436ffbbd48d1891261223036d403b367a",
+        "f02cc0d6b3ab773ab6665c060862ed6e9b3fe9c012a4a0e6fbd6b9741bfc8cb2",
+        "21097d3af6b1b2aa3e9598c04564f2e17ad43c5c60d9ca1f2904fc51baaf0d60",
+        "ca1877487938410d7c4fd0037ca768630f52dadccbfd5e5c7148bac433c7e2f9",
+        "8e0ab202c25eba620652b5f7f3475ec2a7293ffbb1e220551a5d79c02c00c343",
+        "10b582bb2b04fefa2a0504eadf20ec230e29ff8e591badf2270ef6f1dbef6567",
+        "130fa04917ceb858c0db85ec8f078ca04e9814b886dbed27c871a0be95bb26aa",
+        "5388e089c29f157cadcd5a72c4f82fc0101e294eef2e2ab20e1c1ef73309d013",
+        "b1014e352f8fe2e2209ad2347c642d025632a01295d79a41838c751a2c30f9f4",
+        "84fba5457100be37cccc71d4154ba14cc911948f8ca662f3ae072caa600b2e4e"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:40:21+00:00",
+      "ended_at": "2026-11-27T02:40:30+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 7.343000000109896,
+      "peak_rss_bytes": 339361792,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 16102473,
+          "sha256": "d4156666d299b6a7f70ef77d456465e63bc8d7c700ab2553df76e0ce89776f40"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1184585,
+          "sha256": "e4707cc3d0c6350071764cb2f6d221a5b3d3cc1f1141828a9dc3e8890fb01345"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1331492,
+          "sha256": "cee0371b0df95018f85ca747b8440ad505c08505f579478996730a4b572258bd"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6282524,
+          "sha256": "26f58d99dd02477af043049d98e689862a88bc79c10d32bba00e6f4f6ee38285"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1388681,
+          "sha256": "23bbe9432f47dd344bcb10f5665915b908a11131fa6896fd8bdc8d15496e8241"
+        },
+        "stages.json": {
+          "sha256": "cce4a74e94bdb28dd108ce08d76a5119016e4c1137e644c4ac4c2012311cc27a",
+          "size_bytes": 1218
+        }
+      },
+      "view": "20261104_085918_v016",
+      "method": "PollenEDF-DepthMap",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "3a8910391030abc81cc802f95b53969c68312fc1f9ca28aec2df3eea9f78822d",
+        "75c9ac54b97ace0bad79ad9279853f8ff1efeecc96f80cb224c857704254fdfa",
+        "7872efc70080710e1641910a013f7df06d1487f3ff5cf7270c67ba627665346c",
+        "05b93bec85281022f6d73b412c189bda553641d16bf2e04846bac938fd25e1d2",
+        "b7e95e6aa945c03e1ee1469f725e42aae8460e017fd7499032555d69ab89359c",
+        "3d932debd3229f1b83e927e8feff349261f1bee0943bc9f98b8d7866476e6904",
+        "010f66c500d6559495ab5cc3a1f7919098fe0d30e1989d827d3fd2c0d2542ea0",
+        "fd2b20756df67b82024f65716cdb8991c50cce5594e5287b08c3502b8b7edd25",
+        "82d798ba09bde549db3a0279f3151fa6eb82d7bbf5f271552742a3fca1e3ea8b",
+        "80466550fd81977e4b5fa6b22cd91ab53195eb0751611bfc135618053f604305",
+        "07bc936930f099f46c4b91d99c9494070f99b76c00d263b2e0fdea3e2560b6bf",
+        "35a84e229f42f035d3913d04bf5121737bfc9982bdc63cc5885bb9bf09bc46c5",
+        "bb701acb1a5e3e9d320822dbde6deec8bceaa727ed86493b036673cf490a3930",
+        "b063a08c1f30d808fad7f025d619e31edb28826821de0a6df1be3f8990ae94f0",
+        "922eaaa8bf620191648c95b564656ca4f1d12edcc09efa7f718a9462e23529e8",
+        "ef1b8118da74c6a7c680bbff7c0cb377674350daaf873efb8fb48da1d6c0d9a5",
+        "aebb2d1a6437dd04d3d22d4ba943dc21afcdf59506ce87658597101bc9e6fc09",
+        "a8c7a55146844eeca03358f5a5a3e130f146c0f9eba9cf583468f9a191bf78bd",
+        "eb71b91ca42f6044247c738bce9603f4c1ca02c4cdde2c2f75584736569a57c9",
+        "44de840cd35c103fd3bc99d847fc1681fd92e2efe697dc9dd36e683253a3badc",
+        "7fc65cf09f3303b5c1f1907656074be436ffbbd48d1891261223036d403b367a",
+        "f02cc0d6b3ab773ab6665c060862ed6e9b3fe9c012a4a0e6fbd6b9741bfc8cb2",
+        "21097d3af6b1b2aa3e9598c04564f2e17ad43c5c60d9ca1f2904fc51baaf0d60",
+        "ca1877487938410d7c4fd0037ca768630f52dadccbfd5e5c7148bac433c7e2f9",
+        "8e0ab202c25eba620652b5f7f3475ec2a7293ffbb1e220551a5d79c02c00c343",
+        "10b582bb2b04fefa2a0504eadf20ec230e29ff8e591badf2270ef6f1dbef6567",
+        "130fa04917ceb858c0db85ec8f078ca04e9814b886dbed27c871a0be95bb26aa",
+        "5388e089c29f157cadcd5a72c4f82fc0101e294eef2e2ab20e1c1ef73309d013",
+        "b1014e352f8fe2e2209ad2347c642d025632a01295d79a41838c751a2c30f9f4",
+        "84fba5457100be37cccc71d4154ba14cc911948f8ca662f3ae072caa600b2e4e"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:40:30+00:00",
+      "ended_at": "2026-11-27T02:40:47+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 16.031999999890104,
+      "peak_rss_bytes": 711266304,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 15473728,
+          "sha256": "73b8adb18d771211830057214da4965be514a65620d413ba2c6d0f75ca1d62ac"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1184585,
+          "sha256": "e4707cc3d0c6350071764cb2f6d221a5b3d3cc1f1141828a9dc3e8890fb01345"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1331492,
+          "sha256": "cee0371b0df95018f85ca747b8440ad505c08505f579478996730a4b572258bd"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6282524,
+          "sha256": "26f58d99dd02477af043049d98e689862a88bc79c10d32bba00e6f4f6ee38285"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 771421,
+          "sha256": "ee6bbf16e9f1b0202b90f5ad6f4501ede3a3bba944af9687bf8f5f918677b46e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1388681,
+          "sha256": "23bbe9432f47dd344bcb10f5665915b908a11131fa6896fd8bdc8d15496e8241"
+        },
+        "stages.json": {
+          "sha256": "8c73a9c6afeb395bc5007b7356474e7b210d2a5158e7a8d67e63ecd84fd26772",
+          "size_bytes": 1344
+        },
+        "halo.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1307407,
+          "sha256": "32656537956858f4c737ac35b33f7b4e48171413a0345456520831d04d591911"
+        },
+        "anchor.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 53774,
+          "sha256": "a2699583b774555d59206bc4f529d7c7b4273c5698adf1a7925c7afa3ae3740f"
+        }
+      },
+      "view": "20261104_085918_v016",
+      "method": "PollenEDF-Adaptive",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": true,
+        "defects": true,
+        "soft": true,
+        "halo_guard": true,
+        "broad_pool": false,
+        "weak_stack_anchor": true,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "3a8910391030abc81cc802f95b53969c68312fc1f9ca28aec2df3eea9f78822d",
+        "75c9ac54b97ace0bad79ad9279853f8ff1efeecc96f80cb224c857704254fdfa",
+        "7872efc70080710e1641910a013f7df06d1487f3ff5cf7270c67ba627665346c",
+        "05b93bec85281022f6d73b412c189bda553641d16bf2e04846bac938fd25e1d2",
+        "b7e95e6aa945c03e1ee1469f725e42aae8460e017fd7499032555d69ab89359c",
+        "3d932debd3229f1b83e927e8feff349261f1bee0943bc9f98b8d7866476e6904",
+        "010f66c500d6559495ab5cc3a1f7919098fe0d30e1989d827d3fd2c0d2542ea0",
+        "fd2b20756df67b82024f65716cdb8991c50cce5594e5287b08c3502b8b7edd25",
+        "82d798ba09bde549db3a0279f3151fa6eb82d7bbf5f271552742a3fca1e3ea8b",
+        "80466550fd81977e4b5fa6b22cd91ab53195eb0751611bfc135618053f604305",
+        "07bc936930f099f46c4b91d99c9494070f99b76c00d263b2e0fdea3e2560b6bf",
+        "35a84e229f42f035d3913d04bf5121737bfc9982bdc63cc5885bb9bf09bc46c5",
+        "bb701acb1a5e3e9d320822dbde6deec8bceaa727ed86493b036673cf490a3930",
+        "b063a08c1f30d808fad7f025d619e31edb28826821de0a6df1be3f8990ae94f0",
+        "922eaaa8bf620191648c95b564656ca4f1d12edcc09efa7f718a9462e23529e8",
+        "ef1b8118da74c6a7c680bbff7c0cb377674350daaf873efb8fb48da1d6c0d9a5",
+        "aebb2d1a6437dd04d3d22d4ba943dc21afcdf59506ce87658597101bc9e6fc09",
+        "a8c7a55146844eeca03358f5a5a3e130f146c0f9eba9cf583468f9a191bf78bd",
+        "eb71b91ca42f6044247c738bce9603f4c1ca02c4cdde2c2f75584736569a57c9",
+        "44de840cd35c103fd3bc99d847fc1681fd92e2efe697dc9dd36e683253a3badc",
+        "7fc65cf09f3303b5c1f1907656074be436ffbbd48d1891261223036d403b367a",
+        "f02cc0d6b3ab773ab6665c060862ed6e9b3fe9c012a4a0e6fbd6b9741bfc8cb2",
+        "21097d3af6b1b2aa3e9598c04564f2e17ad43c5c60d9ca1f2904fc51baaf0d60",
+        "ca1877487938410d7c4fd0037ca768630f52dadccbfd5e5c7148bac433c7e2f9",
+        "8e0ab202c25eba620652b5f7f3475ec2a7293ffbb1e220551a5d79c02c00c343",
+        "10b582bb2b04fefa2a0504eadf20ec230e29ff8e591badf2270ef6f1dbef6567",
+        "130fa04917ceb858c0db85ec8f078ca04e9814b886dbed27c871a0be95bb26aa",
+        "5388e089c29f157cadcd5a72c4f82fc0101e294eef2e2ab20e1c1ef73309d013",
+        "b1014e352f8fe2e2209ad2347c642d025632a01295d79a41838c751a2c30f9f4",
+        "84fba5457100be37cccc71d4154ba14cc911948f8ca662f3ae072caa600b2e4e"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:40:47+00:00",
+      "ended_at": "2026-11-27T02:40:56+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.436999999918044,
+      "peak_rss_bytes": 299642880,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 14154444,
+          "sha256": "8f9c58c4c56149c8e131128050cc8206d7550a19ad6d90d3a18e81a6963104dc"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1282620,
+          "sha256": "d556b4a8ef5e4a4f21c62e6129555991b0fd37d0d7b764129a5ec93a709e854d"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1434762,
+          "sha256": "16f9457cb348b1ad0e83e39d673e733315effbf451a24668dd3197fd98969a32"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5611377,
+          "sha256": "1998c0d50421bca1ecefb021137177b23dbda7e086106c019feb7c2873e54803"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1582924,
+          "sha256": "6c47289c52efdf3b308d766f8ffcd38c26217b2b1a5845b04643f979b35591f9"
+        },
+        "stages.json": {
+          "sha256": "ff2e7446497ea4aaa65f4b260e62dd61270598492224e60bcd6b4a2966869292",
+          "size_bytes": 771
+        }
+      },
+      "view": "20261111_145648_v031",
+      "method": "PollenEDF-SML",
+      "options": {
+        "scorer": "sml",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "53c0d0919f215efb9d34542810d0447bc94cb02f73bd5c14b78a0002495ece9d",
+        "299da4842b5ee146e869002cad954b3bd4948058d8460c679cd329135ec0198b",
+        "b545ed05f87aedb881303278afc53721144a6ae5a7ef773a9094716066d54968",
+        "0f7207930c94717cb11a965bc947c3f1ff7474e5332cfd50ab3828c0287b92ef",
+        "9950037ba93e057995ba4983cbc072e3260e4b5dcba0cece124041a8b9861504",
+        "fc654f68598b609a1746aa9d02ba5badaa3c3b43e0e08c7b9e0ded601ed7dd01",
+        "32a705f46490b6a473bfe71f42e2457d31aaf49c2a0d93f8d633bd87a64d6b08",
+        "ce5a1f0fce00c732caf05cc8200c2be22b8081dc011a85d8238a013eb69ca4aa",
+        "2494a5e26e0c1ce43b07f0ccaa4fccf7879ac67448378811332912b5b4dfe274",
+        "16c76276c13de4c54949c53ccfc9aa8065fae342e39a3b649049f9a929c22540",
+        "fbc67d1b942a0d00e898b5e39f1fa753d9cac25fd21e45c0cf80ff251ec86c45",
+        "7b9ddfca1ea27891e08036e7753dde33d001f2670a544be5478cd3115dc1c10b",
+        "fcf770941c6f3b37b9f75bb178eb96363f0e4c0df8520f0cdbd5f3ad11785b14",
+        "cb167c69be6f94c3d2663dc85f66b75c1f23dd3dc2f2788da3bb7431ac29762f",
+        "c0944894b18081608be0b2cf5025b814fcd5bdded72a3c82ff9dce7319c32b48",
+        "d726a95bea72a498cac287b47b322475a8666784f40152f68fc3235d4a09a553",
+        "c95e8b75c1cc3b0da6eadf7892e16f5d3cd8fc888ea144d32b3045289039eb2e",
+        "c584ac3e3dd961bcfd47bde71ff1897b202ae143a6b01953f4f54f4805e61732",
+        "bb498e0862d8214e94d266e42a8075becf65be221a3f30aa559258c4bb7a8848",
+        "ed050928dab0e215a4f5e14b252592b637b2209df8909a13d27d27470b4909a3",
+        "db1c805e52ef281426059ffba9e4a8347e9ba6823e2581cc1f0d5d4537a72094",
+        "9a2fbcc44026e434afc8f7e0effb2e01ff0186c24cba364e6ff3a1a04d981405",
+        "fea68d7171680074ade725357633941a4c2c4a214493468ec6627af60a1568f9",
+        "aacf3e8cbd3d9d0d764aadb0b20bbc8aa287e256c0e8a9f929029a6eba61a629",
+        "c260f7dc44a2b8498aea32b2303ea688ab18c39b3de37e641e9d25dde8e047be",
+        "032c80e49c0ba291303afe3f74a6d4d527027dd1c0bbe7ce2018834adc7f2635",
+        "ead3fc4705aafb765d356dba4db06999606d878ea998410edcfe3f221e97c681",
+        "19b57835c39f76cff382d741ec28cdf087df01ce67220ae944fcf5b1620e9e6e",
+        "0a0a9f4c76193ff2a11f63b39c8f90faddbd52b54fe8e0f5776f56661b6ea68d",
+        "8a3866d2872d8eb88e984ffcb11bb5e51dc9ef795d5865c8705e9278ac946ba7"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:40:56+00:00",
+      "ended_at": "2026-11-27T02:41:02+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 5.4530000002123415,
+      "peak_rss_bytes": 300740608,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13720724,
+          "sha256": "33a0413728f5cab1abbfe96d264d06312d7777350a7ca11f988750f0ff38e8a1"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1097996,
+          "sha256": "727a0a0971776f3af19dda00f512f36263576910cd14efbbba956789f5de14de"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1234571,
+          "sha256": "95f593b7e9cdf0ebe4ac6fb7bc2b1e34ec991c6498dc50775554f3c56a1c0486"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 4711471,
+          "sha256": "66c204ec3addaebabc024c4dad22eb7f60fe82fce43852514d8d72c6467d96a3"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1408387,
+          "sha256": "0674553d9c9a42739210bb95fac1977f9681ed492b6dbdb7daf28381f28ce979"
+        },
+        "stages.json": {
+          "sha256": "f8a861fefbb0a505c96add8fd98f92d3170761c1e9b6d5c811cf6296c16c4af0",
+          "size_bytes": 771
+        }
+      },
+      "view": "20261111_145648_v031",
+      "method": "PollenEDF-Tenengrad",
+      "options": {
+        "scorer": "tenengrad",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "53c0d0919f215efb9d34542810d0447bc94cb02f73bd5c14b78a0002495ece9d",
+        "299da4842b5ee146e869002cad954b3bd4948058d8460c679cd329135ec0198b",
+        "b545ed05f87aedb881303278afc53721144a6ae5a7ef773a9094716066d54968",
+        "0f7207930c94717cb11a965bc947c3f1ff7474e5332cfd50ab3828c0287b92ef",
+        "9950037ba93e057995ba4983cbc072e3260e4b5dcba0cece124041a8b9861504",
+        "fc654f68598b609a1746aa9d02ba5badaa3c3b43e0e08c7b9e0ded601ed7dd01",
+        "32a705f46490b6a473bfe71f42e2457d31aaf49c2a0d93f8d633bd87a64d6b08",
+        "ce5a1f0fce00c732caf05cc8200c2be22b8081dc011a85d8238a013eb69ca4aa",
+        "2494a5e26e0c1ce43b07f0ccaa4fccf7879ac67448378811332912b5b4dfe274",
+        "16c76276c13de4c54949c53ccfc9aa8065fae342e39a3b649049f9a929c22540",
+        "fbc67d1b942a0d00e898b5e39f1fa753d9cac25fd21e45c0cf80ff251ec86c45",
+        "7b9ddfca1ea27891e08036e7753dde33d001f2670a544be5478cd3115dc1c10b",
+        "fcf770941c6f3b37b9f75bb178eb96363f0e4c0df8520f0cdbd5f3ad11785b14",
+        "cb167c69be6f94c3d2663dc85f66b75c1f23dd3dc2f2788da3bb7431ac29762f",
+        "c0944894b18081608be0b2cf5025b814fcd5bdded72a3c82ff9dce7319c32b48",
+        "d726a95bea72a498cac287b47b322475a8666784f40152f68fc3235d4a09a553",
+        "c95e8b75c1cc3b0da6eadf7892e16f5d3cd8fc888ea144d32b3045289039eb2e",
+        "c584ac3e3dd961bcfd47bde71ff1897b202ae143a6b01953f4f54f4805e61732",
+        "bb498e0862d8214e94d266e42a8075becf65be221a3f30aa559258c4bb7a8848",
+        "ed050928dab0e215a4f5e14b252592b637b2209df8909a13d27d27470b4909a3",
+        "db1c805e52ef281426059ffba9e4a8347e9ba6823e2581cc1f0d5d4537a72094",
+        "9a2fbcc44026e434afc8f7e0effb2e01ff0186c24cba364e6ff3a1a04d981405",
+        "fea68d7171680074ade725357633941a4c2c4a214493468ec6627af60a1568f9",
+        "aacf3e8cbd3d9d0d764aadb0b20bbc8aa287e256c0e8a9f929029a6eba61a629",
+        "c260f7dc44a2b8498aea32b2303ea688ab18c39b3de37e641e9d25dde8e047be",
+        "032c80e49c0ba291303afe3f74a6d4d527027dd1c0bbe7ce2018834adc7f2635",
+        "ead3fc4705aafb765d356dba4db06999606d878ea998410edcfe3f221e97c681",
+        "19b57835c39f76cff382d741ec28cdf087df01ce67220ae944fcf5b1620e9e6e",
+        "0a0a9f4c76193ff2a11f63b39c8f90faddbd52b54fe8e0f5776f56661b6ea68d",
+        "8a3866d2872d8eb88e984ffcb11bb5e51dc9ef795d5865c8705e9278ac946ba7"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:02+00:00",
+      "ended_at": "2026-11-27T02:41:11+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 7.3899999998975545,
+      "peak_rss_bytes": 351875072,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13878997,
+          "sha256": "9d6b06d0e43de54978199df2696312bdcda9e49464dcf8488f1bfd314b2be44c"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1257608,
+          "sha256": "4da6c5ed63e0f8225e20f33d555f3ed362c7f908d7e1824ee43c5b6c3a719ebe"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1410063,
+          "sha256": "b3b3a8f64fcb8051efe2cacb872e5f39496efbdcd8c1ab4cd728075e08b90b8e"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6063204,
+          "sha256": "7fc0b93182c5ba8c9df451fb301f475e8e35e9e97076787593bc830d1e5ef7cd"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1495963,
+          "sha256": "cec6cc355abb7c2c89a986e667c9fd27617bd4531f8fd67e6216db471cab3db5"
+        },
+        "stages.json": {
+          "sha256": "57e698adb7b793d4032de577224f1a0a752ccb0dacef4ec808bdc8cdc15ec7e9",
+          "size_bytes": 1222
+        }
+      },
+      "view": "20261111_145648_v031",
+      "method": "PollenEDF-DepthMap",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "53c0d0919f215efb9d34542810d0447bc94cb02f73bd5c14b78a0002495ece9d",
+        "299da4842b5ee146e869002cad954b3bd4948058d8460c679cd329135ec0198b",
+        "b545ed05f87aedb881303278afc53721144a6ae5a7ef773a9094716066d54968",
+        "0f7207930c94717cb11a965bc947c3f1ff7474e5332cfd50ab3828c0287b92ef",
+        "9950037ba93e057995ba4983cbc072e3260e4b5dcba0cece124041a8b9861504",
+        "fc654f68598b609a1746aa9d02ba5badaa3c3b43e0e08c7b9e0ded601ed7dd01",
+        "32a705f46490b6a473bfe71f42e2457d31aaf49c2a0d93f8d633bd87a64d6b08",
+        "ce5a1f0fce00c732caf05cc8200c2be22b8081dc011a85d8238a013eb69ca4aa",
+        "2494a5e26e0c1ce43b07f0ccaa4fccf7879ac67448378811332912b5b4dfe274",
+        "16c76276c13de4c54949c53ccfc9aa8065fae342e39a3b649049f9a929c22540",
+        "fbc67d1b942a0d00e898b5e39f1fa753d9cac25fd21e45c0cf80ff251ec86c45",
+        "7b9ddfca1ea27891e08036e7753dde33d001f2670a544be5478cd3115dc1c10b",
+        "fcf770941c6f3b37b9f75bb178eb96363f0e4c0df8520f0cdbd5f3ad11785b14",
+        "cb167c69be6f94c3d2663dc85f66b75c1f23dd3dc2f2788da3bb7431ac29762f",
+        "c0944894b18081608be0b2cf5025b814fcd5bdded72a3c82ff9dce7319c32b48",
+        "d726a95bea72a498cac287b47b322475a8666784f40152f68fc3235d4a09a553",
+        "c95e8b75c1cc3b0da6eadf7892e16f5d3cd8fc888ea144d32b3045289039eb2e",
+        "c584ac3e3dd961bcfd47bde71ff1897b202ae143a6b01953f4f54f4805e61732",
+        "bb498e0862d8214e94d266e42a8075becf65be221a3f30aa559258c4bb7a8848",
+        "ed050928dab0e215a4f5e14b252592b637b2209df8909a13d27d27470b4909a3",
+        "db1c805e52ef281426059ffba9e4a8347e9ba6823e2581cc1f0d5d4537a72094",
+        "9a2fbcc44026e434afc8f7e0effb2e01ff0186c24cba364e6ff3a1a04d981405",
+        "fea68d7171680074ade725357633941a4c2c4a214493468ec6627af60a1568f9",
+        "aacf3e8cbd3d9d0d764aadb0b20bbc8aa287e256c0e8a9f929029a6eba61a629",
+        "c260f7dc44a2b8498aea32b2303ea688ab18c39b3de37e641e9d25dde8e047be",
+        "032c80e49c0ba291303afe3f74a6d4d527027dd1c0bbe7ce2018834adc7f2635",
+        "ead3fc4705aafb765d356dba4db06999606d878ea998410edcfe3f221e97c681",
+        "19b57835c39f76cff382d741ec28cdf087df01ce67220ae944fcf5b1620e9e6e",
+        "0a0a9f4c76193ff2a11f63b39c8f90faddbd52b54fe8e0f5776f56661b6ea68d",
+        "8a3866d2872d8eb88e984ffcb11bb5e51dc9ef795d5865c8705e9278ac946ba7"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:11+00:00",
+      "ended_at": "2026-11-27T02:41:29+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 16.436999999918044,
+      "peak_rss_bytes": 665137152,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 13307128,
+          "sha256": "1eae02777f3f52bca2e53df58c2901fb97cdbfc2fe2fc5f8018183aab0edd531"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1257608,
+          "sha256": "4da6c5ed63e0f8225e20f33d555f3ed362c7f908d7e1824ee43c5b6c3a719ebe"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1410063,
+          "sha256": "b3b3a8f64fcb8051efe2cacb872e5f39496efbdcd8c1ab4cd728075e08b90b8e"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 6063204,
+          "sha256": "7fc0b93182c5ba8c9df451fb301f475e8e35e9e97076787593bc830d1e5ef7cd"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1152592,
+          "sha256": "2b1d0dd0409c114f0a96271f4120f8ae2576d4bb8533ccc9ef2e6c9154e17704"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1495963,
+          "sha256": "cec6cc355abb7c2c89a986e667c9fd27617bd4531f8fd67e6216db471cab3db5"
+        },
+        "stages.json": {
+          "sha256": "3aa211fe65d53286c1a540863586d5db47d08c9414198aa70cf4bf9dacfb08d8",
+          "size_bytes": 1354
+        },
+        "halo.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 61962,
+          "sha256": "da169ee08c24c3ab3bedd1441212b45b608d0e404e5b0eafec9aacbd2e198cd9"
+        },
+        "anchor.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 53774,
+          "sha256": "a2699583b774555d59206bc4f529d7c7b4273c5698adf1a7925c7afa3ae3740f"
+        }
+      },
+      "view": "20261111_145648_v031",
+      "method": "PollenEDF-Adaptive",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": true,
+        "defects": true,
+        "soft": true,
+        "halo_guard": true,
+        "broad_pool": false,
+        "weak_stack_anchor": true,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "53c0d0919f215efb9d34542810d0447bc94cb02f73bd5c14b78a0002495ece9d",
+        "299da4842b5ee146e869002cad954b3bd4948058d8460c679cd329135ec0198b",
+        "b545ed05f87aedb881303278afc53721144a6ae5a7ef773a9094716066d54968",
+        "0f7207930c94717cb11a965bc947c3f1ff7474e5332cfd50ab3828c0287b92ef",
+        "9950037ba93e057995ba4983cbc072e3260e4b5dcba0cece124041a8b9861504",
+        "fc654f68598b609a1746aa9d02ba5badaa3c3b43e0e08c7b9e0ded601ed7dd01",
+        "32a705f46490b6a473bfe71f42e2457d31aaf49c2a0d93f8d633bd87a64d6b08",
+        "ce5a1f0fce00c732caf05cc8200c2be22b8081dc011a85d8238a013eb69ca4aa",
+        "2494a5e26e0c1ce43b07f0ccaa4fccf7879ac67448378811332912b5b4dfe274",
+        "16c76276c13de4c54949c53ccfc9aa8065fae342e39a3b649049f9a929c22540",
+        "fbc67d1b942a0d00e898b5e39f1fa753d9cac25fd21e45c0cf80ff251ec86c45",
+        "7b9ddfca1ea27891e08036e7753dde33d001f2670a544be5478cd3115dc1c10b",
+        "fcf770941c6f3b37b9f75bb178eb96363f0e4c0df8520f0cdbd5f3ad11785b14",
+        "cb167c69be6f94c3d2663dc85f66b75c1f23dd3dc2f2788da3bb7431ac29762f",
+        "c0944894b18081608be0b2cf5025b814fcd5bdded72a3c82ff9dce7319c32b48",
+        "d726a95bea72a498cac287b47b322475a8666784f40152f68fc3235d4a09a553",
+        "c95e8b75c1cc3b0da6eadf7892e16f5d3cd8fc888ea144d32b3045289039eb2e",
+        "c584ac3e3dd961bcfd47bde71ff1897b202ae143a6b01953f4f54f4805e61732",
+        "bb498e0862d8214e94d266e42a8075becf65be221a3f30aa559258c4bb7a8848",
+        "ed050928dab0e215a4f5e14b252592b637b2209df8909a13d27d27470b4909a3",
+        "db1c805e52ef281426059ffba9e4a8347e9ba6823e2581cc1f0d5d4537a72094",
+        "9a2fbcc44026e434afc8f7e0effb2e01ff0186c24cba364e6ff3a1a04d981405",
+        "fea68d7171680074ade725357633941a4c2c4a214493468ec6627af60a1568f9",
+        "aacf3e8cbd3d9d0d764aadb0b20bbc8aa287e256c0e8a9f929029a6eba61a629",
+        "c260f7dc44a2b8498aea32b2303ea688ab18c39b3de37e641e9d25dde8e047be",
+        "032c80e49c0ba291303afe3f74a6d4d527027dd1c0bbe7ce2018834adc7f2635",
+        "ead3fc4705aafb765d356dba4db06999606d878ea998410edcfe3f221e97c681",
+        "19b57835c39f76cff382d741ec28cdf087df01ce67220ae944fcf5b1620e9e6e",
+        "0a0a9f4c76193ff2a11f63b39c8f90faddbd52b54fe8e0f5776f56661b6ea68d",
+        "8a3866d2872d8eb88e984ffcb11bb5e51dc9ef795d5865c8705e9278ac946ba7"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:29+00:00",
+      "ended_at": "2026-11-27T02:41:37+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 4.75,
+      "peak_rss_bytes": 300838912,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 8523844,
+          "sha256": "308484c5e8d0d4aaa04e88f139d443653c96ad120b75434a757c23e315ad8102"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1378626,
+          "sha256": "fa8d4e49401133c3b17e027986a67bdf20c0ffab67f1e1cdd51a00d048afb39a"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1551244,
+          "sha256": "a5f704e6785df8cd1cc7273f6b8940b6b8174e1496b8f30946717d2d43cc9dcd"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5311778,
+          "sha256": "af986b960ca54daaeb819d58b545d906eb767e21dab881bbe221580eec521bae"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1655594,
+          "sha256": "25fb5e7344e384248c6edf6e1231f790a1e8d31a86f206a45beced1a7e4c9862"
+        },
+        "stages.json": {
+          "sha256": "5edf7806bd4ef63184338445e0c921d3807f8e75d9afd151a310083dd563e8f0",
+          "size_bytes": 772
+        }
+      },
+      "view": "20261113_104731_v106",
+      "method": "PollenEDF-SML",
+      "options": {
+        "scorer": "sml",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "886bfb1db4f785d83ffda1b4fed17de34aa472282e2e91185fdb155f735f6dcc",
+        "43427db3176075ef1675059e59ffcd1ffd1e690a72b569e89d57cf8cfb689f0c",
+        "7c48a871238969c29892ed8be3dc81a500feac15c18ba6985a753a70ff97edf1",
+        "ca76791cd249dfe57cc6b44c3a37b2278c2de9d5d2cf5b93000f766f9f5e5083",
+        "da5fc70d6c3fc64e1ea75664168443ff45760a408d70043ff36d4a5f1fc6f6bf",
+        "d23aebf4ea7558c86137abebac8138891948fc71666bb56d803d10c74739903d",
+        "f86727092486039c058b05886694b5495216975256ec1b03fc3ee8719f7e8d97",
+        "593bc9d3917b18eb725c8e7b8a2d090d06ceac32a939cb2b7ff4fc94d9aedd4d",
+        "4dd5e0ca3d4acb92ba392fc9638d6f29ed9753982038337a92d968e15815883e",
+        "682f8ee48572d03011d2465214f6273d36e10b3f98fcc5e4812b42ca2eb347e6",
+        "6b4ac4ea6e5e6484745d548930593efbccaac19142cfcbbda1e34b865b511f89",
+        "2ccd91318a265826fce03ed70948d582b72c518686ce74f374edffc77da77b15",
+        "d86f32dcc5f6cd24c993d3d36a97e556e0966a56327d1d2380ecbbdcabb7b427",
+        "2bfad2019a350bb29259c67f37922968bf7510ea3a5ed1e9267cef4a42bbd7f9",
+        "576fb4a2a30c4bc8737380b066f596f9d451e749861bbd42c32f17d0bb20a12b",
+        "0586024881ccc55653cf8e56c3201d4d6bb19b031800e01030d5d11916b8cc14",
+        "cdc36c21c549857170a0de9bf2abb908453818649f9f8b6cd012f5e22841372b",
+        "e7cd49be91103dbdfb8035337cf6c34f608fbf3d337e72ebf2841483b0a2f60d",
+        "6247eb1501242bb85edc388ea727526d2904ca08fc781f55339cf5a727cc12e1",
+        "304c9b9b064d2e12ab7f1f085a2bb61cba4abf7f8148dc521c9000681cc5a945",
+        "72914602267f41d5c7d729dad1947f3023c4617fc8f9a07c892db8e7b3d6c84d",
+        "ac6e4d968fb39d322be25eb9234efd535b2ff80f64116b0db4304e1f69f7cb13",
+        "34ffbab57a834c1fa5df943de9810e6a3cf66a0515c88e94f4fe3e22c9b4b216",
+        "3f681c2e6f82f446e52cd78732d50cde7c37d68e9d74927e3d6da48b2ccbce17",
+        "1760479588fb9511aa866e5843050c73c8686f5ab18ace3644b2224eef412cc8",
+        "24ed6a5a880f5d5ea73d041475ceab691fe4e65a9a5b27e3c8fbec57f29c8943",
+        "2f6201825fae027b4ef7be4b396f24162ce09ab839ce695036369546028a0f2f",
+        "eda363e396a45ffea9852debbc10085d879d234f723e4578448b83896ab3d9b6",
+        "a7a31254eff3379a0731db23783f0ad25793422f2b107bd11f4328509fdab757",
+        "a50acdcc080fca75fb8a693d35470905aa5abccbf8b66575ccc509fd5ce8bc34"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:37+00:00",
+      "ended_at": "2026-11-27T02:41:43+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 4.875,
+      "peak_rss_bytes": 299864064,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 8003755,
+          "sha256": "0b79c5b48816fd86fb343067a6747c3a13988c483a17ee7d4637f1583e9d5914"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1273848,
+          "sha256": "f47be8cde56a2d1302a92d618b6308de2491b7193956f7708ad9fa981b976f64"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1442519,
+          "sha256": "3a2cf78b6e95a87e4bcca0c53fc6420d26fb6964854dd237f287311eb87a482a"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 4317229,
+          "sha256": "635a80222084ff409ccc62039fe459c7da003863cc2b7496348ae4c921212c17"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1601539,
+          "sha256": "b92946e30cb149b7b25a02922d0d4f70a9ec4dbad0972ef7aaad8de861e8f029"
+        },
+        "stages.json": {
+          "sha256": "e1e937013d07946798f1e0e6e19b0849ae1f6440370550169da6801b19ffa87b",
+          "size_bytes": 771
+        }
+      },
+      "view": "20261113_104731_v106",
+      "method": "PollenEDF-Tenengrad",
+      "options": {
+        "scorer": "tenengrad",
+        "score_scale": 2,
+        "noise_aware": false,
+        "refine": false,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "886bfb1db4f785d83ffda1b4fed17de34aa472282e2e91185fdb155f735f6dcc",
+        "43427db3176075ef1675059e59ffcd1ffd1e690a72b569e89d57cf8cfb689f0c",
+        "7c48a871238969c29892ed8be3dc81a500feac15c18ba6985a753a70ff97edf1",
+        "ca76791cd249dfe57cc6b44c3a37b2278c2de9d5d2cf5b93000f766f9f5e5083",
+        "da5fc70d6c3fc64e1ea75664168443ff45760a408d70043ff36d4a5f1fc6f6bf",
+        "d23aebf4ea7558c86137abebac8138891948fc71666bb56d803d10c74739903d",
+        "f86727092486039c058b05886694b5495216975256ec1b03fc3ee8719f7e8d97",
+        "593bc9d3917b18eb725c8e7b8a2d090d06ceac32a939cb2b7ff4fc94d9aedd4d",
+        "4dd5e0ca3d4acb92ba392fc9638d6f29ed9753982038337a92d968e15815883e",
+        "682f8ee48572d03011d2465214f6273d36e10b3f98fcc5e4812b42ca2eb347e6",
+        "6b4ac4ea6e5e6484745d548930593efbccaac19142cfcbbda1e34b865b511f89",
+        "2ccd91318a265826fce03ed70948d582b72c518686ce74f374edffc77da77b15",
+        "d86f32dcc5f6cd24c993d3d36a97e556e0966a56327d1d2380ecbbdcabb7b427",
+        "2bfad2019a350bb29259c67f37922968bf7510ea3a5ed1e9267cef4a42bbd7f9",
+        "576fb4a2a30c4bc8737380b066f596f9d451e749861bbd42c32f17d0bb20a12b",
+        "0586024881ccc55653cf8e56c3201d4d6bb19b031800e01030d5d11916b8cc14",
+        "cdc36c21c549857170a0de9bf2abb908453818649f9f8b6cd012f5e22841372b",
+        "e7cd49be91103dbdfb8035337cf6c34f608fbf3d337e72ebf2841483b0a2f60d",
+        "6247eb1501242bb85edc388ea727526d2904ca08fc781f55339cf5a727cc12e1",
+        "304c9b9b064d2e12ab7f1f085a2bb61cba4abf7f8148dc521c9000681cc5a945",
+        "72914602267f41d5c7d729dad1947f3023c4617fc8f9a07c892db8e7b3d6c84d",
+        "ac6e4d968fb39d322be25eb9234efd535b2ff80f64116b0db4304e1f69f7cb13",
+        "34ffbab57a834c1fa5df943de9810e6a3cf66a0515c88e94f4fe3e22c9b4b216",
+        "3f681c2e6f82f446e52cd78732d50cde7c37d68e9d74927e3d6da48b2ccbce17",
+        "1760479588fb9511aa866e5843050c73c8686f5ab18ace3644b2224eef412cc8",
+        "24ed6a5a880f5d5ea73d041475ceab691fe4e65a9a5b27e3c8fbec57f29c8943",
+        "2f6201825fae027b4ef7be4b396f24162ce09ab839ce695036369546028a0f2f",
+        "eda363e396a45ffea9852debbc10085d879d234f723e4578448b83896ab3d9b6",
+        "a7a31254eff3379a0731db23783f0ad25793422f2b107bd11f4328509fdab757",
+        "a50acdcc080fca75fb8a693d35470905aa5abccbf8b66575ccc509fd5ce8bc34"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:43+00:00",
+      "ended_at": "2026-11-27T02:41:50+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 6.468000000109896,
+      "peak_rss_bytes": 342007808,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 8264432,
+          "sha256": "69430ec919474d5e5eee530e9e3b2be3a23591d07d463fb588baf8a5b6443487"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1299340,
+          "sha256": "451c56d96731e3b2e455165ebfa17a9918999a000ffc2ca4e0775206d9ff6d8e"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1470617,
+          "sha256": "339312eed6948284c0f919b892aa2845cd59ff02159e650076c24c16cde0c768"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5384537,
+          "sha256": "72c5239b05505e6a5084f055afd45db5bde637ba41e0bd6a07a5d22647a26d01"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 59891,
+          "sha256": "2e2b32a6611f1740e72d6552dbd7ab366e3959730009d7bd1ccf5ef8df4b286e"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1499125,
+          "sha256": "3a402a2a656307172702c7f3ac8c985fee5e245b19d3a032ad52172c86b6dc33"
+        },
+        "stages.json": {
+          "sha256": "695dd36f06c8f211a6866712572a17eacf91feeb9bbb5cec4b51b41cc92245da",
+          "size_bytes": 1223
+        }
+      },
+      "view": "20261113_104731_v106",
+      "method": "PollenEDF-DepthMap",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": false,
+        "defects": true,
+        "soft": false,
+        "halo_guard": false,
+        "broad_pool": false,
+        "weak_stack_anchor": false,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "886bfb1db4f785d83ffda1b4fed17de34aa472282e2e91185fdb155f735f6dcc",
+        "43427db3176075ef1675059e59ffcd1ffd1e690a72b569e89d57cf8cfb689f0c",
+        "7c48a871238969c29892ed8be3dc81a500feac15c18ba6985a753a70ff97edf1",
+        "ca76791cd249dfe57cc6b44c3a37b2278c2de9d5d2cf5b93000f766f9f5e5083",
+        "da5fc70d6c3fc64e1ea75664168443ff45760a408d70043ff36d4a5f1fc6f6bf",
+        "d23aebf4ea7558c86137abebac8138891948fc71666bb56d803d10c74739903d",
+        "f86727092486039c058b05886694b5495216975256ec1b03fc3ee8719f7e8d97",
+        "593bc9d3917b18eb725c8e7b8a2d090d06ceac32a939cb2b7ff4fc94d9aedd4d",
+        "4dd5e0ca3d4acb92ba392fc9638d6f29ed9753982038337a92d968e15815883e",
+        "682f8ee48572d03011d2465214f6273d36e10b3f98fcc5e4812b42ca2eb347e6",
+        "6b4ac4ea6e5e6484745d548930593efbccaac19142cfcbbda1e34b865b511f89",
+        "2ccd91318a265826fce03ed70948d582b72c518686ce74f374edffc77da77b15",
+        "d86f32dcc5f6cd24c993d3d36a97e556e0966a56327d1d2380ecbbdcabb7b427",
+        "2bfad2019a350bb29259c67f37922968bf7510ea3a5ed1e9267cef4a42bbd7f9",
+        "576fb4a2a30c4bc8737380b066f596f9d451e749861bbd42c32f17d0bb20a12b",
+        "0586024881ccc55653cf8e56c3201d4d6bb19b031800e01030d5d11916b8cc14",
+        "cdc36c21c549857170a0de9bf2abb908453818649f9f8b6cd012f5e22841372b",
+        "e7cd49be91103dbdfb8035337cf6c34f608fbf3d337e72ebf2841483b0a2f60d",
+        "6247eb1501242bb85edc388ea727526d2904ca08fc781f55339cf5a727cc12e1",
+        "304c9b9b064d2e12ab7f1f085a2bb61cba4abf7f8148dc521c9000681cc5a945",
+        "72914602267f41d5c7d729dad1947f3023c4617fc8f9a07c892db8e7b3d6c84d",
+        "ac6e4d968fb39d322be25eb9234efd535b2ff80f64116b0db4304e1f69f7cb13",
+        "34ffbab57a834c1fa5df943de9810e6a3cf66a0515c88e94f4fe3e22c9b4b216",
+        "3f681c2e6f82f446e52cd78732d50cde7c37d68e9d74927e3d6da48b2ccbce17",
+        "1760479588fb9511aa866e5843050c73c8686f5ab18ace3644b2224eef412cc8",
+        "24ed6a5a880f5d5ea73d041475ceab691fe4e65a9a5b27e3c8fbec57f29c8943",
+        "2f6201825fae027b4ef7be4b396f24162ce09ab839ce695036369546028a0f2f",
+        "eda363e396a45ffea9852debbc10085d879d234f723e4578448b83896ab3d9b6",
+        "a7a31254eff3379a0731db23783f0ad25793422f2b107bd11f4328509fdab757",
+        "a50acdcc080fca75fb8a693d35470905aa5abccbf8b66575ccc509fd5ce8bc34"
+      ]
+    },
+    {
+      "started_at": "2026-11-27T02:41:50+00:00",
+      "ended_at": "2026-11-27T02:42:07+00:00",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_s": 15.469000000040978,
+      "peak_rss_bytes": 724951040,
+      "engine_version": "PollenEDF 0.2",
+      "acceleration": "cpu",
+      "acceleration_evidence": [
+        "OpenCV ndarray CPU pipeline"
+      ],
+      "files": {
+        "fused.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 8180426,
+          "sha256": "d576e0c13fdbb5a75867335ffbf2695ef7ea87695ac914cf99fdeffb9141c93a"
+        },
+        "depth.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1299340,
+          "sha256": "451c56d96731e3b2e455165ebfa17a9918999a000ffc2ca4e0775206d9ff6d8e"
+        },
+        "depth-index.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1470617,
+          "sha256": "339312eed6948284c0f919b892aa2845cd59ff02159e650076c24c16cde0c768"
+        },
+        "confidence.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 5384537,
+          "sha256": "72c5239b05505e6a5084f055afd45db5bde637ba41e0bd6a07a5d22647a26d01"
+        },
+        "foreground.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 115299,
+          "sha256": "7cba99c0309a0baf76f842831b8aab0d910fa737c90234892a6686b25cae0656"
+        },
+        "alternate.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 1499125,
+          "sha256": "3a402a2a656307172702c7f3ac8c985fee5e245b19d3a032ad52172c86b6dc33"
+        },
+        "stages.json": {
+          "sha256": "dd82d7b757c62a85f7162945a82503f53b3a6223f9e335b1e58a1b20151ec6cd",
+          "size_bytes": 1333
+        },
+        "halo.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 53774,
+          "sha256": "a2699583b774555d59206bc4f529d7c7b4273c5698adf1a7925c7afa3ae3740f"
+        },
+        "anchor.png": {
+          "width": 4096,
+          "height": 3000,
+          "size_bytes": 121067,
+          "sha256": "e3fe0098eb21142facb8ae48106fea477d3ef7228fdcde50e5eabaa51ed3e0bc"
+        }
+      },
+      "view": "20261113_104731_v106",
+      "method": "PollenEDF-Adaptive",
+      "options": {
+        "scorer": "multiscale",
+        "score_scale": 2,
+        "noise_aware": true,
+        "refine": true,
+        "background": true,
+        "defects": true,
+        "soft": true,
+        "halo_guard": true,
+        "broad_pool": false,
+        "weak_stack_anchor": true,
+        "pyramid_levels": 0,
+        "threads": 8,
+        "depth": true,
+        "intermediate": true
+      },
+      "input_sha256": [
+        "886bfb1db4f785d83ffda1b4fed17de34aa472282e2e91185fdb155f735f6dcc",
+        "43427db3176075ef1675059e59ffcd1ffd1e690a72b569e89d57cf8cfb689f0c",
+        "7c48a871238969c29892ed8be3dc81a500feac15c18ba6985a753a70ff97edf1",
+        "ca76791cd249dfe57cc6b44c3a37b2278c2de9d5d2cf5b93000f766f9f5e5083",
+        "da5fc70d6c3fc64e1ea75664168443ff45760a408d70043ff36d4a5f1fc6f6bf",
+        "d23aebf4ea7558c86137abebac8138891948fc71666bb56d803d10c74739903d",
+        "f86727092486039c058b05886694b5495216975256ec1b03fc3ee8719f7e8d97",
+        "593bc9d3917b18eb725c8e7b8a2d090d06ceac32a939cb2b7ff4fc94d9aedd4d",
+        "4dd5e0ca3d4acb92ba392fc9638d6f29ed9753982038337a92d968e15815883e",
+        "682f8ee48572d03011d2465214f6273d36e10b3f98fcc5e4812b42ca2eb347e6",
+        "6b4ac4ea6e5e6484745d548930593efbccaac19142cfcbbda1e34b865b511f89",
+        "2ccd91318a265826fce03ed70948d582b72c518686ce74f374edffc77da77b15",
+        "d86f32dcc5f6cd24c993d3d36a97e556e0966a56327d1d2380ecbbdcabb7b427",
+        "2bfad2019a350bb29259c67f37922968bf7510ea3a5ed1e9267cef4a42bbd7f9",
+        "576fb4a2a30c4bc8737380b066f596f9d451e749861bbd42c32f17d0bb20a12b",
+        "0586024881ccc55653cf8e56c3201d4d6bb19b031800e01030d5d11916b8cc14",
+        "cdc36c21c549857170a0de9bf2abb908453818649f9f8b6cd012f5e22841372b",
+        "e7cd49be91103dbdfb8035337cf6c34f608fbf3d337e72ebf2841483b0a2f60d",
+        "6247eb1501242bb85edc388ea727526d2904ca08fc781f55339cf5a727cc12e1",
+        "304c9b9b064d2e12ab7f1f085a2bb61cba4abf7f8148dc521c9000681cc5a945",
+        "72914602267f41d5c7d729dad1947f3023c4617fc8f9a07c892db8e7b3d6c84d",
+        "ac6e4d968fb39d322be25eb9234efd535b2ff80f64116b0db4304e1f69f7cb13",
+        "34ffbab57a834c1fa5df943de9810e6a3cf66a0515c88e94f4fe3e22c9b4b216",
+        "3f681c2e6f82f446e52cd78732d50cde7c37d68e9d74927e3d6da48b2ccbce17",
+        "1760479588fb9511aa866e5843050c73c8686f5ab18ace3644b2224eef412cc8",
+        "24ed6a5a880f5d5ea73d041475ceab691fe4e65a9a5b27e3c8fbec57f29c8943",
+        "2f6201825fae027b4ef7be4b396f24162ce09ab839ce695036369546028a0f2f",
+        "eda363e396a45ffea9852debbc10085d879d234f723e4578448b83896ab3d9b6",
+        "a7a31254eff3379a0731db23783f0ad25793422f2b107bd11f4328509fdab757",
+        "a50acdcc080fca75fb8a693d35470905aa5abccbf8b66575ccc509fd5ce8bc34"
+      ]
+    }
+  ]
+}

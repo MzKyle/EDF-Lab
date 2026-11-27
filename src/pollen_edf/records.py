@@ -148,7 +148,10 @@ def write_report(root: Path, manifest: dict, destination: Path | None = None) ->
         cells = (esc(task["xy"]), esc(task["preset"]), str(selection.get("layer_count", "—")),
                  esc(task["status"]), f"{elapsed:.3f}" if elapsed is not None else "—",
                  f"{rss / 1048576:.1f}" if rss is not None else "—", pair,
-                 link(last.get("output"), "融合图"), link(last.get("depth"), "焦层图"), link(last.get("log"), "日志"))
+                 link(last.get("output"), "融合图"),
+                 link(last.get("depth"), "焦层图")
+                 + (f" · {link(last['confidence'], '置信度')}" if last.get("confidence") else ""),
+                 link(last.get("log"), "日志"))
         rows.append("<tr>" + "".join(f"<td>{cell}</td>" for cell in cells) + "</tr>")
         info = {"selection": selection, "parameters": task["options"], "command": last.get("command"),
                 "acceleration": last.get("acceleration"), "acceleration_evidence": last.get("acceleration_evidence"),
@@ -167,6 +170,8 @@ def write_report(root: Path, manifest: dict, destination: Path | None = None) ->
     reviews_html = "<h2>人工 ROI 记录</h2><p>" + " · ".join(reviews) + "</p>" if reviews else ""
     rows_html, details_html = "".join(rows), "".join(details)
     engine = esc(manifest["engine"]["version"])
+    if manifest["engine"].get("backend", "focus-stack") == "focus-stack":
+        engine = f"focus-stack {engine}"
     provenance = esc(manifest["dataset"]["provenance"])
     content = f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -175,7 +180,7 @@ def write_report(root: Path, manifest: dict, destination: Path | None = None) ->
 table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}}th,td{{text-align:left;padding:9px;border-bottom:1px solid #cbd5e1}}
 th{{background:#edf2f6}}a{{color:#176481}}pre{{background:#f0f4f7;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere}}details{{padding:8px 0}}</style>
 </head><body><h1>景深合成实验</h1><p>{esc(manifest['id'])} · {esc(manifest['status'])} · {esc(manifest['created_at'])}</p>
-<p>{esc(manifest['dataset']['name'])} · {provenance} · focus-stack {engine}</p>
+<p>{esc(manifest['dataset']['name'])} · {provenance} · {engine}</p>
 <p>{link('manifest.json', '完整记录')} · {link('config.yaml', '配置快照')} · {link('summary.csv', 'CSV 汇总')}</p>
 <table><thead><tr><th>视野</th><th>预设</th><th>层数</th><th>状态</th><th>耗时 (s)</th><th>峰值 RSS (MiB)</th>
 <th>输出尺寸</th><th>结果</th><th>深度</th><th>日志</th></tr></thead><tbody>{rows_html}</tbody></table>
